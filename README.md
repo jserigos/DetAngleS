@@ -1,2 +1,2 @@
-# DetAngleS
-Detection of Anglicisms in Spanish
+# TASI
+Tool for Anglicisms with Spanish Identification
