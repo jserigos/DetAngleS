@@ -28,64 +28,16 @@ for x in SpnLemmaList:
         print x
 
 class look_up:
-    def __init__(self, words, cslm):
-        self.words = words
-        self.cslm = cslm
-        self.tagSet = [u"Eng", u"Spn"]
-        self.lemmas = []
-        self.lang = []
-        self.NE = []
-        self.ang = []
-        self.engProbs = []
-        self.spnProbs = []
+    def __init__(self, spacy_text):
+        self.spacy_text = spacy_text
         self._generateTags()
 
 
     def _generateTags(self):
-        print "Tagging {} words".format(len(self.words))
-        token = re.compile(ur'[^\w\s]', re.UNICODE)
-        for k, word in enumerate(self.words):
+        for k, word in enumerate(self.spacy_text):
             # determine NE
-            if word[0].isupper():
-                self.NE.append("NE")
-                NE = "NE"
-            else:
-                self.NE.append("0")
-                NE = "0"
-
-            # annotate punct and move to next token
-            if re.match(token, word):
-                self.lang.append('Punct')
-                self.ang.append('No')
-                self.lemmas.append(word)
-                self.engProbs.append("NA")
-                self.spnProbs.append("NA")
-                continue
-
-            # annotate numbers and move to next token
-            num = "no"
-            for char in word:
-                if char.isdigit():
-                    num = "yes"
-            if num == "yes":
-                self.lang.append('Num')
-                self.ang.append('No')
-                self.lemmas.append(word)
-                self.engProbs.append("NA")
-                self.spnProbs.append("NA")
-                continue
-
-            # for lexical tokens determine lang tag
-            spnProb = self.cslm.prob("Spn", word); self.spnProbs.append(spnProb)
-            engProb = self.cslm.prob("Eng", word); self.engProbs.append(engProb)
-
-            spnTokenParse = spnParse(word, lemmata=True)
-            spnLemma = spnTokenParse.split("/")[4]
-            spnLemmaList = spLemmaDict[word]
-            engTokenParse = engParse(word, lemmata=True)
-            engLemma = engTokenParse.split("/")[4]
-
-            if 0 < engProb - spnProb < 5.5:
+            if FILTER:
+               # add "NAs" to new columns
                 if engLemma not in EngDict or spnLemmaList:
                     self.lemmas.append("|".join(spnLemmaList))
                     self.lang.append("Spn")
@@ -101,15 +53,4 @@ class look_up:
                         self.ang.append("Yes")
                     else:
                         self.ang.append("No")
-            else:
-                lang = self.cslm.guess(word)
-                self.lang.append(lang)
-                if lang == "Eng":
-                    self.lemmas.append(engLemma)
-                    if NE == "0":
-                        self.ang.append("Yes")
-                    else:
-                        self.ang.append("No")
-                else:
-                    self.lemmas.append("|".join(spnLemmaList))
-                    self.ang.append("No")
+         
