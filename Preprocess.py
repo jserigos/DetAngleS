@@ -5,8 +5,6 @@ from spacy.tokenizer import Tokenizer
 from spacy.util import compile_prefix_regex, compile_infix_regex, compile_suffix_regex
 import re
 import os
-# from LookUp import look_up
-# from CharNGram import char_n_gram
 
 # create a custom tokenizer that keep hypen words together ex. hat-trick
 # and keeps hashtag symbol together with its word ex. #yolo
@@ -27,37 +25,37 @@ class tasi_text:
         self._tag()
 
     def _spacy_setup(self): 
-    	nlp = spacy.load('es') # find how to disable syntactic parsing to speed up algorithm
-        is_candidate_filter = lambda token: token.pos_ in ["VERB", "NOUN", "ADJ"] and token.is_stop == False # include PROPN?
-        Token.set_extension("is_candidate", getter=is_candidate_filter) # create a new attribute to identify anglicism candidates
+        nlp = spacy.load('es') # find how to disable syntactic parsing to speed up algorithm
+        is_candidate_filter = lambda token: token.pos_ in ["VERB", "NOUN", "ADJ"] \
+                                            and token.is_stop == False \
+                                            and any({"@", "#"} & set(token.text)) == False
+        Token.set_extension("is_candidate", getter=is_candidate_filter)
         Token.set_extension("is_anglicism", default=False)
         nlp.tokenizer = custom_tokenizer(nlp)
-    	return nlp(self.text)
-  	
+        return nlp(self.text)
+    
     def _tag(self):
         for token in self.spacy_text:
             if token._.is_candidate == True:
+                # send to main module
                 if len(token) > 5:
                     token._.is_anglicism = True
         for token in self.spacy_text:
             print(token.text, token.lemma_, token.pos_, token._.is_candidate, token._.is_anglicism) 
-                # send to main module 
 
-    def anglicisms(self, spacy_text):
-        self.tag(spacy_text)
+    def anglicisms(self):
         # return list of anglicisms
-        return
-	
-    def annotate(self, text):
-
-        self.tag(spacy_text)
+        return [token for token in self.spacy_text if token._.is_anglicism]
+    
+    def annotate(self, output_file_path):
         # write to output file
-        return
+        return "in progress"
 
-	def evaluate(self, gold_standard):
+    def evaluate(self, gold_standard):
         self.tag(spacy_text)
         # compare to gold standard 
-        return
+        return "in progress"
+    
 
 class decider:
     def __init__(self):
