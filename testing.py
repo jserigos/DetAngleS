@@ -18,13 +18,17 @@ def custom_tokenizer(nlp):
                                 suffix_search=suffix_re.search,
                                 infix_finditer=infix_re.finditer,
                             token_match=None)
-def is_candidate_filter(token): 
-    if token.pos_ in ["VERB", "NOUN", "ADJ"] and token.is_stop == False: # include PROPN?
-        if any({"@", "#"} & set(token.text)):
-            return False
-        else:
-            return True
 
+def _spacy_setup(): 
+    nlp = spacy.load('es') # find how to disable syntactic parsing to speed up algorithm
+    is_candidate_filter = lambda token: token.pos_ in ["VERB", "NOUN", "ADJ"] \
+                                            and token.is_stop == False \
+                                            and any({"@", "#"} & set(token.text)) == False
+    Token.set_extension("is_candidate", getter=is_candidate_filter)
+    Token.set_extension("is_anglicism", default=False)
+    nlp.tokenizer = custom_tokenizer(nlp)
+    return nlp
+    
 
 class tasi_text:
     def __init__(self, text):
@@ -33,11 +37,6 @@ class tasi_text:
         self._tag()
 
     def _spacy_setup(self): 
-        nlp = spacy.load('es') # find how to disable syntactic parsing to speed up algorithm
-        is_candidate_filter = lambda token: token.pos_ in ["VERB", "NOUN", "ADJ"] and token.is_stop == False and any({"@", "#"} & set(token.text)) == False# include PROPN?
-        Token.set_extension("is_candidate", getter=is_candidate_filter)
-        Token.set_extension("is_anglicism", default=False)
-        nlp.tokenizer = custom_tokenizer(nlp)
         return nlp(self.text)
     
     def _tag(self):
@@ -61,19 +60,23 @@ class tasi_text:
         self.tag(spacy_text)
         # compare to gold standard 
         return "in progress"
-    
-
-text1 = """El médico argentino Eduardo Sosa en el hat-trick de su twitter @yesyes y #happy en https://www.lanacion.com.ar/e y su esposa Edith gat@gmail.com fueron a dejar todo en la Argentina para mudarse con su familia a Bielorrusia, la ex república de la Unión Soviética que había sufrido las mayores consecuencias de la explosión de la central de Chernobyl, ubicada a pocos kilómetros de la frontera con Ucrania. """
-text2 = """El médico argentino Eduardo Sosa en hat-trick de su twitter @yesyes y #happy"""
-sample = tasi_text(text1)
-print(sample.anglicisms())
-"""
-doc = nlp(text)
-for token in doc:
-    print(token)
-for token in doc:
-    print(token.text, token.lemma_, token.pos_, token.tag_, token.dep_, token.is_alpha, token.is_stop, token._.is_candidate)
 
 
-   return() 
-"""
+def main(argv):
+    set_up_spacy()
+    tasi_text = tasi_text()
+    if argv[0] == '-a':
+        tasi_text.annotate(argv[1])
+    elif argv[0] == '-e':
+        tasi_text.evaluate(argv[1])
+    else:
+        tasi_text.annotate(argv[0])
+        tasi_text.evaluate(argv[1])
+    os.system('say "your program has finished"')
+
+if __name__ == '__main__':
+    nlp = _spacy_setup()
+    text1 = """El médico argentino Eduardo Sosa en el hat-trick de su twitter @yesyes y #happy en https://www.lanacion.com.ar/e y su esposa Edith gat@gmail.com fueron a dejar todo en la Argentina para mudarse con su familia a Bielorrusia, la ex república de la Unión Soviética que había sufrido las mayores consecuencias de la explosión de la central de Chernobyl, ubicada a pocos kilómetros de la frontera con Ucrania. """
+    text2 = """El médico argentino Eduardo Sosa en hat-trick de su twitter @yesyes y #happy"""
+    sample1 = tasi_text(text1)
+    sample2 = tasi_text(text2)
