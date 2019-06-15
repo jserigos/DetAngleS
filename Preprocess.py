@@ -49,12 +49,12 @@ def custom_tokenizer(nlp):
 
 def spacy_setup(): 
     nlp = spacy.load('es') # find how to disable syntactic parsing to speed up algorithm
+    nlp.tokenizer = custom_tokenizer(nlp)
     is_candidate_filter = lambda token: token.pos_ in ["VERB", "NOUN", "ADJ"] \
                                             and token.is_stop == False \
                                             and any({"@", "#"} & set(token.text)) == False
     Token.set_extension("is_candidate", getter=is_candidate_filter)
     Token.set_extension("is_anglicism", default=False)
-    nlp.tokenizer = custom_tokenizer(nlp)
     return nlp
 
 
