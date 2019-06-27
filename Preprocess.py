@@ -6,6 +6,7 @@ import spacy
 from spacy.tokens import Token
 from spacy.tokenizer import Tokenizer
 from spacy.util import compile_prefix_regex, compile_infix_regex, compile_suffix_regex
+from LangCompare import look_up
 import re
 import os
 import io
@@ -18,9 +19,7 @@ class tasi_text:
     def _tag(self):
         for token in self.spacy_text:
             if token._.is_candidate == True:
-                # send to main module
-                if len(token) > 5:
-                    token._.is_anglicism = True
+                token._.is_anglicism = classify(token)
 
     def anglicisms(self):  # return list of anglicisms
         return [token for token in self.spacy_text if token._.is_anglicism]
@@ -72,7 +71,9 @@ def main(argv):
 if __name__ == '__main__':
     nlp = spacy_setup()
 
-text1 = """El médico argentino Eduardo Sosa en el hat-trick de su twitter @yesyes y #happy en https://www.lanacion.com.ar/e y su esposa Edith gat@gmail.com fueron a dejar todo en la Argentina para mudarse con su familia a Bielorrusia, la ex república de la Unión Soviética que había sufrido las mayores consecuencias de la explosión de la central de Chernobyl, ubicada a pocos kilómetros de la frontera con Ucrania. """
+text1 = """El médico argentino Eduardo Sosa en el hat-trick de su twitter @yesyes y #happy en https://www.lanacion.com.ar/e y su esposa Edith gat@gmail.com fueron a un shopping con un look moderno en la Argentina para mudarse con su familia a Bielorrusia, la ex república de la Unión Soviética que había sufrido las mayores consecuencias de la explosión de la central de Chernobyl, ubicada a pocos kilómetros de la frontera con Ucrania. """
 text2 = """El médico argentino Eduardo Sosa en hat-trick de su twitter @yesyes y #happy"""
 sample1 = tasi_text(text1)
 sample2 = tasi_text(text2)
+print(sample1.anglicisms())
+sample1.annotate_to_csv("/Users/jacquelineserigos/Desktop/sample_annotated.csv")
