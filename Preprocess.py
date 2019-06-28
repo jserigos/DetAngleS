@@ -6,33 +6,35 @@ import spacy
 from spacy.tokens import Token
 from spacy.tokenizer import Tokenizer
 from spacy.util import compile_prefix_regex, compile_infix_regex, compile_suffix_regex
-from LangCompare import look_up
+from LangCompare import classify
 import re
 import os
 import io
- 
+
 class tasi_text:
     def __init__(self, text):
         self.spacy_text = nlp(text)
         self._tag()
 
     def _tag(self):
+        candidates = {token.text:classify(token.text) for token in self.spacy_text if token._.is_candidate}
+        #candidates = {token.text:classify(token.text) for token in {token in self.spacy_text if token._.is_candidate}}
         for token in self.spacy_text:
             if token._.is_candidate == True:
-                token._.is_anglicism = classify(token)
+                token._.is_anglicism = candidates[token.text]
 
     def anglicisms(self):  # return list of anglicisms
         return [token for token in self.spacy_text if token._.is_anglicism]
     
     def annotate_to_csv(self, output_file_path):  # write to output file
         with io.open(output_file_path, 'w', encoding='utf8') as output:
-            output.write(u"Token\tLemma\tPOS\tLanguage\tCandidate\tAnglicism\n")
+            output.write(u"Token\tLemma\tPOS\tCandidate\tAnglicism\n")
             for token in self.spacy_text:
                 output.write("\t".join([token.text, token.lemma_, token.pos_, str(token._.is_candidate), str(token._.is_anglicism), "\n"]))
 
     def evaluate(self, gold_standard):
         # compare to gold standard 
-        return "in progress"
+        print("to be developed")
     
 # create a custom tokenizer that keep hypen words together ex. hat-trick
 # and keeps hashtag symbol together with its word ex. #yolo
@@ -60,20 +62,17 @@ def spacy_setup():
 def main(argv):
     tasi_text = tasi_text()
     if argv[0] == '-a':
-        tasi_text.annotate(argv[1])
+        tasi_text.annotate_to_csv(argv[1])
     elif argv[0] == '-e':
         tasi_text.evaluate(argv[1])
     else:
-        tasi_text.annotate(argv[0])
+        tasi_text.annotate_to_csv(argv[0])
         tasi_text.evaluate(argv[1])
     os.system('say "your program has finished"')
 
 if __name__ == '__main__':
     nlp = spacy_setup()
-
-text1 = """El médico argentino Eduardo Sosa en el hat-trick de su twitter @yesyes y #happy en https://www.lanacion.com.ar/e y su esposa Edith gat@gmail.com fueron a un shopping con un look moderno en la Argentina para mudarse con su familia a Bielorrusia, la ex república de la Unión Soviética que había sufrido las mayores consecuencias de la explosión de la central de Chernobyl, ubicada a pocos kilómetros de la frontera con Ucrania. """
-text2 = """El médico argentino Eduardo Sosa en hat-trick de su twitter @yesyes y #happy"""
-sample1 = tasi_text(text1)
-sample2 = tasi_text(text2)
-print(sample1.anglicisms())
-sample1.annotate_to_csv("/Users/jacquelineserigos/Desktop/sample_annotated.csv")
+    sample_text = """En esta época de globalización, aggiornáte o quedás afuera... Argentina no es la misma . Ahora es mucho más moderna; durante muchos años, los argentinos estuvimos hablando en prosa sin enterarnos. Y lo que todavía es peor, sin darnos cuenta siquiera de lo atrasados que estábamos. Los chicos leían revistas en vez de "comics", los jóvenes hacían asaltos en vez de "parties", los estudiantes pegaban "posters" creyendo que eran carteles, los empresarios hacían negocios en vez de "business" y los obreros tan ordinarios ellos, a mediodía sacaban la fiambrera en lugar del "tupper" . Yo, en la primaria, hice "aerobics" muchas veces, pero en mi ignorancia, creía que hacía gimnasia. """
+    sample_tasi = tasi_text(sample_text)
+    print(sample_tasi.anglicisms())
+    sample_tasi.annotate_to_csv("/Users/jacquelineserigos/Desktop/sample_annotated.csv")
