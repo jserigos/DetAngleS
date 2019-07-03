@@ -51,7 +51,18 @@ def custom_tokenizer_modified(nlp):
                      infix_finditer=infix_re.finditer,
                      token_match=url_and_hashtag_re.match
                      )
+def filter_noninterested_text_modified(row):
+    Pos_tag = row["POS"]
+    NE = row["NE"]
+    Stop = row["Stop"]
 
+    # Ignore any POS tags that are not Noun, VERB, or Adjective
+    if(Pos_tag in ["NOUN", "VERB", "ADJ"] and
+        Stop == False and
+        NE == "O"):
+        return True
+    else:
+        return False
 
 def custom_tokenizer_to_df(nlp):
     # Samples to run in python console or testing
@@ -68,30 +79,28 @@ def custom_tokenizer_to_df(nlp):
     df["POS"] = [token.pos_ for token in doc]
     df["NE"] = [token.ent_iob_ for token in doc]
     df["Lemma"] = [token.lemma_ for token in doc]
+    df['Canidate'] = df.apply(filter_noninterested_text, axis=1) # what is a candidate may be interesting to linguists
     df["Anglicism"] = np.nan
     return df
 
 def filter_noninterested_text(row):
     token = row["Token"]
-    Language = row["Language"]
     Pos_tag = row["POS"]
     Name_entity = row["NE"]
     Anglicism = row["Anglicism"]
 
     # Ignore any POS tags that are not Noun, VERB, or Adjective
     if(Pos_tag != "NOUN" & Pos_tag != "VERB" | Pos_tag != "ADJ"):
-        Language = Pos_tag
         Anglicism = "No"
     # Ignore Stop Words
     elif(token.is_stop):
-        Language = "stop word"
         Anglicism = "No"
     # Ignore NEs
     elif(Name_entity):
-        Language = "name entity"
         Anglicism = "No"
 
     return row
+
 
 def main():
     # Default read text in spanish
