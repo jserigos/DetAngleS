@@ -90,6 +90,11 @@ def filter_noninterested_text(nlp, df):
         elif(df.loc[i,'NE'] != "O"):
             df.loc[i, 'Language'] = "name entity"
             df.loc[i, 'Anglicism'] = "No"
+        # Ignore Hashtags, Twitter handle or website
+        # Not sure why this is not working
+        elif({r"@", r"#", r"."} & set(df.loc[i,'Token']) == True):
+            df.loc[i, 'Language'] = "InternetJargon"
+            df.loc[i, 'Anglicism'] = "No"
 
     return df
 
@@ -102,9 +107,9 @@ def main():
     nlp.tokenizer = custom_tokenizer_modified(nlp)
 
     # Samples to run in python console or testing
-    text1 = u"""El médico argentino Eduardo Sosa en el hat-trick de su twitter @yesyes y #happy en 
+    text1 = u"""El médico argentino Eduardo Sosa en el hat-trick de su twitter @yesyes y #happy en
           https://www.lanacion.com.ar/e y su esposa Edith gat@gmail.com fueron a dejar todo en la Argentina para mudarse con su 
-          familia a Bielorrusia, la ex república de la Unión Soviética que había sufrido las mayores consecuencias de la 
+          familia a Bielorrusia, la ex república de la Unión Soviética que había sufrido las mayores consecuencias de la
           explosión de la central de Chernobyl, ubicada a pocos kilómetros de la frontera con Ucrania. """
     doc = nlp(text1)
 
@@ -114,7 +119,7 @@ def main():
     # Filter out non interested tokens by assigning label
     filter_noninterested_text(nlp, NACC_df)
 
-    NACC_df.to_csv(r'spacy-annotated_df.csv', index=None, header=True)
+    NACC_df.to_csv(r'tasi-annotated_df.csv', index=None, header=True)
 
 
 
