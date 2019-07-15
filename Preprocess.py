@@ -95,7 +95,8 @@ def main():
 
     # Filter out non interested tokens by assigning label
     filter_noninterested_text(nlp, NACC_df)
-
+    
+    # write to csv file
     NACC_df.to_csv(r'spacy-annotated_df.csv', index=None, header=True)
 
     # Create a list of interested tokens
