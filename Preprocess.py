@@ -9,32 +9,14 @@ from spacy.tokenizer import Tokenizer
 from spacy.lang.tokenizer_exceptions import URL_PATTERN
 from spacy.util import compile_prefix_regex, compile_infix_regex, compile_suffix_regex
 import re
+import io
 
-from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
-from sklearn.base import TransformerMixin
-from sklearn.pipeline import Pipeline
-from sklearn.model_selection import train_test_split
-from sklearn.linear_model import LogisticRegression
-from sklearn import metrics
+# clean text before spacy
+def cleanText(text):
+    # get rid of newlines
+    text = text.strip().replace("\n", "").replace("\r", "").replace("\r\n", "")
 
-
-
-# create a custom tokenizer that keep hypen words together ex. hat-trick
-# and keeps hashtag symbol together with its word ex. #yolo
-def custom_tokenizer(nlp):
-    infix_re = re.compile(r'''[\,\?\;\‘\’\`\“\”\"\'~]''')
-    modified_prefixes = tuple(x for x in nlp.Defaults.prefixes if x != '#')
-    prefix_re = compile_prefix_regex(modified_prefixes)
-    suffix_re = compile_suffix_regex(nlp.Defaults.suffixes)
-    is_candidate_filter = lambda token: token.pos_ in ["VERB", "NOUN", "ADJ"] and (token.is_stop == False) and (any(
-        {"@", "#"} & set(token.text)) == False)
-    Token.set_extension("is_candidate", getter=is_candidate_filter, force=True)
-    Token.set_extension("is_anglicism", default=False, force=True)
-    return Tokenizer(nlp.vocab, prefix_search=prefix_re.search,
-                                suffix_search=suffix_re.search,
-                                infix_finditer=infix_re.finditer,
-                                token_match=None)
-
+    return text
 
 # deal with more symbols to seperate tokens
 # deal with url and hashtag
@@ -45,7 +27,7 @@ def custom_tokenizer_modified(nlp):
     prefix_re = compile_prefix_regex(nlp.Defaults.prefixes)
     suffix_re = compile_suffix_regex(nlp.Defaults.suffixes)
 
-    # extending the default url regex with regex for hashtags
+    # extending the default url regex with regex for hashtags with "or" = |
     hashtag_pattern = r'''|^(#[\w_-]+)$'''
     url_and_hashtag = URL_PATTERN + hashtag_pattern
     url_and_hashtag_re = re.compile(url_and_hashtag)
@@ -90,12 +72,6 @@ def filter_noninterested_text(nlp, df):
         elif(df.loc[i,'NE'] != "O"):
             df.loc[i, 'Language'] = "name entity"
             df.loc[i, 'Anglicism'] = "No"
-        # Ignore Hashtags, Twitter handle or website
-        # Not sure why this is not working
-        elif({r"@", r"#", r"."} & set(df.loc[i,'Token']) == True):
-            df.loc[i, 'Language'] = "InternetJargon"
-            df.loc[i, 'Anglicism'] = "No"
-
     return df
 
 
@@ -107,11 +83,13 @@ def main():
     nlp.tokenizer = custom_tokenizer_modified(nlp)
 
     # Samples to run in python console or testing
-    text1 = u"""El médico argentino Eduardo Sosa en el hat-trick de su twitter @yesyes y #happy en
-          https://www.lanacion.com.ar/e y su esposa Edith gat@gmail.com fueron a dejar todo en la Argentina para mudarse con su 
-          familia a Bielorrusia, la ex república de la Unión Soviética que había sufrido las mayores consecuencias de la
-          explosión de la central de Chernobyl, ubicada a pocos kilómetros de la frontera con Ucrania. """
-    doc = nlp(text1)
+    text = io.open("OpinionArticles.txt", encoding="utf8").read()
+
+    # clean text
+    clean_text = cleanText(text)
+
+    # spacy text
+    doc = nlp(clean_text)
 
     # write token into data frame
     NACC_df = custom_tokenizer_to_df(doc)
@@ -119,9 +97,13 @@ def main():
     # Filter out non interested tokens by assigning label
     filter_noninterested_text(nlp, NACC_df)
 
-    NACC_df.to_csv(r'tasi-annotated_df.csv', index=None, header=True)
+    NACC_df.to_csv(r'spacy-annotated_df.csv', index=None, header=True)
 
-
+    # Create a list of interested tokens
+    target_token = NACC_df.Token[NACC_df.Anglicism.isnull()].tolist()
+    with open('target_token.txt', 'w', encoding="utf8") as f:
+        for item in target_token:
+            f.write("%s\n" % item)
 
 if __name__ == '__main__':
     main()
