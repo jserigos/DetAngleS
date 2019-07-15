@@ -64,12 +64,16 @@ def filter_noninterested_text(nlp, df):
             df.loc[i, 'Language'] = df.loc[i,'POS']
             df.loc[i, 'Anglicism'] = "No"
         # Ignore Stop Words
-        if(nlp.vocab[df.loc[i,'Token']].is_stop):
+        elif(nlp.vocab[df.loc[i,'Token']].is_stop):
             df.loc[i, 'Language'] = "stop word"
             df.loc[i, 'Anglicism'] = "No"
         # Ignore NEs
-        if(df.loc[i,'NE'] != "O"):
+        elif(df.loc[i,'NE'] != "O"):
             df.loc[i, 'Language'] = "name entity"
+            df.loc[i, 'Anglicism'] = "No"
+        # Ignore internet jargon 
+        elif({r"@", r"#", r"."} & set(df.loc[i,'Token']) == True):
+            df.loc[i, 'Language'] = "InternetJargon"
             df.loc[i, 'Anglicism'] = "No"
     return df
 
