@@ -9,7 +9,6 @@ from spacy.tokenizer import Tokenizer
 from spacy.lang.tokenizer_exceptions import URL_PATTERN
 from spacy.util import compile_prefix_regex, compile_infix_regex, compile_suffix_regex
 import re
-import io
 
 # clean text before spacy
 def cleanText(text):
@@ -83,7 +82,7 @@ def main():
     nlp.tokenizer = custom_tokenizer_modified(nlp)
 
     # Samples to run in python console or testing
-    text = io.open("OpinionArticles.txt", encoding="utf8").read()
+    text = open("OpinionArticles.txt", encoding="utf8").read()
 
     # clean text
     clean_text = cleanText(text)
