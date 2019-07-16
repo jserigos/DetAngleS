@@ -9,6 +9,7 @@ from spacy.tokenizer import Tokenizer
 from spacy.lang.tokenizer_exceptions import URL_PATTERN
 from spacy.util import compile_prefix_regex, compile_infix_regex, compile_suffix_regex
 import re
+import subprocess
 
 # clean text before spacy
 def cleanText(text):
@@ -110,6 +111,7 @@ def main():
     # Create a csv of interested tokens
     target_token = NACC_df[NACC_df.Anglicism.isnull()]
     target_token.to_csv(r'target_token_df.csv', index=None, header=True)
+    subprocess.call(['open',r'spacy-annotated_df.csv'])
 
     # Create a list of interested tokens
     target_token_list = NACC_df.Token[NACC_df.Anglicism.isnull()].tolist()
