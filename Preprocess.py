@@ -24,8 +24,10 @@ def custom_tokenizer_modified(nlp):
     # spacy defaults: when the standard behaviour is required, they
     # need to be included when subclassing the tokenizer
     infix_re = re.compile(r'''[.\,\?\!\:\...\‘\’\`\“\”\"\'\/~]''')
-    prefix_re = compile_prefix_regex(nlp.Defaults.prefixes)
-    suffix_re = compile_suffix_regex(nlp.Defaults.suffixes)
+    extended_prefixes = tuple(list(nlp.Defaults.prefixes) + ["-"])
+    prefix_re = compile_prefix_regex(extended_prefixes)
+    extended_suffixes = tuple(list(nlp.Defaults.suffixes) + ["-"])
+    suffix_re = compile_suffix_regex(extended_suffixes)
 
     # extending the default url regex with regex for hashtags with "or" = |
     hashtag_pattern = r'''|^(#[\w_-]+)$'''
