@@ -9,7 +9,6 @@ from spacy.tokenizer import Tokenizer
 from spacy.lang.tokenizer_exceptions import URL_PATTERN
 from spacy.util import compile_prefix_regex, compile_infix_regex, compile_suffix_regex
 import re
-import subprocess
 
 # clean text before spacy
 def cleanText(text):
@@ -24,10 +23,8 @@ def custom_tokenizer_modified(nlp):
     # spacy defaults: when the standard behaviour is required, they
     # need to be included when subclassing the tokenizer
     infix_re = re.compile(r'''[.\,\?\!\:\...\‘\’\`\“\”\"\'\/~]''')
-    extended_prefixes = tuple(list(nlp.Defaults.prefixes) + ["-"])
-    prefix_re = compile_prefix_regex(extended_prefixes)
-    extended_suffixes = tuple(list(nlp.Defaults.suffixes) + ["-"])
-    suffix_re = compile_suffix_regex(extended_suffixes)
+    prefix_re = compile_prefix_regex(nlp.Defaults.prefixes)
+    suffix_re = compile_suffix_regex(nlp.Defaults.suffixes)
 
     # extending the default url regex with regex for hashtags with "or" = |
     hashtag_pattern = r'''|^(#[\w_-]+)$'''
@@ -68,16 +65,11 @@ def filter_noninterested_text(nlp, df):
             df.loc[i, 'Anglicism'] = "No"
         # Ignore Stop Words
         elif(nlp.vocab[df.loc[i,'Token']].is_stop):
-            df.loc[i, 'Language'] = "stop word"
+            df.loc[i, 'Language'] = "Stop Word"
             df.loc[i, 'Anglicism'] = "No"
         # Ignore NEs
         elif(df.loc[i,'NE'] != "O"):
-            df.loc[i, 'Language'] = "name entity"
-            df.loc[i, 'Anglicism'] = "No"
-
-        # Ignore internet jargon
-        elif ({r"@", r"#", r"."} & set(df.loc[i, 'Token']) == True):
-            df.loc[i, 'Language'] = "InternetJargon"
+            df.loc[i, 'Language'] = "Name Entity"
             df.loc[i, 'Anglicism'] = "No"
     return df
 
@@ -90,7 +82,9 @@ def main():
     nlp.tokenizer = custom_tokenizer_modified(nlp)
 
     # Samples to run in python console or testing
-    text = open("Data/OpinionArticles.txt", encoding="utf8").read()
+
+    text = open("NACC-GoldStandard-Text.txt", encoding="utf8").read()
+    text1 = open("Sample.txt").read()
 
     # clean text
     clean_text = cleanText(text)
@@ -98,28 +92,15 @@ def main():
     # spacy text
     doc = nlp(clean_text)
 
-    # inform user status
-    print("Processing %s word document" %len(doc))
-
     # write token into data frame
     NACC_df = custom_tokenizer_to_df(doc)
 
     # Filter out non interested tokens by assigning label
     filter_noninterested_text(nlp, NACC_df)
 
-    # write df containing all tokens to csv
+    # write df to csv
     NACC_df.to_csv(r'spacy-annotated_df.csv', index=None, header=True)
 
-    # Create a csv of interested tokens
-    target_token = NACC_df[NACC_df.Anglicism.isnull()]
-    target_token.to_csv(r'target_token_df.csv', index=None, header=True)
-    subprocess.call(['open',r'spacy-annotated_df.csv'])
-
-    # Create a list of interested tokens
-    target_token_list = NACC_df.Token[NACC_df.Anglicism.isnull()].tolist()
-    with open('target_token.txt', 'w', encoding="utf8") as f:
-        for item in target_token_list:
-            f.write("%s\n" % item)
 
 if __name__ == '__main__':
     main()
