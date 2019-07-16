@@ -1,5 +1,5 @@
 Token,Language,POS,NE,Lemma,Anglicism
-ARTICLE0003,name entity,ADJ,B,ARTICLE0003,No
+ARTICLE0003,Name Entity,ADJ,B,ARTICLE0003,No
 ",",PUNCT,PUNCT,O,",",No
 """",PUNCT,PUNCT,O,"""",No
 Qué,PRON,PRON,B,Qué,No
@@ -37,7 +37,7 @@ hasta,ADP,ADP,O,hasta,No
 qué,DET,DET,O,qué,No
 punto,,NOUN,O,punto,
 quieres,,VERB,O,querer,
-ver,stop word,VERB,O,ver,No
+ver,Stop Word,VERB,O,ver,No
 información,,NOUN,O,información,
 sobre,ADP,ADP,O,sobrar,No
 la,DET,DET,O,lo,No
@@ -55,7 +55,7 @@ sociales,,ADJ,O,social,
 ?,PUNCT,PUNCT,O,?,No
 El,DET,DET,B,El,No
 """",PUNCT,PUNCT,I,"""",No
-sharenting,name entity,NOUN,I,sharenting,No
+sharenting,Name Entity,NOUN,I,sharenting,No
 """",PUNCT,PUNCT,O,"""",No
 -,PUNCT,PUNCT,O,-,No
 un,DET,DET,O,uno,No
@@ -164,7 +164,7 @@ muchos,PRON,PRON,O,mucho,No
 no,ADV,ADV,O,no,No
 estén,AUX,AUX,O,estar,No
 de,ADP,ADP,O,de,No
-acuerdo,stop word,NOUN,O,acordar,No
+acuerdo,Stop Word,NOUN,O,acordar,No
 con,ADP,ADP,O,con,No
 ello,PRON,PRON,O,él,No
 .,PUNCT,PUNCT,O,.,No
@@ -184,7 +184,7 @@ categorías,,NOUN,O,categoría,
 Podría,PROPN,PROPN,B,Podría,No
 decirse,,VERB,O,decirse,
 que,PRON,PRON,O,que,No
-existen,stop word,VERB,O,existir,No
+existen,Stop Word,VERB,O,existir,No
 tres,NUM,NUM,O,tres,No
 categorías,,NOUN,O,categoría,
 de,ADP,ADP,O,de,No
@@ -197,11 +197,11 @@ sociales,,ADJ,O,social,
 Los,DET,DET,O,Los,No
 orgullosos,,ADJ,O,orgulloso,
 Los,DET,DET,B,Los,No
-protectores,name entity,NOUN,I,protector,No
+protectores,Name Entity,NOUN,I,protector,No
 Los,DET,DET,B,Los,No
 irritados,,ADJ,O,irritar,
 Los,DET,DET,B,Los,No
-primeros,stop word,ADJ,O,primero,No
+primeros,Stop Word,ADJ,O,primero,No
 son,AUX,AUX,O,ser,No
 aquellos,PRON,PRON,O,aquel,No
 a,ADP,ADP,O,a,No
@@ -224,14 +224,14 @@ Y,CONJ,CONJ,B,Y,No
 se,PRON,PRON,O,se,No
 encargan,,VERB,O,encargar,
 de,ADP,ADP,O,de,No
-hacerlo,stop word,NOUN,O,hacerlo,No
+hacerlo,Stop Word,NOUN,O,hacerlo,No
 publicando,,VERB,O,publicar,
 cada,DET,DET,O,cada,No
 foto,,NOUN,O,foto,
 y,CONJ,CONJ,O,y,No
 anécdota,,VERB,O,anécdota,
 a,ADP,ADP,O,a,No
-través,stop word,NOUN,O,través,No
+través,Stop Word,NOUN,O,través,No
 de,ADP,ADP,O,de,No
 la,DET,DET,O,lo,No
 red,,NOUN,O,red,
@@ -278,12 +278,12 @@ clic,,NOUN,O,clic,
 en,ADP,ADP,O,en,No
 ',SYM,SYM,O,',No
 Me,PRON,PRON,B,Me,No
-gusta,name entity,VERB,I,gustar,No
+gusta,Name Entity,VERB,I,gustar,No
 ',SYM,SYM,I,',No
 """",PUNCT,PUNCT,O,"""",No
 ",",PUNCT,PUNCT,O,",",No
 le,PRON,PRON,O,le,No
-cuenta,stop word,VERB,O,contar,No
+cuenta,Stop Word,VERB,O,contar,No
 a,ADP,ADP,O,a,No
 la,DET,DET,O,lo,No
 BBC,PROPN,PROPN,B,BBC,No
@@ -293,7 +293,7 @@ También,ADV,ADV,O,También,No
 disfruto,AUX,AUX,O,disfrutar,No
 comentando,,VERB,O,comentar,
 y,CONJ,CONJ,O,y,No
-haciendo,stop word,VERB,O,hacer,No
+haciendo,Stop Word,VERB,O,hacer,No
 like,,VERB,O,like,
 en,ADP,ADP,O,en,No
 las,DET,DET,O,los,No
@@ -313,7 +313,7 @@ increíble,,ADJ,O,increíble,
 que,SCONJ,SCONJ,O,que,No
 pueda,AUX,AUX,O,poder,No
 sentirme,,VERB,O,sentirme,
-parte,stop word,NOUN,O,partir,No
+parte,Stop Word,NOUN,O,partir,No
 de,ADP,ADP,O,de,No
 sus,DET,DET,O,su,No
 vidas,,NOUN,O,vida,
@@ -362,8 +362,8 @@ agrega,,VERB,O,agregar,
 .,PUNCT,PUNCT,O,.,No
 Lo,DET,DET,B,Lo,No
 que,PRON,PRON,I,que,No
-genera,name entity,VERB,I,generar,No
-debate,name entity,NOUN,I,debatir,No
+genera,Name Entity,VERB,I,generar,No
+debate,Name Entity,NOUN,I,debatir,No
 es,AUX,AUX,O,ser,No
 que,SCONJ,SCONJ,O,que,No
 ",",PUNCT,PUNCT,O,",",No
@@ -371,8 +371,8 @@ para,ADP,ADP,O,parir,No
 muchos,PRON,PRON,O,mucho,No
 ",",PUNCT,PUNCT,O,",",No
 el,DET,DET,O,el,No
-solo,stop word,ADJ,O,solo,No
-hecho,stop word,NOUN,O,hacer,No
+solo,Stop Word,ADJ,O,solo,No
+hecho,Stop Word,NOUN,O,hacer,No
 de,ADP,ADP,O,de,No
 publicar,,VERB,O,publicar,
 una,DET,DET,O,uno,No
@@ -388,7 +388,7 @@ indecente,,ADJ,O,indecente,
 .,PUNCT,PUNCT,O,.,No
 Son,AUX,AUX,B,Son,No
 los,DET,DET,I,lo,No
-protectores,name entity,NOUN,I,protector,No
+protectores,Name Entity,NOUN,I,protector,No
 de,ADP,ADP,O,de,No
 la,DET,DET,O,lo,No
 privacidad,,NOUN,O,privacidad,
@@ -417,13 +417,13 @@ los,DET,DET,O,lo,No
 menores,,ADJ,O,menor,
 .,PUNCT,PUNCT,O,.,No
 """",PUNCT,PUNCT,O,"""",No
-Hago,name entity,VERB,B,Hago,No
+Hago,Name Entity,VERB,B,Hago,No
 todo,DET,DET,O,todo,No
 lo,DET,DET,O,el,No
-posible,stop word,ADJ,O,posible,No
+posible,Stop Word,ADJ,O,posible,No
 por,ADP,ADP,O,por,No
 no,ADV,ADV,O,no,No
-poner,stop word,VERB,O,poner,No
+poner,Stop Word,VERB,O,poner,No
 ninguna,DET,DET,O,ninguno,No
 foto,,NOUN,O,foto,
 de,ADP,ADP,O,de,No
@@ -442,10 +442,10 @@ McDonald,PROPN,PROPN,I,McDonald,No
 """",PUNCT,PUNCT,O,"""",No
 Es,AUX,AUX,O,Es,No
 un,DET,DET,O,uno,No
-ser,stop word,NOUN,O,ser,No
+ser,Stop Word,NOUN,O,ser,No
 humano,,ADJ,O,humanar,
 y,CONJ,CONJ,O,y,No
-tiene,stop word,VERB,O,tener,No
+tiene,Stop Word,VERB,O,tener,No
 el,DET,DET,O,el,No
 mismo,DET,DET,O,mismo,No
 derecho,,NOUN,O,derecho,
@@ -481,12 +481,12 @@ adulto,,ADJ,O,adulto,
 """",PUNCT,PUNCT,O,"""",No
 .,PUNCT,PUNCT,O,.,No
 Rosie,PROPN,PROPN,B,Rosie,No
-considera,stop word,VERB,O,considerar,No
+considera,Stop Word,VERB,O,considerar,No
 que,SCONJ,SCONJ,O,que,No
 es,AUX,AUX,O,ser,No
 """",PUNCT,PUNCT,O,"""",No
 su,DET,DET,O,su,No
-trabajo,stop word,NOUN,O,trabajar,No
+trabajo,Stop Word,NOUN,O,trabajar,No
 como,SCONJ,SCONJ,O,comer,No
 madre,,NOUN,O,madre,
 asegurarse,,VERB,O,asegurarse,
@@ -506,7 +506,7 @@ respetados,,ADJ,O,respetar,
 Y,CONJ,CONJ,O,Y,No
 por,ADP,ADP,O,por,No
 otra,DET,DET,O,otro,No
-parte,stop word,NOUN,O,partir,No
+parte,Stop Word,NOUN,O,partir,No
 ",",PUNCT,PUNCT,O,",",No
 hay,AUX,AUX,O,haber,No
 muchas,DET,DET,O,mucho,No
@@ -521,7 +521,7 @@ sharenting,,NOUN,O,sharenting,
 """",PUNCT,PUNCT,O,"""",No
 .,PUNCT,PUNCT,O,.,No
 Sus,DET,DET,B,Sus,No
-muros,name entity,NOUN,I,muro,No
+muros,Name Entity,NOUN,I,muro,No
 de,ADP,ADP,I,de,No
 Facebook,PROPN,PROPN,I,Facebook,No
 están,AUX,AUX,O,estar,No
@@ -539,18 +539,18 @@ familiares,,NOUN,O,familiar,
 .,PUNCT,PUNCT,O,.,No
 Y,CONJ,CONJ,B,Y,No
 ya,ADV,ADV,I,ya,No
-tienen,stop word,VERB,I,tener,No
+tienen,Stop Word,VERB,I,tener,No
 bastante,ADV,ADV,I,bastante,No
 con,ADP,ADP,I,con,No
 eso,PRON,PRON,I,ese,No
 .,PUNCT,PUNCT,I,.,No
 """",PUNCT,PUNCT,O,"""",No
-Detesto,name entity,VERB,B,Detesto,No
+Detesto,Name Entity,VERB,B,Detesto,No
 cuando,SCONJ,SCONJ,O,cuando,No
 los,DET,DET,O,lo,No
 padres,,NOUN,O,padre,
 publican,,VERB,O,publicar,
-cosas,stop word,NOUN,O,coser,No
+cosas,Stop Word,NOUN,O,coser,No
 como,SCONJ,SCONJ,O,comer,No
 mensajes,,NOUN,O,mensaje,
 de,ADP,ADP,O,de,No
@@ -570,7 +570,7 @@ leerlo,,NOUN,O,leerlo,
 """",PUNCT,PUNCT,O,"""",No
 ",",PUNCT,PUNCT,O,",",No
 le,PRON,PRON,O,le,No
-dijo,stop word,VERB,O,decir,No
+dijo,Stop Word,VERB,O,decir,No
 a,ADP,ADP,O,a,No
 la,DET,DET,O,lo,No
 BBC,PROPN,PROPN,B,BBC,No
@@ -609,8 +609,8 @@ misma,DET,DET,O,mismo,No
 casa,,NOUN,O,casar,
 .,PUNCT,PUNCT,O,.,No
 No,ADV,ADV,B,No,No
-necesito,name entity,VERB,I,necesitar,No
-ver,stop word,VERB,I,ver,No
+necesito,Name Entity,VERB,I,necesitar,No
+ver,Stop Word,VERB,I,ver,No
 eso,PRON,PRON,I,ese,No
 """",PUNCT,PUNCT,O,"""",No
 ",",PUNCT,PUNCT,O,",",No
@@ -677,7 +677,7 @@ en,ADP,ADP,O,en,No
 internet,,NOUN,O,internet,
 """",PUNCT,PUNCT,O,"""",No
 le,PRON,PRON,O,le,No
-dijo,stop word,VERB,O,decir,No
+dijo,Stop Word,VERB,O,decir,No
 a,ADP,ADP,O,a,No
 la,DET,DET,O,lo,No
 BBC,PROPN,PROPN,B,BBC,No
@@ -692,14 +692,14 @@ Ofcom,PROPN,PROPN,B,Ofcom,No
 .,PUNCT,PUNCT,O,.,No
 """",PUNCT,PUNCT,O,"""",No
 La,DET,DET,O,La,No
-buena,stop word,ADJ,O,bueno,No
+buena,Stop Word,ADJ,O,bueno,No
 noticia,,NOUN,O,noticiar,
 es,AUX,AUX,O,ser,No
 que,SCONJ,SCONJ,O,que,No
 de,ADP,ADP,O,de,No
 quienes,PRON,PRON,O,quien,No
 lo,PRON,PRON,O,el,No
-hacen,stop word,VERB,O,hacer,No
+hacen,Stop Word,VERB,O,hacer,No
 ",",PUNCT,PUNCT,O,",",No
 el,DET,DET,O,el,No
 80,NUM,NUM,O,80,No
@@ -710,7 +710,7 @@ de,ADP,ADP,O,de,No
 restringir,AUX,AUX,O,restringir,No
 quién,PRON,PRON,O,quién,No
 puede,AUX,AUX,O,poder,No
-ver,stop word,VERB,O,ver,No
+ver,Stop Word,VERB,O,ver,No
 esas,DET,DET,O,ese,No
 imágenes,,NOUN,O,imagen,
 ...,PUNCT,PUNCT,O,...,No
@@ -721,7 +721,7 @@ y,CONJ,CONJ,O,y,No
 familiares,,NOUN,O,familiar,
 ",",PUNCT,PUNCT,O,",",No
 por,ADP,ADP,O,por,No
-ejemplo,stop word,NOUN,O,ejemplo,No
+ejemplo,Stop Word,NOUN,O,ejemplo,No
 """",PUNCT,PUNCT,O,"""",No
 ",",PUNCT,PUNCT,O,",",No
 explica,,VERB,O,explicar,
@@ -729,15 +729,15 @@ Lindsey,PROPN,PROPN,B,Lindsey,No
 Fussell,PROPN,PROPN,I,Fussell,No
 .,PUNCT,PUNCT,O,.,No
 La,DET,DET,B,La,No
-huella,name entity,NOUN,I,hollar,No
-digital,name entity,ADJ,I,digital,No
+huella,Name Entity,NOUN,I,hollar,No
+digital,Name Entity,ADJ,I,digital,No
 Sin,ADP,ADP,B,Sin,No
-embargo,stop word,NOUN,I,embargar,No
+embargo,Stop Word,NOUN,I,embargar,No
 ",",PUNCT,PUNCT,I,",",No
 más,ADV,ADV,I,más,No
 de,ADP,ADP,I,de,No
 la,DET,DET,I,lo,No
-mitad,name entity,NOUN,I,mitad,No
+mitad,Name Entity,NOUN,I,mitad,No
 de,ADP,ADP,O,de,No
 las,DET,DET,O,los,No
 personas,,NOUN,O,personar,
@@ -809,7 +809,7 @@ advierte,,VERB,O,advertir,
 que,SCONJ,SCONJ,O,que,No
 """",PUNCT,PUNCT,O,"""",No
 cada,DET,DET,O,cada,No
-vez,stop word,NOUN,O,vez,No
+vez,Stop Word,NOUN,O,vez,No
 que,SCONJ,SCONJ,O,que,No
 una,DET,DET,O,uno,No
 foto,,NOUN,O,foto,
@@ -862,7 +862,7 @@ BBC,PROPN,PROPN,B,BBC,No
 """",PUNCT,PUNCT,O,"""",No
 Si,SCONJ,SCONJ,O,Si,No
 se,PRON,PRON,O,se,No
-trata,stop word,VERB,O,tratar,No
+trata,Stop Word,VERB,O,tratar,No
 de,ADP,ADP,O,de,No
 niños,,NOUN,O,niño,
 muy,ADV,ADV,O,muy,No
@@ -884,10 +884,10 @@ avergonzaría,,VERB,O,avergonzar,
 Si,SCONJ,SCONJ,B,Si,No
 no,ADV,ADV,I,no,No
 estás,AUX,AUX,I,estar,No
-seguro,name entity,ADJ,I,seguro,No
+seguro,Name Entity,ADJ,I,seguro,No
 ",",PUNCT,PUNCT,O,",",No
 es,AUX,AUX,O,ser,No
-mejor,stop word,ADJ,O,mejor,No
+mejor,Stop Word,ADJ,O,mejor,No
 que,SCONJ,SCONJ,O,que,No
 no,ADV,ADV,O,no,No
 lo,PRON,PRON,O,el,No
@@ -895,13 +895,13 @@ hagas,,NOUN,O,hacer,
 """",PUNCT,PUNCT,O,"""",No
 .,PUNCT,PUNCT,O,.,No
 Los,DET,DET,B,Los,No
-fraudes,name entity,NOUN,I,fraude,No
+fraudes,Name Entity,NOUN,I,fraude,No
 Más,ADV,ADV,I,Más,No
 allá,ADV,ADV,I,allá,No
 de,ADP,ADP,I,de,No
 los,DET,DET,I,lo,No
-dilemas,name entity,NOUN,I,dilema,No
-éticos,name entity,ADJ,I,ético,No
+dilemas,Name Entity,NOUN,I,dilema,No
+éticos,Name Entity,ADJ,I,ético,No
 ",",PUNCT,PUNCT,O,",",No
 la,DET,DET,O,lo,No
 información,,NOUN,O,información,
@@ -944,8 +944,8 @@ en,ADP,ADP,O,en,No
 internet,,NOUN,O,internet,
 .,PUNCT,PUNCT,O,.,No
 El,DET,DET,B,El,No
-banco,name entity,NOUN,I,banco,No
-dice,stop word,VERB,I,decir,No
+banco,Name Entity,NOUN,I,banco,No
+dice,Stop Word,VERB,I,decir,No
 que,SCONJ,SCONJ,O,que,No
 muchos,DET,DET,O,mucho,No
 padres,,NOUN,O,padre,
@@ -962,7 +962,7 @@ hijos,,NOUN,O,hijo,
 y,CONJ,CONJ,O,y,No
 la,DET,DET,O,lo,No
 suya,DET,DET,O,suyo,No
-propia,stop word,ADJ,O,propio,No
+propia,Stop Word,ADJ,O,propio,No
 ),PUNCT,PUNCT,O,),No
 al,ADP,ADP,O,al,No
 compartir,,VERB,O,compartir,
@@ -977,10 +977,10 @@ la,DET,DET,O,lo,No
 red,,NOUN,O,red,
 .,PUNCT,PUNCT,O,.,No
 De,ADP,ADP,B,De,No
-hecho,stop word,NOUN,I,hacer,No
+hecho,Stop Word,NOUN,I,hacer,No
 ",",PUNCT,PUNCT,I,",",No
 la,DET,DET,I,lo,No
-empresa,name entity,NOUN,I,empresa,No
+empresa,Name Entity,NOUN,I,empresa,No
 calcula,,VERB,O,calcular,
 que,SCONJ,SCONJ,O,que,No
 hacia,ADP,ADP,O,hacia,No
@@ -1038,7 +1038,7 @@ padres,,NOUN,O,padre,
 que,PRON,PRON,O,que,No
 se,PRON,PRON,O,se,No
 dejan,AUX,AUX,O,dejar,No
-llevar,stop word,VERB,O,llevar,No
+llevar,Stop Word,VERB,O,llevar,No
 por,ADP,ADP,O,por,No
 """",PUNCT,PUNCT,O,"""",No
 una,DET,DET,O,uno,No
@@ -1051,8 +1051,8 @@ y,CONJ,CONJ,O,y,No
 que,SCONJ,SCONJ,O,que,No
 no,ADV,ADV,O,no,No
 se,PRON,PRON,O,se,No
-dan,stop word,VERB,O,dar,No
-cuenta,stop word,NOUN,O,contar,No
+dan,Stop Word,VERB,O,dar,No
+cuenta,Stop Word,NOUN,O,contar,No
 de,ADP,ADP,O,de,No
 que,SCONJ,SCONJ,O,que,No
 sus,DET,DET,O,su,No
@@ -1112,7 +1112,7 @@ la,DET,DET,O,lo,No
 empresa,,NOUN,O,empresa,
 .,PUNCT,PUNCT,O,.,No
 Esa,DET,DET,B,Esa,No
-información,name entity,NOUN,I,información,No
+información,Name Entity,NOUN,I,información,No
 ",",PUNCT,PUNCT,O,",",No
 advierten,,VERB,O,advertir,
 ",",PUNCT,PUNCT,O,",",No
@@ -1130,10 +1130,10 @@ identidad,,NOUN,O,identidad,
 .,PUNCT,PUNCT,O,.,No
 Entre,ADP,ADP,B,Entre,No
 otras,DET,DET,I,otro,No
-cosas,stop word,NOUN,I,coser,No
+cosas,Stop Word,NOUN,I,coser,No
 ",",PUNCT,PUNCT,O,",",No
 a,ADP,ADP,O,a,No
-menudo,stop word,NOUN,O,menudo,No
+menudo,Stop Word,NOUN,O,menudo,No
 revelan,,VERB,O,revelar,
 los,DET,DET,O,lo,No
 nombres,,NOUN,O,nombre,
@@ -1166,7 +1166,7 @@ mascota,,NOUN,O,mascota,
 Muchos,PRON,PRON,B,Muchos,No
 de,ADP,ADP,I,de,No
 esos,DET,DET,I,ese,No
-detalles,name entity,NOUN,I,detalle,No
+detalles,Name Entity,NOUN,I,detalle,No
 siguen,,VERB,O,seguir,
 disponibles,,ADJ,O,disponible,
 en,ADP,ADP,O,en,No
@@ -1217,7 +1217,7 @@ a,ADP,ADP,O,a,No
 defender,,VERB,O,defender,
 a,ADP,ADP,O,a,No
 empresas,,NOUN,O,empresa,
-grandes,stop word,ADJ,O,grande,No
+grandes,Stop Word,ADJ,O,grande,No
 y,CONJ,CONJ,O,y,No
 a,ADP,ADP,O,a,No
 particulares,,NOUN,O,particular,
@@ -1307,11 +1307,11 @@ medidas,,NOUN,O,medir,
 tomar,,VERB,O,tomar,
 ?,PUNCT,PUNCT,O,?,No
 Los,DET,DET,B,Los,No
-especialistas,name entity,NOUN,I,especialista,No
+especialistas,Name Entity,NOUN,I,especialista,No
 en,ADP,ADP,O,en,No
 seguridad,,NOUN,O,seguridad,
 informática,,ADJ,O,informático,
-dicen,stop word,VERB,O,decir,No
+dicen,Stop Word,VERB,O,decir,No
 en,ADP,ADP,O,en,No
 que,SCONJ,SCONJ,O,que,No
 es,AUX,AUX,O,ser,No
@@ -1325,26 +1325,26 @@ y,CONJ,CONJ,O,y,No
 que,SCONJ,SCONJ,O,que,No
 los,DET,DET,O,lo,No
 padres,,NOUN,O,padre,
-deben,stop word,VERB,O,deber,No
+deben,Stop Word,VERB,O,deber,No
 asegurarse,,NOUN,O,asegurarse,
 de,ADP,ADP,O,de,No
 que,SCONJ,SCONJ,O,que,No
-saben,stop word,VERB,O,saber,No
+saben,Stop Word,VERB,O,saber,No
 qué,DET,DET,O,qué,No
 datos,,NOUN,O,dato,
 están,AUX,AUX,O,estar,No
-haciendo,stop word,VERB,O,hacer,No
+haciendo,Stop Word,VERB,O,hacer,No
 públicos,,ADJ,O,público,
 sobre,ADP,ADP,O,sobrar,No
 sus,DET,DET,O,su,No
 hijos,,NOUN,O,hijo,
 .,PUNCT,PUNCT,O,.,No
 """",PUNCT,PUNCT,O,"""",No
-Gracias,name entity,NOUN,B,Gracias,No
+Gracias,Name Entity,NOUN,B,Gracias,No
 a,ADP,ADP,I,a,No
 las,DET,DET,I,los,No
-redes,name entity,NOUN,I,redar,No
-sociales,name entity,ADJ,I,social,No
+redes,Name Entity,NOUN,I,redar,No
+sociales,Name Entity,ADJ,I,social,No
 ",",PUNCT,PUNCT,O,",",No
 nunca,ADV,ADV,O,nunca,No
 fue,AUX,AUX,O,ser,No
@@ -1443,7 +1443,7 @@ las,DET,DET,O,los,No
 imágenes,,NOUN,O,imagen,
 y,CONJ,CONJ,O,y,No
 no,ADV,ADV,O,no,No
-dar,stop word,VERB,O,dar,No
+dar,Stop Word,VERB,O,dar,No
 demasiada,DET,DET,O,demasiar,No
 información,,NOUN,O,información,
 sobre,ADP,ADP,O,sobrar,No
@@ -1457,36 +1457,36 @@ sobre,ADP,ADP,O,sobrar,No
 todo,PRON,PRON,O,todo,No
 si,SCONJ,SCONJ,O,si,No
 no,ADV,ADV,O,no,No
-sabes,stop word,VERB,O,saber,No
+sabes,Stop Word,VERB,O,saber,No
 a,ADP,ADP,O,a,No
 ciencia,,NOUN,O,ciencia,
-cierta,stop word,ADJ,O,cierto,No
+cierta,Stop Word,ADJ,O,cierto,No
 quién,PRON,PRON,O,quién,No
 puede,AUX,AUX,O,poder,No
-ver,stop word,VERB,O,ver,No
+ver,Stop Word,VERB,O,ver,No
 o,CONJ,CONJ,O,o,No
-usar,stop word,VERB,O,usar,No
+usar,Stop Word,VERB,O,usar,No
 esos,DET,DET,O,ese,No
 datos,,NOUN,O,dato,
 .,PUNCT,PUNCT,O,.,No
 Otra,DET,DET,B,Otra,No
-opción,name entity,NOUN,I,opción,No
+opción,Name Entity,NOUN,I,opción,No
 es,AUX,AUX,I,ser,No
 no,ADV,ADV,I,no,No
-mostrar,name entity,VERB,I,mostrar,No
+mostrar,Name Entity,VERB,I,mostrar,No
 su,DET,DET,I,su,No
-cara,name entity,NOUN,I,caro,No
+cara,Name Entity,NOUN,I,caro,No
 para,ADP,ADP,I,parir,No
-proteger,name entity,VERB,I,proteger,No
+proteger,Name Entity,VERB,I,proteger,No
 así,ADV,ADV,I,asir,No
 su,DET,DET,I,su,No
-identidad,name entity,NOUN,I,identidad,No
+identidad,Name Entity,NOUN,I,identidad,No
 .,PUNCT,PUNCT,O,.,No
 """",PUNCT,PUNCT,O,"""",No
-ARTICLE0005,name entity,NOUN,B,ARTICLE0005,No
+ARTICLE0005,Name Entity,NOUN,B,ARTICLE0005,No
 ",",PUNCT,PUNCT,O,",",No
 El,DET,DET,B,El,No
-revival,name entity,NOUN,I,revival,No
+revival,Name Entity,NOUN,I,revival,No
 de,ADP,ADP,I,de,No
 Mussolini,PROPN,PROPN,B,Mussolini,No
 en,ADP,ADP,O,en,No
@@ -1499,7 +1499,7 @@ Italia,PROPN,PROPN,B,Italia,No
 ",",PUNCT,PUNCT,O,",",No
 """",PUNCT,PUNCT,O,"""",No
 Sono,PROPN,PROPN,B,Sono,No
-tornato,name entity,NOUN,I,tornato,No
+tornato,Name Entity,NOUN,I,tornato,No
 ",",PUNCT,PUNCT,O,",",No
 que,PRON,PRON,O,que,No
 muestra,,VERB,O,mostrar,
@@ -1514,11 +1514,11 @@ debates,,NOUN,O,debatir,
 y,CONJ,CONJ,O,y,No
 disparó,,VERB,O,disparar,
 críticas,,NOUN,O,crítico,
-ROMA,name entity,ADJ,B,ROMA,No
+ROMA,Name Entity,ADJ,B,ROMA,No
 .,PUNCT,PUNCT,O,.,No
 -,PUNCT,PUNCT,O,-,No
 Sono,DET,DET,B,Sono,No
-tornato,name entity,NOUN,I,tornato,No
+tornato,Name Entity,NOUN,I,tornato,No
 (,PUNCT,PUNCT,O,(,No
 He,AUX,AUX,O,He,No
 regresado,,VERB,O,regresar,
@@ -1526,10 +1526,10 @@ regresado,,VERB,O,regresar,
 .,PUNCT,PUNCT,O,.,No
 Es,AUX,AUX,B,Es,No
 el,DET,DET,I,el,No
-título,name entity,NOUN,I,título,No
+título,Name Entity,NOUN,I,título,No
 de,ADP,ADP,I,de,No
 una,DET,DET,I,uno,No
-comedia,name entity,NOUN,I,comediar,No
+comedia,Name Entity,NOUN,I,comediar,No
 que,PRON,PRON,O,que,No
 está,AUX,AUX,O,estar,No
 dando,,VERB,O,dar,
@@ -1584,18 +1584,18 @@ los,DET,DET,O,lo,No
 años,,NOUN,O,año,
 .,PUNCT,PUNCT,O,.,No
 La,DET,DET,B,La,No
-película,name entity,NOUN,I,película,No
+película,Name Entity,NOUN,I,película,No
 es,AUX,AUX,I,ser,No
 una,DET,DET,I,uno,No
-versión,name entity,NOUN,I,versión,No
-italiana,name entity,ADJ,I,italiano,No
+versión,Name Entity,NOUN,I,versión,No
+italiana,Name Entity,ADJ,I,italiano,No
 de,ADP,ADP,O,de,No
 otro,DET,DET,O,otro,No
 film,,NOUN,O,film,
 parecido,,ADJ,O,parecer,
 que,PRON,PRON,O,que,No
 se,PRON,PRON,O,se,No
-hizo,stop word,VERB,O,hacer,No
+hizo,Stop Word,VERB,O,hacer,No
 en,ADP,ADP,O,en,No
 Alemania,PROPN,PROPN,B,Alemania,No
 con,ADP,ADP,O,con,No
@@ -1634,7 +1634,7 @@ Massimo,PROPN,PROPN,B,Massimo,No
 Popolizio,PROPN,PROPN,I,Popolizio,No
 ",",PUNCT,PUNCT,O,",",No
 en,ADP,ADP,O,en,No
-vez,stop word,NOUN,O,vez,No
+vez,Stop Word,NOUN,O,vez,No
 de,ADP,ADP,O,de,No
 ser,AUX,AUX,O,ser,No
 puesto,,VERB,O,poner,
@@ -1679,12 +1679,12 @@ fenómeno,,NOUN,O,fenómeno,
 televisivo,,ADJ,O,televisivo,
 .,PUNCT,PUNCT,O,.,No
 Al,ADP,ADP,B,Al,No
-mejor,stop word,ADJ,I,mejor,No
-estilo,name entity,NOUN,I,estilar,No
+mejor,Stop Word,ADJ,I,mejor,No
+estilo,Name Entity,NOUN,I,estilar,No
 de,ADP,ADP,I,de,No
 los,DET,DET,I,lo,No
-reality,name entity,NOUN,I,reality,No
-shows,name entity,NOUN,I,show,No
+reality,Name Entity,NOUN,I,reality,No
+shows,Name Entity,NOUN,I,show,No
 ",",PUNCT,PUNCT,O,",",No
 Mussolini,PROPN,PROPN,B,Mussolini,No
 se,PRON,PRON,O,se,No
@@ -1724,7 +1724,7 @@ la,DET,DET,O,lo,No
 gente,,NOUN,O,gente,
 ",",PUNCT,PUNCT,O,",",No
 en,ADP,ADP,O,en,No
-vez,stop word,NOUN,O,vez,No
+vez,Stop Word,NOUN,O,vez,No
 de,ADP,ADP,O,de,No
 increparlo,,NOUN,O,increparlo,
 por,ADP,ADP,O,por,No
@@ -1757,7 +1757,7 @@ viva,,ADJ,O,vivo,
 ",",PUNCT,PUNCT,O,",",No
 lo,DET,DET,O,el,No
 que,PRON,PRON,O,que,No
-habla,stop word,VERB,O,hablar,No
+habla,Stop Word,VERB,O,hablar,No
 de,ADP,ADP,O,de,No
 un,DET,DET,O,uno,No
 pueblo,,NOUN,O,poblar,
@@ -1772,11 +1772,11 @@ líderes,,NOUN,O,líder,
 .,PUNCT,PUNCT,O,.,No
 En,ADP,ADP,B,En,No
 la,DET,DET,I,lo,No
-película,name entity,NOUN,I,película,No
+película,Name Entity,NOUN,I,película,No
 nadie,PRON,PRON,I,nadie,No
 se,PRON,PRON,O,se,No
-da,stop word,VERB,O,dar,No
-cuenta,stop word,NOUN,O,contar,No
+da,Stop Word,VERB,O,dar,No
+cuenta,Stop Word,NOUN,O,contar,No
 de,ADP,ADP,O,de,No
 que,SCONJ,SCONJ,O,que,No
 ese,DET,DET,O,ese,No
@@ -1799,7 +1799,7 @@ se,PRON,PRON,O,se,No
 ríen,,VERB,O,reír,
 cuando,SCONJ,SCONJ,O,cuando,No
 proclama,,VERB,O,proclamar,
-cosas,stop word,NOUN,O,coser,No
+cosas,Stop Word,NOUN,O,coser,No
 """",PUNCT,PUNCT,O,"""",No
 políticamente,ADV,ADV,O,políticamente,No
 no,ADV,ADV,O,no,No
@@ -1872,8 +1872,8 @@ de,ADP,ADP,O,de,No
 corrupción,,NOUN,O,corrupción,
 continuos,,ADJ,O,continuo,
 .,PUNCT,PUNCT,O,.,No
-Sono,name entity,ADJ,B,Sono,No
-tornato,name entity,NOUN,I,tornato,No
+Sono,Name Entity,ADJ,B,Sono,No
+tornato,Name Entity,NOUN,I,tornato,No
 ",",PUNCT,PUNCT,O,",",No
 que,PRON,PRON,O,que,No
 al,ADP,ADP,O,al,No
@@ -1893,11 +1893,11 @@ se,PRON,PRON,O,se,No
 estrenó,,VERB,O,estrenar,
 la,DET,DET,O,lo,No
 semana,,NOUN,O,semana,
-pasada,stop word,ADJ,O,pasar,No
+pasada,Stop Word,ADJ,O,pasar,No
 en,ADP,ADP,O,en,No
 momentos,,NOUN,O,momento,
 de,ADP,ADP,O,de,No
-gran,stop word,ADJ,O,gran,No
+gran,Stop Word,ADJ,O,gran,No
 preocupación,,NOUN,O,preocupación,
 por,ADP,ADP,O,por,No
 el,DET,DET,O,el,No
@@ -1911,9 +1911,9 @@ neofascistas,,ADJ,O,neofascista,
 .,PUNCT,PUNCT,O,.,No
 Y,CONJ,CONJ,B,Y,No
 en,ADP,ADP,I,en,No
-plena,name entity,ADJ,I,pleno,No
-campaña,name entity,NOUN,I,campaña,No
-electoral,name entity,ADJ,I,electoral,No
+plena,Name Entity,ADJ,I,pleno,No
+campaña,Name Entity,NOUN,I,campaña,No
+electoral,Name Entity,ADJ,I,electoral,No
 en,ADP,ADP,O,en,No
 vista,,NOUN,O,vestir,
 de,ADP,ADP,O,de,No
@@ -1927,7 +1927,7 @@ del,ADP,ADP,O,del,No
 4,NUM,NUM,O,4,No
 de,ADP,ADP,O,de,No
 marzo,,NOUN,O,marzo,
-próximo,stop word,ADJ,O,próximo,No
+próximo,Stop Word,ADJ,O,próximo,No
 ",",PUNCT,PUNCT,O,",",No
 en,ADP,ADP,O,en,No
 las,DET,DET,O,los,No
@@ -1945,8 +1945,8 @@ derecha,,NOUN,O,derecho,
 auspiciada,,ADJ,O,auspiciar,
 por,ADP,ADP,O,por,No
 el,DET,DET,O,el,No
-ex,stop word,ADJ,O,ex,No
-primer,stop word,ADJ,O,﻿1,No
+ex,Stop Word,ADJ,O,ex,No
+primer,Stop Word,ADJ,O,﻿1,No
 ministro,,NOUN,O,ministro,
 Silvio,PROPN,PROPN,B,Silvio,No
 Berlusconi,PROPN,PROPN,I,Berlusconi,No
@@ -1971,14 +1971,14 @@ un,DET,DET,O,uno,No
 gobierno,,NOUN,O,gobernar,
 .,PUNCT,PUNCT,O,.,No
 La,DET,DET,B,La,No
-comedia,name entity,NOUN,I,comediar,No
+comedia,Name Entity,NOUN,I,comediar,No
 se,PRON,PRON,O,se,No
 estrenó,,VERB,O,estrenar,
 ",",PUNCT,PUNCT,O,",",No
 además,ADV,ADV,O,además,No
 ",",PUNCT,PUNCT,O,",",No
 un,DET,DET,O,uno,No
-día,stop word,NOUN,O,día,No
+día,Stop Word,NOUN,O,día,No
 antes,ADV,ADV,O,antes,No
 de,ADP,ADP,O,de,No
 que,SCONJ,SCONJ,O,que,No
@@ -2008,7 +2008,7 @@ años,,NOUN,O,año,
 ",",PUNCT,PUNCT,O,",",No
 el,DET,DET,O,el,No
 sábado,,NOUN,O,sábado,
-pasado,stop word,ADJ,O,pasar,No
+pasado,Stop Word,ADJ,O,pasar,No
 les,PRON,PRON,O,les,No
 disparó,,VERB,O,disparar,
 desde,ADP,ADP,O,desde,No
@@ -2039,7 +2039,7 @@ una,DET,DET,O,uno,No
 bandera,,NOUN,O,bandera,
 tricolor,,ADJ,O,tricolor,
 ",",PUNCT,PUNCT,O,",",No
-hizo,stop word,VERB,O,hacer,No
+hizo,Stop Word,VERB,O,hacer,No
 el,DET,DET,O,el,No
 saludo,,NOUN,O,saludar,
 fascista,,ADJ,O,fascista,
@@ -2052,7 +2052,7 @@ Italia,PROPN,PROPN,B,Italia,No
 !,PUNCT,PUNCT,O,!,No
 """",PUNCT,PUNCT,O,"""",No
 .,PUNCT,PUNCT,O,.,No
-Ligado,name entity,ADJ,B,Ligado,No
+Ligado,Name Entity,ADJ,B,Ligado,No
 a,ADP,ADP,O,a,No
 grupos,,NOUN,O,grupo,
 de,ADP,ADP,O,de,No
@@ -2112,14 +2112,14 @@ justiciero,,ADJ,O,justiciero,
 """",PUNCT,PUNCT,O,"""",No
 para,ADP,ADP,O,parir,No
 esa,DET,DET,O,ese,No
-parte,stop word,NOUN,O,partir,No
+parte,Stop Word,NOUN,O,partir,No
 de,ADP,ADP,O,de,No
 italianos,,NOUN,O,italiano,
 que,PRON,PRON,O,que,No
 ",",PUNCT,PUNCT,O,",",No
 en,ADP,ADP,O,en,No
 los,DET,DET,O,lo,No
-últimos,stop word,ADJ,O,último,No
+últimos,Stop Word,ADJ,O,último,No
 años,,NOUN,O,año,
 ",",PUNCT,PUNCT,O,",",No
 ha,AUX,AUX,O,haber,No
@@ -2173,7 +2173,7 @@ fascismo,,NOUN,O,fascismo,
 no,ADV,ADV,O,no,No
 es,AUX,AUX,O,ser,No
 un,DET,DET,O,uno,No
-hecho,stop word,NOUN,O,hacer,No
+hecho,Stop Word,NOUN,O,hacer,No
 histórico,,ADJ,O,histórico,
 ",",PUNCT,PUNCT,O,",",No
 fue,AUX,AUX,O,ser,No
@@ -2202,7 +2202,7 @@ totalmente,ADV,ADV,O,totalmente,No
 derrotada,,ADJ,O,derrotar,
 .,PUNCT,PUNCT,O,.,No
 Quien,PRON,PRON,B,Quien,No
-justifica,name entity,VERB,I,justificar,No
+justifica,Name Entity,VERB,I,justificar,No
 episodios,,NOUN,O,episodio,
 como,SCONJ,SCONJ,O,comer,No
 el,DET,DET,O,el,No
@@ -2228,7 +2228,7 @@ Repubblica,PROPN,PROPN,I,Repubblica,No
 .,PUNCT,PUNCT,O,.,No
 En,ADP,ADP,O,En,No
 Sono,PROPN,PROPN,B,Sono,No
-tornato,name entity,NOUN,I,tornato,No
+tornato,Name Entity,NOUN,I,tornato,No
 ",",PUNCT,PUNCT,O,",",No
 Mussolini,PROPN,PROPN,B,Mussolini,No
 -,PUNCT,PUNCT,O,-,No
@@ -2239,7 +2239,7 @@ durante,ADP,ADP,O,durante,No
 años,,NOUN,O,año,
 ",",PUNCT,PUNCT,O,",",No
 a,ADP,ADP,O,a,No
-partir,stop word,NOUN,O,partir,No
+partir,Stop Word,NOUN,O,partir,No
 de,ADP,ADP,O,de,No
 1922,,NOUN,O,1922,
 -,PUNCT,PUNCT,O,-,No
@@ -2273,7 +2273,7 @@ analfabetas,,NOUN,O,analfabeto,
 ",",PUNCT,PUNCT,O,",",No
 denuncia,,VERB,O,denunciar,
 .,PUNCT,PUNCT,O,.,No
-Ve,name entity,VERB,B,Ve,No
+Ve,Name Entity,VERB,B,Ve,No
 a,ADP,ADP,O,a,No
 turistas,,NOUN,O,turista,
 y,CONJ,CONJ,O,y,No
@@ -2292,13 +2292,13 @@ piensa,,VERB,O,pensar,
 disgustado,,ADJ,O,disgustar,
 :,PUNCT,PUNCT,O,:,No
 """",PUNCT,PUNCT,O,"""",No
-Chancletas,name entity,NOUN,B,Chancletas,No
+Chancletas,Name Entity,NOUN,B,Chancletas,No
 ",",PUNCT,PUNCT,O,",",No
 pantorrillas,,NOUN,O,pantorrilla,
 desnudas,,ADJ,O,desnudo,
 .,PUNCT,PUNCT,O,.,No
 ¿,PUNCT,PUNCT,B,¿,No
-Estoy,name entity,VERB,I,Estoy,No
+Estoy,Name Entity,VERB,I,Estoy,No
 en,ADP,ADP,O,en,No
 Addis,PROPN,PROPN,B,Addis,No
 Abeba,PROPN,PROPN,I,Abeba,No
@@ -2312,7 +2312,7 @@ Imperio,PROPN,PROPN,B,Imperio,No
 """",PUNCT,PUNCT,O,"""",No
 .,PUNCT,PUNCT,O,.,No
 Cuando,SCONJ,SCONJ,B,Cuando,No
-intentan,stop word,VERB,O,intentar,No
+intentan,Stop Word,VERB,O,intentar,No
 explicarle,,ADJ,O,explicarle,
 cómo,PRON,PRON,O,cómo,No
 funciona,,VERB,O,funcionar,
@@ -2356,7 +2356,7 @@ espantado,,ADJ,O,espantar,
 .,PUNCT,PUNCT,O,.,No
 """",PUNCT,PUNCT,O,"""",No
 Mi,DET,DET,B,Mi,No
-película,name entity,NOUN,I,película,No
+película,Name Entity,NOUN,I,película,No
 no,ADV,ADV,I,no,No
 es,AUX,AUX,I,ser,No
 sobre,ADP,ADP,I,sobrar,No
@@ -2384,7 +2384,7 @@ Miniero,PROPN,PROPN,I,Miniero,No
 director,,NOUN,O,director,
 de,ADP,ADP,O,de,No
 Sono,PROPN,PROPN,B,Sono,No
-tornato,name entity,NOUN,I,tornato,No
+tornato,Name Entity,NOUN,I,tornato,No
 .,PUNCT,PUNCT,O,.,No
 """",PUNCT,PUNCT,O,"""",No
 Al,ADP,ADP,O,Al,No
@@ -2399,9 +2399,9 @@ se,PRON,PRON,O,se,No
 avergüenza,,VERB,O,avergonzar,
 .,PUNCT,PUNCT,O,.,No
 La,DET,DET,B,La,No
-película,name entity,NOUN,I,película,No
+película,Name Entity,NOUN,I,película,No
 nos,PRON,PRON,I,no,No
-muestra,name entity,VERB,I,mostrar,No
+muestra,Name Entity,VERB,I,mostrar,No
 que,SCONJ,SCONJ,I,que,No
 Mussolini,PROPN,PROPN,B,Mussolini,No
 no,ADV,ADV,O,no,No
@@ -2412,7 +2412,7 @@ y,CONJ,CONJ,O,y,No
 que,SCONJ,SCONJ,O,que,No
 ",",PUNCT,PUNCT,O,",",No
 si,SCONJ,SCONJ,O,si,No
-da,stop word,VERB,O,dar,No
+da,Stop Word,VERB,O,dar,No
 miedo,,NOUN,O,miedo,
 ",",PUNCT,PUNCT,O,",",No
 no,ADV,ADV,O,no,No
@@ -2424,7 +2424,7 @@ volver,,VERB,O,volver,
 el,DET,DET,O,el,No
 fascismo,,NOUN,O,fascismo,
 al,ADP,ADP,O,al,No
-poder,stop word,NOUN,O,poder,No
+poder,Stop Word,NOUN,O,poder,No
 ",",PUNCT,PUNCT,O,",",No
 sino,CONJ,CONJ,O,sino,No
 porque,SCONJ,SCONJ,O,porque,No
@@ -2435,7 +2435,7 @@ a,ADP,ADP,O,a,No
 nosotros,PRON,PRON,O,nosotros,No
 y,CONJ,CONJ,O,y,No
 forma,,VERB,O,formar,
-parte,stop word,NOUN,O,partir,No
+parte,Stop Word,NOUN,O,partir,No
 de,ADP,ADP,O,de,No
 nuestro,DET,DET,O,nuestro,No
 paisaje,,NOUN,O,paisaje,
@@ -2491,7 +2491,7 @@ repercusión,,NOUN,O,repercusión,
 .,PUNCT,PUNCT,O,.,No
 """",PUNCT,PUNCT,O,"""",No
 No,ADV,ADV,O,No,No
-sé,stop word,VERB,O,ser,No
+sé,Stop Word,VERB,O,ser,No
 si,SCONJ,SCONJ,O,si,No
 los,DET,DET,O,lo,No
 italianos,,NOUN,O,italiano,
@@ -2519,7 +2519,7 @@ problema,,NOUN,O,problema,
 Por,ADP,ADP,B,Por,No
 eso,PRON,PRON,I,ese,No
 ",",PUNCT,PUNCT,I,",",No
-espero,name entity,VERB,I,esperar,No
+espero,Name Entity,VERB,I,esperar,No
 que,SCONJ,SCONJ,O,que,No
 la,DET,DET,O,lo,No
 película,,NOUN,O,película,
@@ -2534,7 +2534,7 @@ ARTICLE0010,INTJ,INTJ,B,ARTICLE0010,No
 El,DET,DET,B,El,No
 boom,PROPN,PROPN,I,boom,No
 del,ADP,ADP,I,del,No
-glamping,name entity,NOUN,I,glamping,No
+glamping,Name Entity,NOUN,I,glamping,No
 acapara,,VERB,O,acaparar,
 el,DET,DET,O,el,No
 verano,,NOUN,O,verano,
@@ -2542,9 +2542,9 @@ británico,,ADJ,O,británico,
 ",",PUNCT,PUNCT,O,",",No
 """",PUNCT,PUNCT,O,"""",No
 Esta,DET,DET,B,Esta,No
-modalidad,name entity,NOUN,I,modalidad,No
+modalidad,Name Entity,NOUN,I,modalidad,No
 de,ADP,ADP,I,de,No
-alojamiento,name entity,NOUN,I,alojamiento,No
+alojamiento,Name Entity,NOUN,I,alojamiento,No
 ",",PUNCT,PUNCT,O,",",No
 que,PRON,PRON,O,que,No
 nace,,VERB,O,nacer,
@@ -2569,7 +2569,7 @@ naturales,,ADJ,O,natural,
 Uno,PRON,PRON,B,Uno,No
 de,ADP,ADP,I,de,No
 los,DET,DET,I,lo,No
-domos,name entity,NOUN,I,domo,No
+domos,Name Entity,NOUN,I,domo,No
 en,ADP,ADP,I,en,No
 Craftycamping,PROPN,PROPN,B,Craftycamping,No
 ",",PUNCT,PUNCT,O,",",No
@@ -2589,9 +2589,9 @@ LONDRES,PROPN,PROPN,B,LONDRES,No
 -,PUNCT,PUNCT,O,-,No
 No,ADV,ADV,B,No,No
 más,ADV,ADV,I,más,No
-bolsa,name entity,NOUN,I,bolsa,No
+bolsa,Name Entity,NOUN,I,bolsa,No
 de,ADP,ADP,I,de,No
-dormir,name entity,VERB,I,dormir,No
+dormir,Name Entity,VERB,I,dormir,No
 ",",PUNCT,PUNCT,O,",",No
 ni,CONJ,CONJ,O,ni,No
 garrafa,,NOUN,O,garrafa,
@@ -2600,11 +2600,11 @@ para,ADP,ADP,O,parir,No
 cocinar,,VERB,O,cocinar,
 .,PUNCT,PUNCT,O,.,No
 Se,PRON,PRON,B,Se,No
-terminaron,name entity,VERB,I,terminar,No
+terminaron,Name Entity,VERB,I,terminar,No
 las,DET,DET,I,los,No
-horas,stop word,NOUN,I,hora,No
+horas,Stop Word,NOUN,I,hora,No
 de,ADP,ADP,I,de,No
-ingenio,name entity,NOUN,I,ingeniar,No
+ingenio,Name Entity,NOUN,I,ingeniar,No
 desperdiciadas,,ADJ,O,desperdiciar,
 en,ADP,ADP,O,en,No
 dilucidar,AUX,AUX,O,dilucidar,No
@@ -2614,11 +2614,11 @@ una,DET,DET,O,uno,No
 carpa,,NOUN,O,carpir,
 .,PUNCT,PUNCT,O,.,No
 El,DET,DET,B,El,No
-glamping,name entity,NOUN,I,glamping,No
+glamping,Name Entity,NOUN,I,glamping,No
 es,AUX,AUX,O,ser,No
 una,DET,DET,O,uno,No
-nueva,stop word,ADJ,O,nuevo,No
-manera,stop word,NOUN,O,manera,No
+nueva,Stop Word,ADJ,O,nuevo,No
+manera,Stop Word,NOUN,O,manera,No
 de,ADP,ADP,O,de,No
 experimentar,,VERB,O,experimentar,
 la,DET,DET,O,lo,No
@@ -2627,7 +2627,7 @@ naturaleza,,NOUN,O,naturaleza,
 y,CONJ,CONJ,O,y,No
 es,AUX,AUX,O,ser,No
 cada,DET,DET,O,cada,No
-vez,stop word,NOUN,O,vez,No
+vez,Stop Word,NOUN,O,vez,No
 más,ADV,ADV,O,más,No
 popular,,ADJ,O,popular,
 entre,ADP,ADP,O,entrar,No
@@ -2636,7 +2636,7 @@ británicos,,NOUN,O,británico,
 .,PUNCT,PUNCT,O,.,No
 Aunque,SCONJ,SCONJ,B,Aunque,No
 esta,DET,DET,I,este,No
-modalidad,name entity,NOUN,I,modalidad,No
+modalidad,Name Entity,NOUN,I,modalidad,No
 no,ADV,ADV,O,no,No
 es,AUX,AUX,O,ser,No
 una,DET,DET,O,uno,No
@@ -2663,7 +2663,7 @@ y,CONJ,CONJ,O,y,No
 ",",PUNCT,PUNCT,O,",",No
 como,SCONJ,SCONJ,O,comer,No
 muchos,PRON,PRON,O,mucho,No
-saben,stop word,VERB,O,saber,No
+saben,Stop Word,VERB,O,saber,No
 ",",PUNCT,PUNCT,O,",",No
 los,DET,DET,O,lo,No
 hábitos,,NOUN,O,hábito,
@@ -2673,7 +2673,7 @@ ponen,,VERB,O,poner,
 de,ADP,ADP,O,de,No
 moda,,NOUN,O,moda,
 en,ADP,ADP,O,en,No
-Gran,name entity,ADJ,B,Gran,No
+Gran,Name Entity,ADJ,B,Gran,No
 Bretaña,PROPN,PROPN,I,Bretaña,No
 suelen,AUX,AUX,O,soler,No
 adoptarse,,NOUN,O,adoptarse,
@@ -2696,7 +2696,7 @@ una,DET,DET,O,uno,No
 experiencia,,NOUN,O,experiencia,
 de,ADP,ADP,O,de,No
 inmersión,,NOUN,O,inmersión,
-total,stop word,ADJ,O,total,No
+total,Stop Word,ADJ,O,total,No
 en,ADP,ADP,O,en,No
 la,DET,DET,O,lo,No
 naturaleza,,NOUN,O,naturaleza,
@@ -2715,12 +2715,12 @@ Las,PRON,PRON,B,Las,No
 hay,AUX,AUX,I,haber,No
 de,ADP,ADP,I,de,No
 todo,DET,DET,I,todo,No
-tipo,name entity,NOUN,I,tipo,No
+tipo,Name Entity,NOUN,I,tipo,No
 :,PUNCT,PUNCT,I,:,No
-casitas,name entity,NOUN,I,casita,No
+casitas,Name Entity,NOUN,I,casita,No
 arriba,ADV,ADV,I,arribar,No
 de,ADP,ADP,I,de,No
-árboles,name entity,NOUN,I,árbol,No
+árboles,Name Entity,NOUN,I,árbol,No
 ",",PUNCT,PUNCT,O,",",No
 cápsulas,,NOUN,O,cápsula,
 de,ADP,ADP,O,de,No
@@ -2746,10 +2746,10 @@ estrellas,,NOUN,O,estrellar,
 .,PUNCT,PUNCT,O,.,No
 No,ADV,ADV,B,No,No
 se,PRON,PRON,I,se,No
-quedan,name entity,VERB,I,quedar,No
+quedan,Name Entity,VERB,I,quedar,No
 atrás,ADV,ADV,I,atrás,No
 las,DET,DET,I,los,No
-tiendas,name entity,NOUN,I,tienda,No
+tiendas,Name Entity,NOUN,I,tienda,No
 inspiradas,,ADJ,O,inspirar,
 en,ADP,ADP,O,en,No
 los,DET,DET,O,lo,No
@@ -2782,12 +2782,12 @@ familia,,NOUN,O,familia,
 hemos,AUX,AUX,O,hemo,No
 ido,,VERB,O,ir,
 varias,DET,DET,O,varios,No
-veces,stop word,NOUN,O,vez,No
+veces,Stop Word,NOUN,O,vez,No
 de,ADP,ADP,O,de,No
 glamping,,NOUN,O,glamping,
 """",PUNCT,PUNCT,O,"""",No
 ",",PUNCT,PUNCT,O,",",No
-dice,stop word,VERB,O,decir,No
+dice,Stop Word,VERB,O,decir,No
 Martina,PROPN,PROPN,B,Martina,No
 Florez,PROPN,PROPN,I,Florez,No
 ",",PUNCT,PUNCT,O,",",No
@@ -2811,7 +2811,7 @@ años,,NOUN,O,año,
 Es,AUX,AUX,O,Es,No
 perfecto,,ADJ,O,perfecto,
 para,ADP,ADP,O,parir,No
-ir,stop word,VERB,O,ir,No
+ir,Stop Word,VERB,O,ir,No
 con,ADP,ADP,O,con,No
 niños,,NOUN,O,niño,
 pequeños,,ADJ,O,pequeño,
@@ -2846,7 +2846,7 @@ comodidades,,NOUN,O,comodidad,
 Dormís,PROPN,PROPN,B,Dormís,No
 en,ADP,ADP,O,en,No
 una,DET,DET,O,uno,No
-buena,stop word,ADJ,O,bueno,No
+buena,Stop Word,ADJ,O,bueno,No
 cama,,NOUN,O,cama,
 ",",PUNCT,PUNCT,O,",",No
 tenés,,ADJ,O,tenés,
@@ -2864,7 +2864,7 @@ y,CONJ,CONJ,O,y,No
 sobre,ADP,ADP,O,sobrar,No
 todo,PRON,PRON,O,todo,No
 la,DET,DET,O,lo,No
-gran,stop word,ADJ,O,gran,No
+gran,Stop Word,ADJ,O,gran,No
 ventaja,,NOUN,O,ventaja,
 de,ADP,ADP,O,de,No
 no,ADV,ADV,O,no,No
@@ -2880,9 +2880,9 @@ agrega,,VERB,O,agregar,
 .,PUNCT,PUNCT,O,.,No
 Pero,CONJ,CONJ,B,Pero,No
 esta,DET,DET,I,este,No
-versión,name entity,NOUN,I,versión,No
+versión,Name Entity,NOUN,I,versión,No
 de,ADP,ADP,I,de,No
-camping,name entity,NOUN,I,camping,No
+camping,Name Entity,NOUN,I,camping,No
 2,NUM,NUM,I,2,No
 .,PUNCT,PUNCT,O,.,No
 0,NUM,NUM,O,0,No
@@ -2911,7 +2911,7 @@ ducha,,NOUN,O,duchar,
 caliente,,ADJ,O,calentar,
 .,PUNCT,PUNCT,O,.,No
 Los,DET,DET,B,Los,No
-amenities,name entity,NOUN,I,amenities,No
+amenities,Name Entity,NOUN,I,amenities,No
 que,PRON,PRON,O,que,No
 se,PRON,PRON,O,se,No
 encuentran,,VERB,O,encontrar,
@@ -2929,7 +2929,7 @@ tradicional,,ADJ,O,tradicional,
 .,PUNCT,PUNCT,O,.,No
 Y,CONJ,CONJ,O,Y,No
 por,ADP,ADP,O,por,No
-supuesto,stop word,NOUN,O,suponer,No
+supuesto,Stop Word,NOUN,O,suponer,No
 abundan,,VERB,O,abundar,
 los,DET,DET,O,lo,No
 detalles,,NOUN,O,detalle,
@@ -2943,7 +2943,7 @@ y,CONJ,CONJ,O,y,No
 encantadora,,ADJ,O,encantador,
 y,CONJ,CONJ,O,y,No
 que,PRON,PRON,O,que,No
-van,stop word,VERB,O,ir,No
+van,Stop Word,VERB,O,ir,No
 desde,ADP,ADP,O,desde,No
 cocinas,,NOUN,O,cocinar,
 a,ADP,ADP,O,a,No
@@ -2951,7 +2951,7 @@ leña,,VERB,O,leña,
 ",",PUNCT,PUNCT,O,",",No
 un,DET,DET,O,uno,No
 sin,ADP,ADP,O,sin,No
-fin,stop word,NOUN,O,fin,No
+fin,Stop Word,NOUN,O,fin,No
 de,ADP,ADP,O,de,No
 velas,,NOUN,O,velar,
 ",",PUNCT,PUNCT,O,",",No
@@ -3011,13 +3011,13 @@ Hoy,ADV,ADV,B,Hoy,No
 Brexit,PROPN,PROPN,I,Brexit,No
 y,CONJ,CONJ,I,y,No
 una,DET,DET,I,uno,No
-libra,name entity,NOUN,I,librar,No
+libra,Name Entity,NOUN,I,librar,No
 más,ADV,ADV,I,más,No
-débil,name entity,ADJ,I,débil,No
+débil,Name Entity,ADJ,I,débil,No
 ",",PUNCT,PUNCT,O,",",No
 han,AUX,AUX,O,haber,No
-dado,stop word,VERB,O,dar,No
-lugar,stop word,NOUN,O,lugar,No
+dado,Stop Word,VERB,O,dar,No
+lugar,Stop Word,NOUN,O,lugar,No
 a,ADP,ADP,O,a,No
 que,SCONJ,SCONJ,O,que,No
 este,DET,DET,O,este,No
@@ -3064,7 +3064,7 @@ estrellas,,NOUN,O,estrellar,
 .,PUNCT,PUNCT,O,.,No
 Para,ADP,ADP,B,Para,No
 el,DET,DET,I,el,No
-glampinero,name entity,NOUN,I,glampinero,No
+glampinero,Name Entity,NOUN,I,glampinero,No
 es,AUX,AUX,O,ser,No
 una,DET,DET,O,uno,No
 alternativa,,NOUN,O,alternativo,
@@ -3084,7 +3084,7 @@ Pragma,PROPN,PROPN,B,Pragma,No
 .,PUNCT,PUNCT,I,.,No
 Una,DET,DET,O,Una,No
 muy,ADV,ADV,O,muy,No
-buena,stop word,ADJ,O,bueno,No
+buena,Stop Word,ADJ,O,bueno,No
 opción,,NOUN,O,opción,
 para,ADP,ADP,O,parir,No
 esta,DET,DET,O,este,No
@@ -3115,7 +3115,7 @@ está,AUX,AUX,O,estar,No
 atrayendo,,VERB,O,atraer,
 a,ADP,ADP,O,a,No
 un,DET,DET,O,uno,No
-nuevo,stop word,ADJ,O,nuevo,No
+nuevo,Stop Word,ADJ,O,nuevo,No
 grupo,,NOUN,O,grupo,
 de,ADP,ADP,O,de,No
 personas,,NOUN,O,personar,
@@ -3129,7 +3129,7 @@ gente,,NOUN,O,gente,
 que,PRON,PRON,O,que,No
 nunca,ADV,ADV,O,nunca,No
 antes,ADV,ADV,O,antes,No
-consideró,stop word,VERB,O,considerar,No
+consideró,Stop Word,VERB,O,considerar,No
 el,DET,DET,O,el,No
 camping,,NOUN,O,camping,
 tradicional,,ADJ,O,tradicional,
@@ -3191,7 +3191,7 @@ a,ADP,ADP,O,a,No
 las,DET,DET,O,los,No
 que,PRON,PRON,O,que,No
 tantas,DET,DET,O,tanto,No
-veces,stop word,NOUN,O,vez,No
+veces,Stop Word,NOUN,O,vez,No
 hemos,AUX,AUX,O,hemo,No
 visto,,VERB,O,vestir,
 en,ADP,ADP,O,en,No
@@ -3226,7 +3226,7 @@ glamping,,NOUN,O,glamping,
 y,CONJ,CONJ,O,y,No
 lo,DET,DET,O,el,No
 que,PRON,PRON,O,que,No
-hace,stop word,VERB,O,hacer,No
+hace,Stop Word,VERB,O,hacer,No
 que,SCONJ,SCONJ,O,que,No
 quiera,,VERB,O,querer,
 volver,,VERB,O,volver,
@@ -3238,7 +3238,7 @@ Probablemente,ADV,ADV,O,Probablemente,No
 el,DET,DET,O,el,No
 más,ADV,ADV,O,más,No
 extravagante,,ADJ,O,extravagante,
-ejemplo,stop word,NOUN,O,ejemplo,No
+ejemplo,Stop Word,NOUN,O,ejemplo,No
 de,ADP,ADP,O,de,No
 glamping,,NOUN,O,glamping,
 se,PRON,PRON,O,se,No
@@ -3258,7 +3258,7 @@ del,ADP,ADP,O,del,No
 encuentro,,NOUN,O,encontrar,
 de,ADP,ADP,O,de,No
 Los,DET,DET,B,Los,No
-reyes,name entity,NOUN,I,rey,No
+reyes,Name Entity,NOUN,I,rey,No
 Enrique,PROPN,PROPN,I,Enrique,No
 VIII,PROPN,PROPN,I,VIII,No
 y,CONJ,CONJ,O,y,No
@@ -3293,7 +3293,7 @@ fundador,,NOUN,O,fundador,
 de,ADP,ADP,O,de,No
 goglamping.net,,NOUN,O,goglamping.net,
 .,PUNCT,PUNCT,O,.,No
-cuenta,stop word,VERB,O,contar,No
+cuenta,Stop Word,VERB,O,contar,No
 que,SCONJ,SCONJ,O,que,No
 este,DET,DET,O,este,No
 estilo,,NOUN,O,estilar,
@@ -3357,7 +3357,7 @@ ya,ADV,ADV,O,ya,No
 ha,AUX,AUX,O,haber,No
 ido,,VERB,O,ir,
 tres,NUM,NUM,O,tres,No
-veces,stop word,NOUN,O,vez,No
+veces,Stop Word,NOUN,O,vez,No
 consecutivas,,ADJ,O,consecutivo,
 a,ADP,ADP,O,a,No
 Glastonbury,PROPN,PROPN,B,Glastonbury,No
@@ -3371,7 +3371,7 @@ versión,,NOUN,O,versión,
 motorhome,,ADJ,O,motorhome,
 .,PUNCT,PUNCT,O,.,No
 El,DET,DET,B,El,No
-concepto,name entity,NOUN,I,concepto,No
+concepto,Name Entity,NOUN,I,concepto,No
 de,ADP,ADP,I,de,No
 Glamping,PROPN,PROPN,I,Glamping,No
 comenzó,,VERB,O,comenzar,
@@ -3419,16 +3419,16 @@ estos,DET,DET,O,este,No
 percibidos,,ADJ,O,percibir,
 de,ADP,ADP,O,de,No
 una,DET,DET,O,uno,No
-manera,stop word,NOUN,O,manera,No
-diferente,stop word,ADJ,O,diferente,No
+manera,Stop Word,NOUN,O,manera,No
+diferente,Stop Word,ADJ,O,diferente,No
 y,CONJ,CONJ,O,y,No
 atractiva,,ADJ,O,atractivo,
 .,PUNCT,PUNCT,O,.,No
-Tal,name entity,NOUN,B,Tal,No
-vez,stop word,NOUN,I,vez,No
+Tal,Name Entity,NOUN,B,Tal,No
+vez,Stop Word,NOUN,I,vez,No
 la,DET,DET,I,lo,No
-simple,name entity,ADJ,I,simple,No
-vinculación,name entity,NOUN,I,vinculación,No
+simple,Name Entity,ADJ,I,simple,No
+vinculación,Name Entity,NOUN,I,vinculación,No
 de,ADP,ADP,O,de,No
 """",PUNCT,PUNCT,O,"""",No
 camping,,NOUN,O,camping,
@@ -3455,8 +3455,8 @@ el,DET,DET,O,el,No
 año,,NOUN,O,año,
 .,PUNCT,PUNCT,O,.,No
 O,CONJ,CONJ,O,O,No
-tal,stop word,NOUN,O,tal,No
-vez,stop word,NOUN,O,vez,No
+tal,Stop Word,NOUN,O,tal,No
+vez,Stop Word,NOUN,O,vez,No
 remita,,VERB,O,remitir,
 a,ADP,ADP,O,a,No
 cierta,DET,DET,O,cierto,No
@@ -3470,10 +3470,10 @@ Imperio,PROPN,PROPN,B,Imperio,No
 .,PUNCT,PUNCT,O,.,No
 De,ADP,ADP,O,De,No
 cualquier,DET,DET,O,cualquiera,No
-manera,stop word,NOUN,O,manera,No
+manera,Stop Word,NOUN,O,manera,No
 ",",PUNCT,PUNCT,O,",",No
 un,DET,DET,O,uno,No
-gran,stop word,ADJ,O,gran,No
+gran,Stop Word,ADJ,O,gran,No
 éxito,,NOUN,O,éxito,
 del,ADP,ADP,O,del,No
 país,,NOUN,O,país,
@@ -3484,7 +3484,7 @@ del,ADP,ADP,O,del,No
 marketing,,NOUN,O,marketing,
 para,ADP,ADP,O,parir,No
 esta,DET,DET,O,este,No
-nueva,stop word,ADJ,O,nuevo,No
+nueva,Stop Word,ADJ,O,nuevo,No
 industria,,NOUN,O,industriar,
 multimillonaria,,ADJ,O,multimillonario,
 que,PRON,PRON,O,que,No
@@ -3537,7 +3537,7 @@ Fuente,PROPN,PROPN,B,Fuente,No
 :,PUNCT,PUNCT,I,:,No
 Reuters,PROPN,PROPN,I,Reuters,No
 -,PUNCT,PUNCT,I,-,No
-Crédito,name entity,NOUN,I,Crédito,No
+Crédito,Name Entity,NOUN,I,Crédito,No
 :,PUNCT,PUNCT,I,:,No
 Jonathan,PROPN,PROPN,I,Jonathan,No
 Ernst,PROPN,PROPN,I,Ernst,No
@@ -3594,17 +3594,17 @@ y,CONJ,CONJ,O,y,No
 BBVA,PROPN,PROPN,B,BBVA,No
 .,PUNCT,PUNCT,O,.,No
 Por,ADP,ADP,B,Por,No
-cuarto,name entity,ADJ,I,cuartar,No
-año,name entity,NOUN,I,año,No
-consecutivo,name entity,ADJ,I,consecutivo,No
+cuarto,Name Entity,ADJ,I,cuartar,No
+año,Name Entity,NOUN,I,año,No
+consecutivo,Name Entity,ADJ,I,consecutivo,No
 ",",PUNCT,PUNCT,O,",",No
 la,DET,DET,O,lo,No
 Fundéu,PROPN,PROPN,B,Fundéu,No
 BBVA,PROPN,PROPN,I,BBVA,No
-dio,stop word,VERB,O,dar,No
+dio,Stop Word,VERB,O,dar,No
 hoy,ADV,ADV,O,hoy,No
 a,ADP,ADP,O,a,No
-conocer,stop word,VERB,O,conocer,No
+conocer,Stop Word,VERB,O,conocer,No
 su,DET,DET,O,su,No
 palabra,,NOUN,O,palabra,
 del,ADP,ADP,O,del,No
@@ -3623,7 +3623,7 @@ informativa,,ADJ,O,informativo,
 de,ADP,ADP,O,de,No
 2016,,NOUN,O,2016,
 y,CONJ,CONJ,O,y,No
-tienen,stop word,VERB,O,tener,No
+tienen,Stop Word,VERB,O,tener,No
 ",",PUNCT,PUNCT,O,",",No
 además,ADV,ADV,O,además,No
 ",",PUNCT,PUNCT,O,",",No
@@ -3636,9 +3636,9 @@ vista,,NOUN,O,vestir,
 lingüístico,,ADJ,O,lingüístico,
 .,PUNCT,PUNCT,O,.,No
 Tras,ADP,ADP,B,Tras,No
-elegir,name entity,VERB,I,elegir,No
+elegir,Name Entity,VERB,I,elegir,No
 """",PUNCT,PUNCT,I,"""",No
-escrache,name entity,NOUN,I,escrache,No
+escrache,Name Entity,NOUN,I,escrache,No
 """",PUNCT,PUNCT,O,"""",No
 en,ADP,ADP,O,en,No
 2013,,NOUN,O,2013,
@@ -3695,7 +3695,7 @@ político,,ADJ,O,político,
 .,PUNCT,PUNCT,O,.,No
 """",PUNCT,PUNCT,O,"""",No
 Parecía,AUX,AUX,B,Parecía,No
-claro,stop word,ADJ,O,claro,No
+claro,Stop Word,ADJ,O,claro,No
 que,SCONJ,SCONJ,O,que,No
 en,ADP,ADP,O,en,No
 un,DET,DET,O,uno,No
@@ -3722,7 +3722,7 @@ Donald,PROPN,PROPN,B,Donald,No
 Trump,PROPN,PROPN,I,Trump,No
 y,CONJ,CONJ,O,y,No
 los,DET,DET,O,lo,No
-diferentes,stop word,ADJ,O,diferente,No
+diferentes,Stop Word,ADJ,O,diferente,No
 procesos,,NOUN,O,proceso,
 electorales,,ADJ,O,electoral,
 y,CONJ,CONJ,O,y,No
@@ -3738,7 +3738,7 @@ del,ADP,ADP,O,del,No
 año,,NOUN,O,año,
 de,ADP,ADP,O,de,No
 Fundéu,PROPN,PROPN,B,Fundéu,No
-tenía,stop word,VERB,O,tener,No
+tenía,Stop Word,VERB,O,tener,No
 que,SCONJ,SCONJ,O,que,No
 venir,,VERB,O,venir,
 de,ADP,ADP,O,de,No
@@ -3749,7 +3749,7 @@ ese,DET,DET,O,ese,No
 explica,,VERB,O,explicar,
 el,DET,DET,O,el,No
 coordinador,,NOUN,O,coordinador,
-general,stop word,ADJ,O,general,No
+general,Stop Word,ADJ,O,general,No
 de,ADP,ADP,O,de,No
 la,DET,DET,O,lo,No
 Fundación,PROPN,PROPN,B,Fundación,No
@@ -3758,7 +3758,7 @@ Javier,PROPN,PROPN,B,Javier,No
 Lascuráin,PROPN,PROPN,I,Lascuráin,No
 .,PUNCT,PUNCT,O,.,No
 De,ADP,ADP,O,De,No
-hecho,stop word,NOUN,O,hacer,No
+hecho,Stop Word,NOUN,O,hacer,No
 ",",PUNCT,PUNCT,O,",",No
 varias,PRON,PRON,O,varios,No
 de,ADP,ADP,O,de,No
@@ -3770,7 +3770,7 @@ se,PRON,PRON,O,se,No
 anunciaron,,VERB,O,anunciar,
 hace,AUX,AUX,O,hacer,No
 unos,DET,DET,O,uno,No
-días,stop word,NOUN,O,día,No
+días,Stop Word,NOUN,O,día,No
 estaban,AUX,AUX,O,estar,No
 relacionadas,,ADJ,O,relacionar,
 con,ADP,ADP,O,con,No
@@ -3808,9 +3808,9 @@ populismo,,NOUN,O,populismo,
 ",",PUNCT,PUNCT,O,",",No
 que,PRON,PRON,O,que,No
 ya,ADV,ADV,O,ya,No
-lleva,stop word,VERB,O,llevar,No
+lleva,Stop Word,VERB,O,llevar,No
 algún,DET,DET,O,alguno,No
-tiempo,stop word,NOUN,O,tiempo,No
+tiempo,Stop Word,NOUN,O,tiempo,No
 en,ADP,ADP,O,en,No
 el,DET,DET,O,el,No
 centro,,NOUN,O,centrar,
@@ -3840,7 +3840,7 @@ cargándose,,NOUN,O,cargándose,
 de,ADP,ADP,O,de,No
 connotaciones,,NOUN,O,connotación,
 a,ADP,ADP,O,a,No
-menudo,stop word,NOUN,O,menudo,No
+menudo,Stop Word,NOUN,O,menudo,No
 negativas,,NOUN,O,negativo,
 """",PUNCT,PUNCT,O,"""",No
 ",",PUNCT,PUNCT,O,",",No
@@ -3854,7 +3854,7 @@ evolución,,NOUN,O,evolución,
 que,PRON,PRON,O,que,No
 no,ADV,ADV,O,no,No
 es,AUX,AUX,O,ser,No
-nueva,stop word,ADJ,O,nuevo,No
+nueva,Stop Word,ADJ,O,nuevo,No
 pero,CONJ,CONJ,O,pero,No
 que,PRON,PRON,O,que,No
 posiblemente,ADV,ADV,O,posiblemente,No
@@ -3863,14 +3863,14 @@ ha,AUX,AUX,O,haber,No
 acelerado,,VERB,O,acelerar,
 en,ADP,ADP,O,en,No
 los,DET,DET,O,lo,No
-últimos,stop word,ADJ,O,último,No
+últimos,Stop Word,ADJ,O,último,No
 tiempos,,NOUN,O,tiempo,
 """",PUNCT,PUNCT,O,"""",No
 ",",PUNCT,PUNCT,O,",",No
-parte,stop word,NOUN,O,partir,No
+parte,Stop Word,NOUN,O,partir,No
 de,ADP,ADP,O,de,No
 un,DET,DET,O,uno,No
-uso,stop word,NOUN,O,usar,No
+uso,Stop Word,NOUN,O,usar,No
 neutro,,ADJ,O,neutro,
 de,ADP,ADP,O,de,No
 las,DET,DET,O,los,No
@@ -3886,9 +3886,9 @@ que,PRON,PRON,O,que,No
 tuvieron,,VERB,O,tener,
 durante,ADP,ADP,O,durante,No
 un,DET,DET,O,uno,No
-tiempo,stop word,NOUN,O,tiempo,No
+tiempo,Stop Word,NOUN,O,tiempo,No
 significados,,ADJ,O,significar,
-próximos,stop word,ADJ,O,próximo,No
+próximos,Stop Word,ADJ,O,próximo,No
 a,ADP,ADP,O,a,No
 """",PUNCT,PUNCT,O,"""",No
 popular,,ADJ,O,popular,
@@ -3897,10 +3897,10 @@ popular,,ADJ,O,popular,
 """",PUNCT,PUNCT,O,"""",No
 A,ADP,ADP,O,A,No
 lo,DET,DET,O,el,No
-largo,stop word,NOUN,O,largar,No
+largo,Stop Word,NOUN,O,largar,No
 de,ADP,ADP,O,de,No
 los,DET,DET,O,lo,No
-últimos,stop word,ADJ,O,último,No
+últimos,Stop Word,ADJ,O,último,No
 meses,,NOUN,O,mesar,
 hemos,AUX,AUX,O,hemo,No
 recibido,,VERB,O,recibir,
@@ -3919,11 +3919,11 @@ parece,AUX,AUX,O,parecer,No
 evidente,,ADJ,O,evidente,
 que,SCONJ,SCONJ,O,que,No
 el,DET,DET,O,el,No
-uso,stop word,NOUN,O,usar,No
+uso,Stop Word,NOUN,O,usar,No
 que,PRON,PRON,O,que,No
 se,PRON,PRON,O,se,No
 le,PRON,PRON,O,le,No
-da,stop word,VERB,O,dar,No
+da,Stop Word,VERB,O,dar,No
 en,ADP,ADP,O,en,No
 los,DET,DET,O,lo,No
 medios,,NOUN,O,medio,
@@ -3932,7 +3932,7 @@ en,ADP,ADP,O,en,No
 el,DET,DET,O,el,No
 debate,,NOUN,O,debatir,
 político,,ADJ,O,político,
-va,stop word,VERB,O,ir,No
+va,Stop Word,VERB,O,ir,No
 más,ADV,ADV,O,más,No
 allá,ADV,ADV,O,allá,No
 de,ADP,ADP,O,de,No
@@ -3991,7 +3991,7 @@ que,PRON,PRON,O,que,No
 pretende,,VERB,O,pretender,
 devolver,,VERB,O,devolver,
 el,DET,DET,O,el,No
-poder,stop word,NOUN,O,poder,No
+poder,Stop Word,NOUN,O,poder,No
 a,ADP,ADP,O,a,No
 las,DET,DET,O,los,No
 masas,,NOUN,O,masa,
@@ -4003,7 +4003,7 @@ las,DET,DET,O,los,No
 """",PUNCT,PUNCT,O,"""",No
 .,PUNCT,PUNCT,O,.,No
 No,PART,PART,B,No,No
-obstante,name entity,NOUN,I,obstante,No
+obstante,Name Entity,NOUN,I,obstante,No
 ",",PUNCT,PUNCT,O,",",No
 en,ADP,ADP,O,en,No
 los,DET,DET,O,lo,No
@@ -4031,7 +4031,7 @@ las,DET,DET,O,los,No
 ideologías,,NOUN,O,ideología,
 pero,CONJ,CONJ,O,pero,No
 que,PRON,PRON,O,que,No
-tienen,stop word,VERB,O,tener,No
+tienen,Stop Word,VERB,O,tener,No
 en,ADP,ADP,O,en,No
 común,,NOUN,O,común,
 la,DET,DET,O,lo,No
@@ -4059,10 +4059,10 @@ Fundéu,PROPN,PROPN,B,Fundéu,No
 BBVA,PROPN,PROPN,I,BBVA,No
 .,PUNCT,PUNCT,O,.,No
 El,DET,DET,B,El,No
-interés,name entity,NOUN,I,interés,No
+interés,Name Entity,NOUN,I,interés,No
 de,ADP,ADP,I,de,No
 esa,DET,DET,I,ese,No
-evolución,name entity,NOUN,I,evolución,No
+evolución,Name Entity,NOUN,I,evolución,No
 ",",PUNCT,PUNCT,O,",",No
 de,ADP,ADP,O,de,No
 ese,DET,DET,O,ese,No
@@ -4078,7 +4078,7 @@ que,PRON,PRON,O,que,No
 está,AUX,AUX,O,estar,No
 ocurriendo,,VERB,O,ocurrir,
 cada,DET,DET,O,cada,No
-día,stop word,NOUN,O,día,No
+día,Stop Word,NOUN,O,día,No
 ante,ADP,ADP,O,ante,No
 nuestros,DET,DET,O,nuestro,No
 ojos,,NOUN,O,ojo,
@@ -4103,12 +4103,12 @@ populismo,,NOUN,O,populismo,
 .,PUNCT,PUNCT,O,.,No
 Antes,ADV,ADV,O,Antes,No
 de,ADP,ADP,O,de,No
-dar,stop word,VERB,O,dar,No
+dar,Stop Word,VERB,O,dar,No
 a,ADP,ADP,O,a,No
-conocer,stop word,VERB,O,conocer,No
+conocer,Stop Word,VERB,O,conocer,No
 la,DET,DET,O,lo,No
 decisión,,NOUN,O,decisión,
-final,stop word,ADJ,O,final,No
+final,Stop Word,ADJ,O,final,No
 ",",PUNCT,PUNCT,O,",",No
 la,DET,DET,O,lo,No
 Fundación,PROPN,PROPN,B,Fundación,No
@@ -4155,14 +4155,14 @@ inglés,,NOUN,O,inglés,
 phubbing,,NOUN,O,phubbing,
 que,SCONJ,SCONJ,O,que,No
 se,PRON,PRON,O,se,No
-usa,stop word,VERB,O,usar,No
+usa,Stop Word,VERB,O,usar,No
 para,ADP,ADP,O,parir,No
 definir,,VERB,O,definir,
 la,DET,DET,O,lo,No
 actitud,,NOUN,O,actitud,
 de,ADP,ADP,O,de,No
 quien,PRON,PRON,O,quien,No
-solo,stop word,ADJ,O,solo,No
+solo,Stop Word,ADJ,O,solo,No
 presta,,VERB,O,presto,
 atención,,NOUN,O,atención,
 a,ADP,ADP,O,a,No
@@ -4173,19 +4173,19 @@ mientras,SCONJ,SCONJ,O,mientras,No
 desatiende,,VERB,O,desatender,
 a,ADP,ADP,O,a,No
 quien,PRON,PRON,O,quien,No
-tiene,stop word,VERB,O,tener,No
+tiene,Stop Word,VERB,O,tener,No
 delante,ADV,ADV,O,delante,No
 .,PUNCT,PUNCT,O,.,No
 Otras,PRON,PRON,B,Otras,No
 de,ADP,ADP,I,de,No
 las,DET,DET,I,los,No
-presentes,name entity,ADJ,I,presente,No
+presentes,Name Entity,ADJ,I,presente,No
 en,ADP,ADP,I,en,No
 la,DET,DET,I,lo,No
-lista,name entity,NOUN,I,listo,No
-comparten,name entity,VERB,I,compartir,No
+lista,Name Entity,NOUN,I,listo,No
+comparten,Name Entity,VERB,I,compartir,No
 el,DET,DET,O,el,No
-hecho,stop word,NOUN,O,hacer,No
+hecho,Stop Word,NOUN,O,hacer,No
 de,ADP,ADP,O,de,No
 que,SCONJ,SCONJ,O,que,No
 sus,DET,DET,O,su,No
@@ -4195,11 +4195,11 @@ han,AUX,AUX,O,haber,No
 ido,AUX,AUX,O,ir,No
 ampliando,,VERB,O,ampliar,
 a,ADP,ADP,O,a,No
-través,stop word,NOUN,O,través,No
+través,Stop Word,NOUN,O,través,No
 del,ADP,ADP,O,del,No
-uso,stop word,NOUN,O,usar,No
+uso,Stop Word,NOUN,O,usar,No
 que,PRON,PRON,O,que,No
-hacen,stop word,VERB,O,hacer,No
+hacen,Stop Word,VERB,O,hacer,No
 de,ADP,ADP,O,de,No
 ellas,PRON,PRON,O,ellos,No
 los,DET,DET,O,lo,No
@@ -4212,7 +4212,7 @@ cuñadismo,,NOUN,O,cuñadismo,
 y,CONJ,CONJ,O,y,No
 vendehúmos,,VERB,O,vendehúmos,
 .,PUNCT,PUNCT,O,.,No
-Completaban,name entity,VERB,B,Completaban,No
+Completaban,Name Entity,VERB,B,Completaban,No
 la,DET,DET,O,lo,No
 lista,,NOUN,O,listo,
 términos,,NOUN,O,término,
@@ -4247,7 +4247,7 @@ al,ADP,ADP,O,al,No
 fracaso,,NOUN,O,fracasar,
 .,PUNCT,PUNCT,O,.,No
 Por,ADP,ADP,B,Por,No
-ejemplo,stop word,NOUN,I,ejemplo,No
+ejemplo,Stop Word,NOUN,I,ejemplo,No
 ",",PUNCT,PUNCT,O,",",No
 aunque,SCONJ,SCONJ,O,aunque,No
 el,DET,DET,O,el,No
@@ -4256,7 +4256,7 @@ ofrece,,VERB,O,ofrecer,
 la,DET,DET,O,lo,No
 posibilidad,,NOUN,O,posibilidad,
 de,ADP,ADP,O,de,No
-usar,stop word,VERB,O,usar,No
+usar,Stop Word,VERB,O,usar,No
 autofo,,NOUN,O,autofo,
 to,,NOUN,O,to,
 ",",PUNCT,PUNCT,O,",",No
@@ -4290,15 +4290,15 @@ comunicación,,NOUN,O,comunicación,
 .,PUNCT,PUNCT,O,.,No
 Por,ADP,ADP,B,Por,No
 las,DET,DET,I,los,No
-dudas,name entity,NOUN,I,dudar,No
+dudas,Name Entity,NOUN,I,dudar,No
 ",",PUNCT,PUNCT,O,",",No
 una,DET,DET,O,uno,No
 aclaración,,NOUN,O,aclaración,
 :,PUNCT,PUNCT,O,:,No
 selfie,,NOUN,O,selfie,
 ",",PUNCT,PUNCT,O,",",No
-es,stop word,NOUN,O,ser,No
-decir,stop word,NOUN,O,decir,No
+es,Stop Word,NOUN,O,ser,No
+decir,Stop Word,NOUN,O,decir,No
 ",",PUNCT,PUNCT,O,",",No
 la,DET,DET,O,lo,No
 autofoto,,NOUN,O,autofoto,
@@ -4326,29 +4326,29 @@ Oxford,PROPN,PROPN,B,Oxford,No
 .,PUNCT,PUNCT,O,.,No
 No,ADV,ADV,B,No,No
 es,AUX,AUX,I,ser,No
-culpa,name entity,NOUN,I,culpar,No
+culpa,Name Entity,NOUN,I,culpar,No
 de,ADP,ADP,I,de,No
 nadie,PRON,PRON,I,nadie,No
 la,DET,DET,I,lo,No
-popularidad,name entity,NOUN,I,popularidad,No
+popularidad,Name Entity,NOUN,I,popularidad,No
 de,ADP,ADP,I,de,No
-selfie,name entity,NOUN,I,selfie,No
+selfie,Name Entity,NOUN,I,selfie,No
 ",",PUNCT,PUNCT,O,",",No
 salvo,ADP,ADP,O,salvar,No
 del,ADP,ADP,O,del,No
-uso,stop word,NOUN,O,usar,No
+uso,Stop Word,NOUN,O,usar,No
 que,PRON,PRON,O,que,No
 ",",PUNCT,PUNCT,O,",",No
 admitámoslo,,NOUN,O,admitámoslo,
 ",",PUNCT,PUNCT,O,",",No
 toma,,VERB,O,tomar,
 sus,DET,DET,O,su,No
-propias,stop word,ADJ,O,propio,No
+propias,Stop Word,ADJ,O,propio,No
 decisiones,,NOUN,O,decisión,
 .,PUNCT,PUNCT,O,.,No
 Algo,PRON,PRON,B,Algo,No
-parecido,name entity,ADJ,I,parecer,No
-ocurre,name entity,VERB,I,ocurrir,No
+parecido,Name Entity,ADJ,I,parecer,No
+ocurre,Name Entity,VERB,I,ocurrir,No
 con,ADP,ADP,O,con,No
 otra,DET,DET,O,otro,No
 pareja,,NOUN,O,parejo,
@@ -4390,8 +4390,8 @@ escritura,,NOUN,O,escriturar,
 .,PUNCT,PUNCT,O,.,No
 En,ADP,ADP,B,En,No
 los,DET,DET,I,lo,No
-últimos,stop word,ADJ,I,último,No
-tiempos,name entity,NOUN,I,tiempo,No
+últimos,Stop Word,ADJ,I,último,No
+tiempos,Name Entity,NOUN,I,tiempo,No
 la,DET,DET,O,lo,No
 Fundación,PROPN,PROPN,B,Fundación,No
 del,ADP,ADP,I,del,No
@@ -4400,12 +4400,12 @@ Urgente,PROPN,PROPN,I,Urgente,No
 (,PUNCT,PUNCT,O,(,No
 Fundéu,PROPN,PROPN,B,Fundéu,No
 ),PUNCT,PUNCT,O,),No
-hizo,stop word,VERB,O,hacer,No
+hizo,Stop Word,VERB,O,hacer,No
 varias,DET,DET,O,varios,No
 recomendaciones,,NOUN,O,recomendación,
 sobre,ADP,ADP,O,sobrar,No
 el,DET,DET,O,el,No
-uso,stop word,NOUN,O,usar,No
+uso,Stop Word,NOUN,O,usar,No
 de,ADP,ADP,O,de,No
 extranjerismos,,NOUN,O,extranjerismo,
 y,CONJ,CONJ,O,y,No
@@ -4450,7 +4450,7 @@ del,ADP,ADP,O,del,No
 deporte,,NOUN,O,deportar,
 """",PUNCT,PUNCT,O,"""",No
 .,PUNCT,PUNCT,O,.,No
-Daba,name entity,VERB,B,Daba,No
+Daba,Name Entity,VERB,B,Daba,No
 Fundéu,PROPN,PROPN,I,Fundéu,No
 más,ADV,ADV,O,más,No
 razones,,NOUN,O,razonar,
@@ -4458,9 +4458,9 @@ razones,,NOUN,O,razonar,
 """",PUNCT,PUNCT,O,"""",No
 El,DET,DET,O,El,No
 Diccionario,PROPN,PROPN,B,Diccionario,No
-panhispánico,name entity,ADJ,I,panhispánico,No
+panhispánico,Name Entity,ADJ,I,panhispánico,No
 de,ADP,ADP,I,de,No
-dudas,name entity,NOUN,I,dudar,No
+dudas,Name Entity,NOUN,I,dudar,No
 indica,,VERB,O,indicar,
 que,SCONJ,SCONJ,O,que,No
 la,DET,DET,O,lo,No
@@ -4483,7 +4483,7 @@ o,CONJ,CONJ,O,o,No
 juego,,NOUN,O,jugar,
 »,PUNCT,PUNCT,O,»,No
 ",",PUNCT,PUNCT,O,",",No
-hace,stop word,VERB,O,hacer,No
+hace,Stop Word,VERB,O,hacer,No
 innecesario,,ADJ,O,innecesario,
 el,DET,DET,O,el,No
 anglicismo,,NOUN,O,anglicismo,
@@ -4579,9 +4579,9 @@ dos,NUM,NUM,O,do,No
 acentuaciones,,NOUN,O,acentuación,
 válidas,,ADJ,O,válido,
 se,PRON,PRON,O,se,No
-debe,stop word,VERB,O,deber,No
+debe,Stop Word,VERB,O,deber,No
 al,ADP,ADP,O,al,No
-hecho,stop word,NOUN,O,hacer,No
+hecho,Stop Word,NOUN,O,hacer,No
 de,ADP,ADP,O,de,No
 que,SCONJ,SCONJ,O,que,No
 en,ADP,ADP,O,en,No
@@ -4702,7 +4702,7 @@ el,DET,DET,O,el,No
 extranjero,,NOUN,O,extranjero,
 »,PUNCT,PUNCT,O,»,No
 ",",PUNCT,PUNCT,O,",",No
-tal,stop word,NOUN,O,tal,No
+tal,Stop Word,NOUN,O,tal,No
 como,SCONJ,SCONJ,O,comer,No
 indica,,VERB,O,indicar,
 el,DET,DET,O,el,No
@@ -4740,8 +4740,8 @@ lo,DET,DET,I,el,No
 menos,ADV,ADV,I,menos,No
 ",",PUNCT,PUNCT,O,",",No
 cuando,SCONJ,SCONJ,O,cuando,No
-tenga,stop word,VERB,O,tener,No
-lugar,stop word,NOUN,O,lugar,No
+tenga,Stop Word,VERB,O,tener,No
+lugar,Stop Word,NOUN,O,lugar,No
 ",",PUNCT,PUNCT,O,",",No
 del,ADP,ADP,O,del,No
 6,NUM,NUM,O,6,No
@@ -4749,7 +4749,7 @@ al,ADP,ADP,O,al,No
 8,NUM,NUM,O,8,No
 de,ADP,ADP,O,de,No
 junio,,NOUN,O,junio,
-próximo,stop word,ADJ,O,próximo,No
+próximo,Stop Word,ADJ,O,próximo,No
 ",",PUNCT,PUNCT,O,",",No
 el,DET,DET,O,el,No
 Primer,PROPN,PROPN,B,Primer,No
@@ -4768,8 +4768,8 @@ lema,,NOUN,O,lema,
 es,AUX,AUX,O,ser,No
 """",PUNCT,PUNCT,O,"""",No
 La,DET,DET,B,La,No
-presencia,name entity,NOUN,I,presenciar,No
-hispana,name entity,ADJ,I,hispano,No
+presencia,Name Entity,NOUN,I,presenciar,No
+hispana,Name Entity,ADJ,I,hispano,No
 y,CONJ,CONJ,O,y,No
 el,DET,DET,O,el,No
 español,,NOUN,O,español,
@@ -4806,7 +4806,7 @@ estadounidense,,ADJ,O,estadounidense,
 .,PUNCT,PUNCT,O,.,No
 Algo,PRON,PRON,B,Algo,No
 que,PRON,PRON,I,que,No
-vaya,stop word,VERB,I,ir,No
+vaya,Stop Word,VERB,I,ir,No
 más,ADV,ADV,I,más,No
 allá,ADV,ADV,I,allá,No
 del,ADP,ADP,I,del,No
@@ -4833,10 +4833,10 @@ ARTICLE0041,PROPN,PROPN,B,ARTICLE0041,No
 Perros,PROPN,PROPN,I,Perros,No
 en,ADP,ADP,I,en,No
 la,DET,DET,I,lo,No
-oficina,name entity,NOUN,I,oficina,No
+oficina,Name Entity,NOUN,I,oficina,No
 :,PUNCT,PUNCT,I,:,No
 las,DET,DET,I,los,No
-mascotas,name entity,NOUN,I,mascota,No
+mascotas,Name Entity,NOUN,I,mascota,No
 ladran,,VERB,O,ladrar,
 fuerte,,ADJ,O,fuerte,
 en,ADP,ADP,O,en,No
@@ -4852,7 +4852,7 @@ en,ADP,ADP,O,en,No
 una,DET,DET,O,uno,No
 mañana,,NOUN,O,mañana,
 de,ADP,ADP,O,de,No
-trabajo,stop word,NOUN,O,trabajar,No
+trabajo,Stop Word,NOUN,O,trabajar,No
 en,ADP,ADP,O,en,No
 Findasense,PROPN,PROPN,B,Findasense,No
 .,PUNCT,PUNCT,O,.,No
@@ -4879,15 +4879,15 @@ son,AUX,AUX,O,ser,No
 bienvenidos,,ADJ,O,bienvenido,
 a,ADP,ADP,O,a,No
 compartir,,VERB,O,compartir,
-horas,stop word,NOUN,O,hora,No
+horas,Stop Word,NOUN,O,hora,No
 de,ADP,ADP,O,de,No
-trabajo,stop word,NOUN,O,trabajar,No
+trabajo,Stop Word,NOUN,O,trabajar,No
 con,ADP,ADP,O,con,No
 sus,DET,DET,O,su,No
 mascotas,,NOUN,O,mascota,
 En,ADP,ADP,B,En,No
 la,DET,DET,I,lo,No
-oficina,name entity,NOUN,I,oficina,No
+oficina,Name Entity,NOUN,I,oficina,No
 de,ADP,ADP,I,de,No
 Findasense,PROPN,PROPN,I,Findasense,No
 no,ADV,ADV,O,no,No
@@ -4897,13 +4897,13 @@ de,ADP,ADP,O,de,No
 basura,,NOUN,O,basura,
 .,PUNCT,PUNCT,O,.,No
 El,DET,DET,B,El,No
-afán,name entity,NOUN,I,afán,No
+afán,Name Entity,NOUN,I,afán,No
 """",PUNCT,PUNCT,O,"""",No
 ecologista,,ADJ,O,ecologista,
 """",PUNCT,PUNCT,O,"""",No
 de,ADP,ADP,O,de,No
 Tiikka,PROPN,PROPN,B,Tiikka,No
-hizo,stop word,VERB,O,hacer,No
+hizo,Stop Word,VERB,O,hacer,No
 que,SCONJ,SCONJ,O,que,No
 los,DET,DET,O,lo,No
 fundadores,,NOUN,O,fundador,
@@ -4913,7 +4913,7 @@ consultora,,NOUN,O,consultor,
 revisaran,,VERB,O,revisar,
 su,DET,DET,O,su,No
 política,,NOUN,O,político,
-respecto,stop word,NOUN,O,respectar,No
+respecto,Stop Word,NOUN,O,respectar,No
 de,ADP,ADP,O,de,No
 los,DET,DET,O,lo,No
 residuos,,NOUN,O,residuo,
@@ -4933,7 +4933,7 @@ todos,DET,DET,O,todo,No
 los,DET,DET,O,lo,No
 labradores,,NOUN,O,labrador,
 .,PUNCT,PUNCT,O,.,No
-Tuvimos,name entity,VERB,B,Tuvimos,No
+Tuvimos,Name Entity,VERB,B,Tuvimos,No
 que,SCONJ,SCONJ,O,que,No
 quitar,,VERB,O,quitar,
 todos,DET,DET,O,todo,No
@@ -4955,7 +4955,7 @@ para,ADP,ADP,O,parir,No
 comer,,VERB,O,comer,
 """",PUNCT,PUNCT,O,"""",No
 ",",PUNCT,PUNCT,O,",",No
-cuenta,stop word,VERB,O,contar,No
+cuenta,Stop Word,VERB,O,contar,No
 su,DET,DET,O,su,No
 """",PUNCT,PUNCT,O,"""",No
 papá,,NOUN,O,papá,
@@ -4972,7 +4972,7 @@ fundadores,,NOUN,O,fundador,
 de,ADP,ADP,O,de,No
 Findasense,PROPN,PROPN,B,Findasense,No
 .,PUNCT,PUNCT,O,.,No
-Solucionado,name entity,ADJ,B,Solucionado,No
+Solucionado,Name Entity,ADJ,B,Solucionado,No
 el,DET,DET,O,el,No
 tema,,NOUN,O,temer,
 ",",PUNCT,PUNCT,O,",",No
@@ -5012,7 +5012,7 @@ delitos,,NOUN,O,delito,
 laborales,,ADJ,O,laboral,
 :,PUNCT,PUNCT,O,:,No
 cada,DET,DET,O,cada,No
-tanto,stop word,NOUN,O,tanto,No
+tanto,Stop Word,NOUN,O,tanto,No
 se,PRON,PRON,O,se,No
 come,,VERB,O,comer,
 el,DET,DET,O,el,No
@@ -5021,7 +5021,7 @@ de,ADP,ADP,O,de,No
 algún,DET,DET,O,alguno,No
 compañero,,NOUN,O,compañero,
 de,ADP,ADP,O,de,No
-trabajo,stop word,NOUN,O,trabajar,No
+trabajo,Stop Word,NOUN,O,trabajar,No
 .,PUNCT,PUNCT,O,.,No
 """",PUNCT,PUNCT,O,"""",No
 Si,SCONJ,SCONJ,O,Si,No
@@ -5089,9 +5089,9 @@ empleados,,NOUN,O,emplear,
 de,ADP,ADP,O,de,No
 algunas,DET,DET,O,alguno,No
 empresas,,NOUN,O,empresa,
-van,stop word,VERB,O,ir,No
+van,Stop Word,VERB,O,ir,No
 al,ADP,ADP,O,al,No
-trabajo,stop word,NOUN,O,trabajar,No
+trabajo,Stop Word,NOUN,O,trabajar,No
 con,ADP,ADP,O,con,No
 sus,DET,DET,O,su,No
 perros,,NOUN,O,perro,
@@ -5130,8 +5130,8 @@ pet,ADP,ADP,O,pet,No
 friendly,,NOUN,O,friendly,
 """",PUNCT,PUNCT,O,"""",No
 (,PUNCT,PUNCT,O,(,No
-es,stop word,NOUN,O,ser,No
-decir,stop word,NOUN,O,decir,No
+es,Stop Word,NOUN,O,ser,No
+decir,Stop Word,NOUN,O,decir,No
 ",",PUNCT,PUNCT,O,",",No
 amigable,,ADJ,O,amigable,
 con,ADP,ADP,O,con,No
@@ -5139,9 +5139,9 @@ las,DET,DET,O,los,No
 mascotas,,NOUN,O,mascota,
 ),PUNCT,PUNCT,O,),No
 .,PUNCT,PUNCT,O,.,No
-Reglas,name entity,NOUN,B,Reglas,No
+Reglas,Name Entity,NOUN,B,Reglas,No
 de,ADP,ADP,I,de,No
-convivencia,name entity,NOUN,I,convivencia,No
+convivencia,Name Entity,NOUN,I,convivencia,No
 Como,SCONJ,SCONJ,I,Como,No
 todo,DET,DET,O,todo,No
 fenómeno,,NOUN,O,fenómeno,
@@ -5162,8 +5162,8 @@ previamente,ADV,ADV,O,previamente,No
 establecido,,ADJ,O,establecer,
 .,PUNCT,PUNCT,O,.,No
 El,DET,DET,B,El,No
-factor,name entity,NOUN,I,factor,No
-común,name entity,ADJ,I,común,No
+factor,Name Entity,NOUN,I,factor,No
+común,Name Entity,ADJ,I,común,No
 en,ADP,ADP,O,en,No
 estas,DET,DET,O,este,No
 iniciativas,,NOUN,O,iniciativo,
@@ -5184,37 +5184,37 @@ tu,DET,DET,O,tu,No
 mascota,,NOUN,O,mascota,
 ",",PUNCT,PUNCT,O,",",No
 podés,,NOUN,O,podés,
-hacerlo,stop word,VERB,O,hacerlo,No
+hacerlo,Stop Word,VERB,O,hacerlo,No
 .,PUNCT,PUNCT,O,.,No
 Cada,DET,DET,B,Cada,No
 uno,PRON,PRON,I,unir,No
 es,AUX,AUX,I,ser,No
-responsable,name entity,ADJ,I,responsable,No
+responsable,Name Entity,ADJ,I,responsable,No
 de,ADP,ADP,I,de,No
 las,DET,DET,I,los,No
-necesidades,name entity,NOUN,I,necesidad,No
+necesidades,Name Entity,NOUN,I,necesidad,No
 de,ADP,ADP,I,de,No
 su,DET,DET,I,su,No
-mascota,name entity,NOUN,I,mascota,No
+mascota,Name Entity,NOUN,I,mascota,No
 en,ADP,ADP,I,en,No
 la,DET,DET,I,lo,No
-oficina,name entity,NOUN,I,oficina,No
+oficina,Name Entity,NOUN,I,oficina,No
 .,PUNCT,PUNCT,O,.,No
 Se,PRON,PRON,B,Se,No
-ordena,name entity,VERB,I,ordenar,No
+ordena,Name Entity,VERB,I,ordenar,No
 naturalmente,ADV,ADV,I,naturalmente,No
 .,PUNCT,PUNCT,O,.,No
-Aplicamos,name entity,VERB,B,Aplicamos,No
+Aplicamos,Name Entity,VERB,B,Aplicamos,No
 el,DET,DET,I,el,No
 mismo,DET,DET,I,mismo,No
-parámetro,name entity,NOUN,I,parámetro,No
+parámetro,Name Entity,NOUN,I,parámetro,No
 que,PRON,PRON,O,que,No
 con,ADP,ADP,O,con,No
 las,DET,DET,O,los,No
 personas,,NOUN,O,personar,
 .,PUNCT,PUNCT,O,.,No
 Por,ADP,ADP,B,Por,No
-ejemplo,stop word,NOUN,I,ejemplo,No
+ejemplo,Stop Word,NOUN,I,ejemplo,No
 ",",PUNCT,PUNCT,O,",",No
 cualquier,DET,DET,O,cualquiera,No
 persona,,NOUN,O,personar,
@@ -5283,15 +5283,15 @@ así,ADV,ADV,O,asir,No
 .,PUNCT,PUNCT,O,.,No
 Se,PRON,PRON,B,Se,No
 va,AUX,AUX,I,ir,No
-viendo,name entity,VERB,I,ver,No
+viendo,Name Entity,VERB,I,ver,No
 y,CONJ,CONJ,I,y,No
-charlando,name entity,VERB,I,charlar,No
+charlando,Name Entity,VERB,I,charlar,No
 en,ADP,ADP,I,en,No
 el,DET,DET,I,el,No
-momento,stop word,NOUN,I,momento,No
+momento,Stop Word,NOUN,I,momento,No
 """",PUNCT,PUNCT,O,"""",No
 ",",PUNCT,PUNCT,O,",",No
-cuenta,stop word,VERB,O,contar,No
+cuenta,Stop Word,VERB,O,contar,No
 Mariano,PROPN,PROPN,B,Mariano,No
 Ricciarelli,PROPN,PROPN,I,Ricciarelli,No
 ",",PUNCT,PUNCT,O,",",No
@@ -5310,7 +5310,7 @@ idea,,NOUN,O,ideo,
 de,ADP,ADP,O,de,No
 comunidad,,NOUN,O,comunidad,
 y,CONJ,CONJ,O,y,No
-trabajo,stop word,VERB,O,trabajar,No
+trabajo,Stop Word,VERB,O,trabajar,No
 en,ADP,ADP,O,en,No
 conjunto,,NOUN,O,conjuntar,
 en,ADP,ADP,O,en,No
@@ -5342,7 +5342,7 @@ tema,,NOUN,O,temer,
 en,ADP,ADP,O,en,No
 particular,,NOUN,O,particular,
 necesitás,,ADJ,O,necesitás,
-hacerlo,stop word,VERB,O,hacerlo,No
+hacerlo,Stop Word,VERB,O,hacerlo,No
 """",PUNCT,PUNCT,O,"""",No
 ",",PUNCT,PUNCT,O,",",No
 explica,,VERB,O,explicar,
@@ -5389,7 +5389,7 @@ lunes,,NOUN,O,lunes,
 a,ADP,ADP,O,a,No
 viernes,,NOUN,O,viernes,
 .,PUNCT,PUNCT,O,.,No
-Explica,name entity,VERB,B,Explica,No
+Explica,Name Entity,VERB,B,Explica,No
 que,SCONJ,SCONJ,O,que,No
 antes,ADV,ADV,O,antes,No
 de,ADP,ADP,O,de,No
@@ -5397,7 +5397,7 @@ tomar,,VERB,O,tomar,
 la,DET,DET,O,lo,No
 decisión,,NOUN,O,decisión,
 ",",PUNCT,PUNCT,O,",",No
-hicieron,stop word,VERB,O,hacer,No
+hicieron,Stop Word,VERB,O,hacer,No
 una,DET,DET,O,uno,No
 encuesta,,NOUN,O,encuestar,
 entre,ADP,ADP,O,entrar,No
@@ -5423,18 +5423,18 @@ conocieron,,VERB,O,conocer,
 a,ADP,ADP,O,a,No
 Isidro,PROPN,PROPN,B,Isidro,No
 .,PUNCT,PUNCT,O,.,No
-Tenía,name entity,VERB,B,Tenía,No
+Tenía,Name Entity,VERB,B,Tenía,No
 sólo,ADV,ADV,O,sólo,No
 6,NUM,NUM,O,6,No
 meses,,NOUN,O,mesar,
 cuando,SCONJ,SCONJ,O,cuando,No
-llegó,stop word,VERB,O,llegar,No
+llegó,Stop Word,VERB,O,llegar,No
 a,ADP,ADP,O,a,No
 la,DET,DET,O,lo,No
 empresa,,NOUN,O,empresa,
 .,PUNCT,PUNCT,O,.,No
 Al,ADP,ADP,B,Al,No
-principio,name entity,NOUN,I,principiar,No
+principio,Name Entity,NOUN,I,principiar,No
 ",",PUNCT,PUNCT,O,",",No
 dormía,,VERB,O,dormir,
 algunas,DET,DET,O,alguno,No
@@ -5448,11 +5448,11 @@ no,ADV,ADV,O,no,No
 le,PRON,PRON,O,le,No
 gustaba,,VERB,O,gustar,
 quedarse,ADP,ADP,O,quedarse,No
-solo,stop word,ADJ,O,solo,No
+solo,Stop Word,ADJ,O,solo,No
 .,PUNCT,PUNCT,O,.,No
 Entonces,ADV,ADV,B,Entonces,No
 dos,NUM,NUM,I,do,No
-compañeras,name entity,NOUN,I,compañero,No
+compañeras,Name Entity,NOUN,I,compañero,No
 decidieron,,VERB,O,decidir,
 turnarse,,NOUN,O,turnarse,
 para,ADP,ADP,O,parir,No
@@ -5502,9 +5502,9 @@ divino,,ADJ,O,divino,
 .,PUNCT,PUNCT,O,.,No
 Cuando,SCONJ,SCONJ,B,Cuando,No
 lo,PRON,PRON,I,el,No
-llevo,name entity,VERB,I,llevar,No
+llevo,Name Entity,VERB,I,llevar,No
 a,ADP,ADP,I,a,No
-pasear,name entity,VERB,I,pasear,No
+pasear,Name Entity,VERB,I,pasear,No
 saluda,,NOUN,O,saludar,
 a,ADP,ADP,O,a,No
 todos,PRON,PRON,O,todo,No
@@ -5545,8 +5545,8 @@ Adyouwish,PROPN,PROPN,B,Adyouwish,No
 Después,ADV,ADV,B,Después,No
 de,ADP,ADP,O,de,No
 sus,DET,DET,O,su,No
-primeros,stop word,ADJ,O,primero,No
-días,stop word,NOUN,O,día,No
+primeros,Stop Word,ADJ,O,primero,No
+días,Stop Word,NOUN,O,día,No
 en,ADP,ADP,O,en,No
 la,DET,DET,O,lo,No
 agencia,,NOUN,O,agenciar,
@@ -5580,24 +5580,24 @@ Ahora,ADV,ADV,B,Ahora,No
 pasó,,VERB,O,pasar,
 a,ADP,ADP,O,a,No
 ser,AUX,AUX,O,ser,No
-parte,stop word,NOUN,O,partir,No
+parte,Stop Word,NOUN,O,partir,No
 de,ADP,ADP,O,de,No
 la,DET,DET,O,lo,No
 oficina,,NOUN,O,oficina,
 .,PUNCT,PUNCT,O,.,No
 Se,PRON,PRON,B,Se,No
-porta,name entity,VERB,I,portar,No
+porta,Name Entity,VERB,I,portar,No
 muy,ADV,ADV,I,muy,No
 bien,ADV,ADV,I,bien,No
 .,PUNCT,PUNCT,O,.,No
 El,DET,DET,B,El,No
-estudio,name entity,NOUN,I,estudiar,No
-está,stop word,VERB,I,estar,No
+estudio,Name Entity,NOUN,I,estudiar,No
+está,Stop Word,VERB,I,estar,No
 en,ADP,ADP,I,en,No
 un,DET,DET,I,uno,No
-edificio,name entity,NOUN,I,edificio,No
+edificio,Name Entity,NOUN,I,edificio,No
 de,ADP,ADP,I,de,No
-oficinas,name entity,NOUN,I,oficina,No
+oficinas,Name Entity,NOUN,I,oficina,No
 ",",PUNCT,PUNCT,O,",",No
 entonces,ADV,ADV,O,entonces,No
 cuando,SCONJ,SCONJ,O,cuando,No
@@ -5620,16 +5620,16 @@ sorprenden,,VERB,O,sorprender,
 mucho,ADV,ADV,O,mucho,No
 .,PUNCT,PUNCT,O,.,No
 La,DET,DET,B,La,No
-gente,name entity,NOUN,I,gente,No
+gente,Name Entity,NOUN,I,gente,No
 de,ADP,ADP,I,de,No
-seguridad,name entity,NOUN,I,seguridad,No
+seguridad,Name Entity,NOUN,I,seguridad,No
 lo,PRON,PRON,I,el,No
-adora,name entity,VERB,I,adorar,No
+adora,Name Entity,VERB,I,adorar,No
 .,PUNCT,PUNCT,O,.,No
 Se,PRON,PRON,B,Se,No
-hizo,stop word,VERB,I,hacer,No
+hizo,Stop Word,VERB,I,hacer,No
 muy,ADV,ADV,I,muy,No
-popular,name entity,ADJ,I,popular,No
+popular,Name Entity,ADJ,I,popular,No
 en,ADP,ADP,O,en,No
 el,DET,DET,O,el,No
 edificio,,NOUN,O,edificio,
@@ -5641,16 +5641,16 @@ clientes,,NOUN,O,cliente,
 .,PUNCT,PUNCT,O,.,No
 Los,DET,DET,B,Los,No
 más,ADV,ADV,I,más,No
-perreros,name entity,NOUN,I,perrero,No
+perreros,Name Entity,NOUN,I,perrero,No
 le,PRON,PRON,I,le,No
-juegan,name entity,VERB,I,jugar,No
+juegan,Name Entity,VERB,I,jugar,No
 y,CONJ,CONJ,I,y,No
 Ringo,PROPN,PROPN,I,Ringo,No
 es,AUX,AUX,O,ser,No
 feliz,,ADJ,O,feliz,
 """",PUNCT,PUNCT,O,"""",No
 ",",PUNCT,PUNCT,O,",",No
-cuenta,stop word,VERB,O,contar,No
+cuenta,Stop Word,VERB,O,contar,No
 Matías,PROPN,PROPN,B,Matías,No
 Vázquez,PROPN,PROPN,I,Vázquez,No
 ",",PUNCT,PUNCT,O,",",No
@@ -5676,12 +5676,12 @@ sobre,ADP,ADP,O,sobrar,No
 los,DET,DET,O,lo,No
 perros,,NOUN,O,perro,
 por,ADP,ADP,O,por,No
-parte,stop word,NOUN,O,partir,No
+parte,Stop Word,NOUN,O,partir,No
 de,ADP,ADP,O,de,No
 sus,DET,DET,O,su,No
 compañeros,,NOUN,O,compañero,
 de,ADP,ADP,O,de,No
-trabajo,stop word,NOUN,O,trabajar,No
+trabajo,Stop Word,NOUN,O,trabajar,No
 o,CONJ,CONJ,O,o,No
 clientes,,NOUN,O,cliente,
 .,PUNCT,PUNCT,O,.,No
@@ -5690,7 +5690,7 @@ Sofía,PROPN,PROPN,B,Sofía,No
 de,ADP,ADP,O,de,No
 Havas,PROPN,PROPN,B,Havas,No
 ",",PUNCT,PUNCT,O,",",No
-hace,stop word,VERB,O,hacer,No
+hace,Stop Word,VERB,O,hacer,No
 referencia,,NOUN,O,referenciar,
 a,ADP,ADP,O,a,No
 una,PRON,PRON,O,uno,No
@@ -5723,7 +5723,7 @@ gustaba,,VERB,O,gustar,
 él,PRON,PRON,O,él,No
 .,PUNCT,PUNCT,O,.,No
 Se,PRON,PRON,B,Se,No
-odiaban,name entity,VERB,I,odiar,No
+odiaban,Name Entity,VERB,I,odiar,No
 mutuamente,ADV,ADV,I,mutuamente,No
 .,PUNCT,PUNCT,O,.,No
 Isidro,PROPN,PROPN,B,Isidro,No
@@ -5732,7 +5732,7 @@ hacía,,VERB,O,hacer,
 sus,DET,DET,O,su,No
 necesidades,,NOUN,O,necesidad,
 al,ADP,ADP,O,al,No
-lado,stop word,NOUN,O,lado,No
+lado,Stop Word,NOUN,O,lado,No
 de,ADP,ADP,O,de,No
 su,DET,DET,O,su,No
 escritorio,,NOUN,O,escritorio,
@@ -5751,13 +5751,13 @@ no,ADV,ADV,O,no,No
 lo,PRON,PRON,O,el,No
 volvió,AUX,AUX,O,volver,No
 a,ADP,ADP,O,a,No
-hacer,stop word,VERB,O,hacer,No
+hacer,Stop Word,VERB,O,hacer,No
 """",PUNCT,PUNCT,O,"""",No
 ",",PUNCT,PUNCT,O,",",No
-cuenta,stop word,VERB,O,contar,No
+cuenta,Stop Word,VERB,O,contar,No
 .,PUNCT,PUNCT,O,.,No
 Wicky,PROPN,PROPN,B,Wicky,No
-tiene,stop word,VERB,O,tener,No
+tiene,Stop Word,VERB,O,tener,No
 15,NUM,NUM,O,15,No
 años,,NOUN,O,año,
 ",",PUNCT,PUNCT,O,",",No
@@ -5765,7 +5765,7 @@ y,CONJ,CONJ,O,y,No
 hace,AUX,AUX,O,hacer,No
 3,NUM,NUM,O,3,No
 se,PRON,PRON,O,se,No
-quedó,stop word,VERB,O,quedar,No
+quedó,Stop Word,VERB,O,quedar,No
 ciega,,ADJ,O,ciego,
 Cloc,PROPN,PROPN,B,Cloc,No
 ",",PUNCT,PUNCT,O,",",No
@@ -5774,10 +5774,10 @@ cloc,,NOUN,O,cloc,
 cloc,,NOUN,O,cloc,
 .,PUNCT,PUNCT,O,.,No
 El,DET,DET,B,El,No
-sonido,name entity,NOUN,I,sonido,No
+sonido,Name Entity,NOUN,I,sonido,No
 de,ADP,ADP,I,de,No
 los,DET,DET,I,lo,No
-pasos,name entity,NOUN,I,paso,No
+pasos,Name Entity,NOUN,I,paso,No
 de,ADP,ADP,O,de,No
 Wicky,PROPN,PROPN,B,Wicky,No
 sobre,ADP,ADP,O,sobrar,No
@@ -5794,7 +5794,7 @@ de,ADP,ADP,O,de,No
 Jengibre,PROPN,PROPN,B,Jengibre,No
 .,PUNCT,PUNCT,O,.,No
 Su,DET,DET,O,Su,No
-ir,stop word,VERB,O,ir,No
+ir,Stop Word,VERB,O,ir,No
 y,CONJ,CONJ,O,y,No
 venir,,VERB,O,venir,
 entre,ADP,ADP,O,entrar,No
@@ -5807,7 +5807,7 @@ número,,NOUN,O,número,
 de,ADP,ADP,O,de,No
 tap,,NOUN,O,tap,
 .,PUNCT,PUNCT,O,.,No
-Nació,name entity,VERB,B,Nació,No
+Nació,Name Entity,VERB,B,Nació,No
 hace,AUX,AUX,O,hacer,No
 15,NUM,NUM,O,15,No
 años,,NOUN,O,año,
@@ -5858,7 +5858,7 @@ la,DET,DET,O,lo,No
 interacción,,NOUN,O,interacción,
 es,AUX,AUX,O,ser,No
 muy,ADV,ADV,O,muy,No
-buena,stop word,ADJ,O,bueno,No
+buena,Stop Word,ADJ,O,bueno,No
 """",PUNCT,PUNCT,O,"""",No
 ",",PUNCT,PUNCT,O,",",No
 sostiene,,VERB,O,sostener,
@@ -5881,7 +5881,7 @@ Para,ADP,ADP,O,Para,No
 Romina,PROPN,PROPN,B,Romina,No
 esto,PRON,PRON,O,este,No
 es,AUX,AUX,O,ser,No
-posible,stop word,ADJ,O,posible,No
+posible,Stop Word,ADJ,O,posible,No
 por,ADP,ADP,O,por,No
 el,DET,DET,O,el,No
 perfil,,NOUN,O,perfil,
@@ -5900,9 +5900,9 @@ principio,,NOUN,O,principiar,
 me,PRON,PRON,O,me,No
 pareció,,VERB,O,parecer,
 que,SCONJ,SCONJ,O,que,No
-tenía,stop word,VERB,O,tener,No
+tenía,Stop Word,VERB,O,tener,No
 que,SCONJ,SCONJ,O,que,No
-ver,stop word,VERB,O,ver,No
+ver,Stop Word,VERB,O,ver,No
 con,ADP,ADP,O,con,No
 la,DET,DET,O,lo,No
 identidad,,NOUN,O,identidad,
@@ -5922,10 +5922,10 @@ de,ADP,ADP,O,de,No
 moda,,NOUN,O,moda,
 ",",PUNCT,PUNCT,O,",",No
 que,PRON,PRON,O,que,No
-tienen,stop word,VERB,O,tener,No
+tienen,Stop Word,VERB,O,tener,No
 mucho,ADV,ADV,O,mucho,No
 que,SCONJ,SCONJ,O,que,No
-ver,stop word,VERB,O,ver,No
+ver,Stop Word,VERB,O,ver,No
 con,ADP,ADP,O,con,No
 esta,DET,DET,O,este,No
 tendencia,,NOUN,O,tendencia,
@@ -5937,13 +5937,13 @@ friendly,,NOUN,O,friendly,
 Además,ADV,ADV,B,Además,No
 ",",PUNCT,PUNCT,O,",",No
 Wicky,PROPN,PROPN,B,Wicky,No
-hace,stop word,VERB,O,hacer,No
+hace,Stop Word,VERB,O,hacer,No
 que,SCONJ,SCONJ,O,que,No
 el,DET,DET,O,el,No
 estudio,,NOUN,O,estudiar,
 sea,AUX,AUX,O,ser,No
 un,DET,DET,O,uno,No
-lugar,stop word,NOUN,O,lugar,No
+lugar,Stop Word,NOUN,O,lugar,No
 más,ADV,ADV,O,más,No
 cálido,,ADJ,O,cálido,
 ",",PUNCT,PUNCT,O,",",No
@@ -5980,7 +5980,7 @@ la,DET,DET,O,lo,No
 idea,,NOUN,O,ideo,
 del,ADP,ADP,O,del,No
 balance,,NOUN,O,balance,
-trabajo,stop word,NOUN,O,trabajar,No
+trabajo,Stop Word,NOUN,O,trabajar,No
 /,PUNCT,PUNCT,O,/,No
 casa,,NOUN,O,casar,
 sino,CONJ,CONJ,O,sino,No
@@ -5993,7 +5993,7 @@ integration,,ADJ,O,integration,
 integración,,NOUN,O,integración,
 entre,ADP,ADP,O,entrar,No
 el,DET,DET,O,el,No
-trabajo,stop word,NOUN,O,trabajar,No
+trabajo,Stop Word,NOUN,O,trabajar,No
 y,CONJ,CONJ,O,y,No
 el,DET,DET,O,el,No
 resto,,NOUN,O,restar,
@@ -6021,7 +6021,7 @@ la,DET,DET,O,lo,No
 oficina,,NOUN,O,oficina,
 y,CONJ,CONJ,O,y,No
 no,ADV,ADV,O,no,No
-tiene,stop word,VERB,O,tener,No
+tiene,Stop Word,VERB,O,tener,No
 que,SCONJ,SCONJ,O,que,No
 ponerse,,NOUN,O,ponerse,
 la,DET,DET,O,lo,No
@@ -6034,14 +6034,14 @@ y,CONJ,CONJ,O,y,No
 quitársela,,VERB,O,quitársela,
 cuando,SCONJ,SCONJ,O,cuando,No
 se,PRON,PRON,O,se,No
-va,stop word,VERB,O,ir,No
+va,Stop Word,VERB,O,ir,No
 a,ADP,ADP,O,a,No
 la,DET,DET,O,lo,No
 casa,,NOUN,O,casar,
 .,PUNCT,PUNCT,O,.,No
-Traer,name entity,VERB,B,Traer,No
+Traer,Name Entity,VERB,B,Traer,No
 el,DET,DET,I,el,No
-perro,name entity,NOUN,I,perro,No
+perro,Name Entity,NOUN,I,perro,No
 es,AUX,AUX,O,ser,No
 poder,AUX,AUX,O,poder,No
 traer,,VERB,O,traer,
@@ -6051,10 +6051,10 @@ y,CONJ,CONJ,O,y,No
 tus,DET,DET,O,tu,No
 circunstancias,,NOUN,O,circunstancia,
 .,PUNCT,PUNCT,O,.,No
-Tenerlo,name entity,VERB,B,Tenerlo,No
+Tenerlo,Name Entity,VERB,B,Tenerlo,No
 ahí,ADV,ADV,O,ahí,No
 al,ADP,ADP,O,al,No
-lado,stop word,NOUN,O,lado,No
+lado,Stop Word,NOUN,O,lado,No
 tuyo,PRON,PRON,O,tuyo,No
 te,PRON,PRON,O,te,No
 recuerda,,VERB,O,recordar,
@@ -6081,7 +6081,7 @@ explica,,VERB,O,explicar,
 Tomás,PROPN,PROPN,B,Tomás,No
 .,PUNCT,PUNCT,I,.,No
 Efectos,PROPN,PROPN,B,Efectos,No
-caninos,name entity,ADJ,I,canino,No
+caninos,Name Entity,ADJ,I,canino,No
 Bocalán,PROPN,PROPN,B,Bocalán,No
 es,AUX,AUX,O,ser,No
 una,PRON,PRON,O,uno,No
@@ -6125,15 +6125,15 @@ va,AUX,AUX,O,ir,No
 a,ADP,ADP,O,a,No
 olvidar,,VERB,O,olvidar,
 el,DET,DET,O,el,No
-día,stop word,NOUN,O,día,No
+día,Stop Word,NOUN,O,día,No
 que,PRON,PRON,O,que,No
 pasó,,VERB,O,pasar,
 de,ADP,ADP,O,de,No
 estar,AUX,AUX,O,estar,No
-haciendo,stop word,VERB,O,hacer,No
+haciendo,Stop Word,VERB,O,hacer,No
 durante,ADP,ADP,O,durante,No
 dos,NUM,NUM,O,do,No
-horas,stop word,NOUN,O,hora,No
+horas,Stop Word,NOUN,O,hora,No
 una,DET,DET,O,uno,No
 presentación,,NOUN,O,presentación,
 formal,,ADJ,O,formal,
@@ -6158,7 +6158,7 @@ perros,,NOUN,O,perro,
 con,ADP,ADP,O,con,No
 los,DET,DET,O,lo,No
 que,PRON,PRON,O,que,No
-trabaja,stop word,VERB,O,trabajar,No
+trabaja,Stop Word,VERB,O,trabajar,No
 para,ADP,ADP,O,parir,No
 mandársela,,NOUN,O,mandársela,
 a,ADP,ADP,O,a,No
@@ -6168,17 +6168,17 @@ a,ADP,ADP,O,a,No
 Inglaterra,PROPN,PROPN,B,Inglaterra,No
 .,PUNCT,PUNCT,O,.,No
 """",PUNCT,PUNCT,O,"""",No
-Salimos,name entity,VERB,B,Salimos,No
+Salimos,Name Entity,VERB,B,Salimos,No
 de,ADP,ADP,I,de,No
 lo,DET,DET,I,el,No
-comercial,name entity,ADJ,I,comercial,No
+comercial,Name Entity,ADJ,I,comercial,No
 y,CONJ,CONJ,I,y,No
 empezamos,AUX,AUX,I,empezar,No
 a,ADP,ADP,I,a,No
-hablar,name entity,VERB,I,hablar,No
+hablar,Name Entity,VERB,I,hablar,No
 de,ADP,ADP,I,de,No
 su,DET,DET,I,su,No
-perro,name entity,NOUN,I,perro,No
+perro,Name Entity,NOUN,I,perro,No
 y,CONJ,CONJ,O,y,No
 a,ADP,ADP,O,a,No
 generar,,VERB,O,generar,
@@ -6190,7 +6190,7 @@ vínculo,,NOUN,O,vínculo,
 Eso,PRON,PRON,B,Eso,No
 nunca,ADV,ADV,I,nunca,No
 hubiese,AUX,AUX,I,haber,No
-sucedido,name entity,VERB,I,suceder,No
+sucedido,Name Entity,VERB,I,suceder,No
 si,SCONJ,SCONJ,I,si,No
 no,ADV,ADV,I,no,No
 estaba,AUX,AUX,O,estar,No
@@ -6201,13 +6201,13 @@ perros,,NOUN,O,perro,
 ahí,ADV,ADV,O,ahí,No
 """",PUNCT,PUNCT,O,"""",No
 ",",PUNCT,PUNCT,O,",",No
-cuenta,stop word,NOUN,O,contar,No
+cuenta,Stop Word,NOUN,O,contar,No
 Margarita,PROPN,PROPN,B,Margarita,No
 .,PUNCT,PUNCT,O,.,No
 El,DET,DET,B,El,No
-perro,name entity,NOUN,I,perro,No
+perro,Name Entity,NOUN,I,perro,No
 como,SCONJ,SCONJ,I,comer,No
-compañía,name entity,NOUN,I,compañía,No
+compañía,Name Entity,NOUN,I,compañía,No
 en,ADP,ADP,O,en,No
 la,DET,DET,O,lo,No
 oficina,,NOUN,O,oficina,
@@ -6242,7 +6242,7 @@ placer,,NOUN,O,placer,
 """",PUNCT,PUNCT,O,"""",No
 Es,AUX,AUX,O,Es,No
 un,DET,DET,O,uno,No
-momento,stop word,NOUN,O,momento,No
+momento,Stop Word,NOUN,O,momento,No
 de,ADP,ADP,O,de,No
 pausa,,NOUN,O,pausar,
 que,PRON,PRON,O,que,No
@@ -6264,7 +6264,7 @@ teléfono,,NOUN,O,teléfono,
 y,CONJ,CONJ,O,y,No
 comparte,,VERB,O,compartir,
 ese,DET,DET,O,ese,No
-momento,stop word,NOUN,O,momento,No
+momento,Stop Word,NOUN,O,momento,No
 con,ADP,ADP,O,con,No
 los,DET,DET,O,lo,No
 otros,PRON,PRON,O,otro,No
@@ -6308,7 +6308,7 @@ contacto,,NOUN,O,contactar,
 con,ADP,ADP,O,con,No
 un,DET,DET,O,uno,No
 animal,,NOUN,O,animal,
-tiene,stop word,VERB,O,tener,No
+tiene,Stop Word,VERB,O,tener,No
 beneficios,,NOUN,O,beneficio,
 emocionales,,ADJ,O,emocional,
 y,CONJ,CONJ,O,y,No
@@ -6335,7 +6335,7 @@ y,CONJ,CONJ,O,y,No
 te,PRON,PRON,O,te,No
 relaja,,VERB,O,relajar,
 para,ADP,ADP,O,parir,No
-trabajar,stop word,VERB,O,trabajar,No
+trabajar,Stop Word,VERB,O,trabajar,No
 """",PUNCT,PUNCT,O,"""",No
 ",",PUNCT,PUNCT,O,",",No
 explica,,VERB,O,explicar,
@@ -6368,17 +6368,17 @@ adiestrados,,ADJ,O,adiestrar,
 """",PUNCT,PUNCT,O,"""",No
 En,ADP,ADP,B,En,No
 nuestro,DET,DET,I,nuestro,No
-país,name entity,NOUN,I,país,No
+país,Name Entity,NOUN,I,país,No
 no,ADV,ADV,I,no,No
 están,AUX,AUX,I,estar,No
-regulados,name entity,NOUN,I,regular,No
+regulados,Name Entity,NOUN,I,regular,No
 ni,CONJ,CONJ,I,ni,No
 los,DET,DET,I,lo,No
-perros,name entity,NOUN,I,perro,No
-lazarillos,name entity,ADJ,I,lazarillo,No
+perros,Name Entity,NOUN,I,perro,No
+lazarillos,Name Entity,ADJ,I,lazarillo,No
 .,PUNCT,PUNCT,O,.,No
 La,DET,DET,B,La,No
-ley,name entity,NOUN,I,ley,No
+ley,Name Entity,NOUN,I,ley,No
 26858,NUM,NUM,I,26858,No
 de,ADP,ADP,O,de,No
 acceso,,NOUN,O,acceso,
@@ -6410,16 +6410,16 @@ regulada,,VERB,O,regular,
 Tampoco,ADV,ADV,B,Tampoco,No
 hay,AUX,AUX,I,haber,No
 un,DET,DET,I,uno,No
-registro,name entity,NOUN,I,registrar,No
+registro,Name Entity,NOUN,I,registrar,No
 de,ADP,ADP,I,de,No
 estos,DET,DET,I,este,No
-animales,name entity,NOUN,I,animal,No
+animales,Name Entity,NOUN,I,animal,No
 """",PUNCT,PUNCT,O,"""",No
 ",",PUNCT,PUNCT,O,",",No
 afirma,,VERB,O,afirmar,
 .,PUNCT,PUNCT,O,.,No
 Bocalán,PROPN,PROPN,B,Bocalán,No
-tiene,stop word,VERB,O,tener,No
+tiene,Stop Word,VERB,O,tener,No
 diferentes,DET,DET,O,diferente,No
 tipos,,NOUN,O,tipo,
 de,ADP,ADP,O,de,No
@@ -6431,7 +6431,7 @@ el,DET,DET,O,el,No
 ámbito,,NOUN,O,ámbito,
 empresarial,,ADJ,O,empresarial,
 .,PUNCT,PUNCT,O,.,No
-Pasean,name entity,VERB,B,Pasean,No
+Pasean,Name Entity,VERB,B,Pasean,No
 a,ADP,ADP,O,a,No
 los,DET,DET,O,lo,No
 perros,,NOUN,O,perro,
@@ -6446,12 +6446,12 @@ con,ADP,ADP,O,con,No
 las,DET,DET,O,los,No
 personas,,NOUN,O,personar,
 que,PRON,PRON,O,que,No
-trabajan,stop word,VERB,O,trabajar,No
+trabajan,Stop Word,VERB,O,trabajar,No
 en,ADP,ADP,O,en,No
 el,DET,DET,O,el,No
-lugar,stop word,NOUN,O,lugar,No
+lugar,Stop Word,NOUN,O,lugar,No
 ",",PUNCT,PUNCT,O,",",No
-hacen,stop word,VERB,O,hacer,No
+hacen,Stop Word,VERB,O,hacer,No
 encuentros,,NOUN,O,encuentro,
 informativos,,ADJ,O,informativo,
 para,ADP,ADP,O,parir,No
@@ -6460,25 +6460,25 @@ empleados,,NOUN,O,emplear,
 y,CONJ,CONJ,O,y,No
 ejercicios,,NOUN,O,ejercicio,
 para,ADP,ADP,O,parir,No
-trabajar,stop word,VERB,O,trabajar,No
+trabajar,Stop Word,VERB,O,trabajar,No
 valores,,NOUN,O,valorar,
 empresariales,,ADJ,O,empresarial,
 puntuales,,ADJ,O,puntual,
 .,PUNCT,PUNCT,O,.,No
 Por,ADP,ADP,B,Por,No
-ejemplo,stop word,NOUN,I,ejemplo,No
+ejemplo,Stop Word,NOUN,I,ejemplo,No
 ",",PUNCT,PUNCT,I,",",No
 el,DET,DET,I,el,No
-año,name entity,NOUN,I,año,No
-pasado,stop word,ADJ,I,pasar,No
+año,Name Entity,NOUN,I,año,No
+pasado,Stop Word,ADJ,I,pasar,No
 Bocalán,PROPN,PROPN,I,Bocalán,No
 visitó,,VERB,O,visitar,
 tres,NUM,NUM,O,tres,No
-veces,stop word,NOUN,O,vez,No
+veces,Stop Word,NOUN,O,vez,No
 Bayer,PROPN,PROPN,B,Bayer,No
 .,PUNCT,PUNCT,O,.,No
 La,DET,DET,B,La,No
-empresa,name entity,NOUN,I,empresa,No
+empresa,Name Entity,NOUN,I,empresa,No
 ",",PUNCT,PUNCT,O,",",No
 desde,ADP,ADP,O,desde,No
 su,DET,DET,O,su,No
@@ -6500,13 +6500,13 @@ friendly,,NOUN,O,friendly,
 y,CONJ,CONJ,O,y,No
 para,ADP,ADP,O,parir,No
 el,DET,DET,O,el,No
-día,stop word,NOUN,O,día,No
+día,Stop Word,NOUN,O,día,No
 del,ADP,ADP,O,del,No
 animal,,NOUN,O,animal,
 ",",PUNCT,PUNCT,O,",",No
 por,ADP,ADP,O,por,No
-primera,stop word,ADJ,O,primero,No
-vez,stop word,NOUN,O,vez,No
+primera,Stop Word,ADJ,O,primero,No
+vez,Stop Word,NOUN,O,vez,No
 ",",PUNCT,PUNCT,O,",",No
 12,NUM,NUM,O,12,No
 empleados,,NOUN,O,emplear,
@@ -6528,7 +6528,7 @@ de,ADP,ADP,O,de,No
 a,ADP,ADP,O,a,No
 poco,PRON,PRON,O,poco,No
 .,PUNCT,PUNCT,O,.,No
-Queremos,name entity,VERB,B,Queremos,No
+Queremos,Name Entity,VERB,B,Queremos,No
 analizar,,VERB,O,analizar,
 bien,ADV,ADV,O,bien,No
 cómo,PRON,PRON,O,cómo,No
@@ -6547,14 +6547,14 @@ esta,DET,DET,O,este,No
 modalidad,,NOUN,O,modalidad,
 con,ADP,ADP,O,con,No
 el,DET,DET,O,el,No
-tiempo,stop word,NOUN,O,tiempo,No
+tiempo,Stop Word,NOUN,O,tiempo,No
 no,ADV,ADV,O,no,No
 como,SCONJ,SCONJ,O,comer,No
 una,DET,DET,O,uno,No
 actividad,,NOUN,O,actividad,
 de,ADP,ADP,O,de,No
 un,DET,DET,O,uno,No
-día,stop word,NOUN,O,día,No
+día,Stop Word,NOUN,O,día,No
 sino,CONJ,CONJ,O,sino,No
 como,SCONJ,SCONJ,O,comer,No
 un,DET,DET,O,uno,No
@@ -6564,10 +6564,10 @@ firme,,ADJ,O,firmar,
 Pero,CONJ,CONJ,B,Pero,No
 no,ADV,ADV,I,no,No
 es,AUX,AUX,I,ser,No
-fácil,name entity,ADJ,I,fácil,No
+fácil,Name Entity,ADJ,I,fácil,No
 .,PUNCT,PUNCT,O,.,No
 Una,DET,DET,B,Una,No
-cosa,name entity,NOUN,I,coser,No
+cosa,Name Entity,NOUN,I,coser,No
 es,AUX,AUX,O,ser,No
 traer,,VERB,O,traer,
 perros,,NOUN,O,perro,
@@ -6605,11 +6605,11 @@ Bayer,PROPN,PROPN,I,Bayer,No
 .,PUNCT,PUNCT,O,.,No
 En,ADP,ADP,B,En,No
 el,DET,DET,I,el,No
-edificio,name entity,NOUN,I,edificio,No
+edificio,Name Entity,NOUN,I,edificio,No
 de,ADP,ADP,I,de,No
 la,DET,DET,I,lo,No
-firma,name entity,NOUN,I,firmar,No
-ubicado,name entity,ADJ,I,ubicar,No
+firma,Name Entity,NOUN,I,firmar,No
+ubicado,Name Entity,ADJ,I,ubicar,No
 en,ADP,ADP,I,en,No
 Munro,PROPN,PROPN,B,Munro,No
 hay,AUX,AUX,O,haber,No
@@ -6635,25 +6635,25 @@ nos,PRON,PRON,O,no,No
 unieron,,VERB,O,unir,
 .,PUNCT,PUNCT,O,.,No
 Se,PRON,PRON,B,Se,No
-generó,name entity,VERB,I,generar,No
+generó,Name Entity,VERB,I,generar,No
 un,DET,DET,I,uno,No
-buen,stop word,ADJ,I,bueno,No
+buen,Stop Word,ADJ,I,bueno,No
 clima,,NOUN,O,clima,
 de,ADP,ADP,O,de,No
-trabajo,stop word,NOUN,O,trabajar,No
+trabajo,Stop Word,NOUN,O,trabajar,No
 y,CONJ,CONJ,O,y,No
 una,DET,DET,O,uno,No
-mayor,stop word,ADJ,O,mayor,No
+mayor,Stop Word,ADJ,O,mayor,No
 sensación,,NOUN,O,sensación,
 de,ADP,ADP,O,de,No
 pertenencia,,NOUN,O,pertenencia,
 -,PUNCT,PUNCT,O,-,No
-dice,stop word,VERB,O,decir,No
+dice,Stop Word,VERB,O,decir,No
 Medellin,PROPN,PROPN,B,Medellin,No
 -,PUNCT,PUNCT,O,-,No
 .,PUNCT,PUNCT,O,.,No
 A,ADP,ADP,O,A,No
-partir,stop word,NOUN,O,partir,No
+partir,Stop Word,NOUN,O,partir,No
 de,ADP,ADP,O,de,No
 las,DET,DET,O,los,No
 visitas,,NOUN,O,visitar,
@@ -6661,7 +6661,7 @@ de,ADP,ADP,O,de,No
 Bacalán,PROPN,PROPN,B,Bacalán,No
 del,ADP,ADP,O,del,No
 año,,NOUN,O,año,
-pasado,stop word,ADJ,O,pasar,No
+pasado,Stop Word,ADJ,O,pasar,No
 ",",PUNCT,PUNCT,O,",",No
 se,PRON,PRON,O,se,No
 comunicó,,VERB,O,comunicar,
@@ -6676,21 +6676,21 @@ sumarse,,NOUN,O,sumarse,
 a,ADP,ADP,O,a,No
 lo,DET,DET,O,el,No
 que,PRON,PRON,O,que,No
-hacemos,stop word,VERB,O,hacer,No
+hacemos,Stop Word,VERB,O,hacer,No
 .,PUNCT,PUNCT,O,.,No
 La,DET,DET,O,La,No
 gente,,NOUN,O,gente,
 que,PRON,PRON,O,que,No
-trabaja,stop word,VERB,O,trabajar,No
+trabaja,Stop Word,VERB,O,trabajar,No
 acá,ADV,ADV,O,acá,No
-quedó,stop word,VERB,O,quedar,No
+quedó,Stop Word,VERB,O,quedar,No
 enamorada,,ADJ,O,enamorar,
 de,ADP,ADP,O,de,No
 la,DET,DET,O,lo,No
 idea,,NOUN,O,ideo,
 de,ADP,ADP,O,de,No
 poder,AUX,AUX,O,poder,No
-tener,stop word,VERB,O,tener,No
+tener,Stop Word,VERB,O,tener,No
 un,DET,DET,O,uno,No
 animal,,NOUN,O,animal,
 en,ADP,ADP,O,en,No
@@ -6699,21 +6699,20 @@ oficina,,NOUN,O,oficina,
 """",PUNCT,PUNCT,O,"""",No
 .,PUNCT,PUNCT,O,.,No
 """",PUNCT,PUNCT,O,"""",No
-ARTICLE0057,name entity,NOUN,B,ARTICLE0057,No
+ARTICLE0057,Name Entity,NOUN,B,ARTICLE0057,No
 ",",PUNCT,PUNCT,O,",",No
 La,DET,DET,B,La,No
-culpa,name entity,NOUN,I,culpar,No
+culpa,Name Entity,NOUN,I,culpar,No
 no,ADV,ADV,I,no,No
 es,AUX,AUX,I,ser,No
 del,ADP,ADP,I,del,No
-sushi,name entity,NOUN,I,sushi,No
+sushi,Name Entity,NOUN,I,sushi,No
 ",",PUNCT,PUNCT,O,",",No
 """",PUNCT,PUNCT,O,"""",No
-Carolina,PROPN,PROPN,O,Carolina,No
-Aguirre,PROPN,PROPN,O,Aguirre,No
- ,SPACE,SPACE,O, ,No
-Cada,DET,DET,O,Cada,No
-vez,stop word,NOUN,O,vez,No
+Carolina,PROPN,PROPN,B,Carolina,No
+Aguirre,PROPN,PROPN,I,Aguirre,No
+Cada,PROPN,PROPN,I,Cada,No
+vez,Stop Word,NOUN,O,vez,No
 que,SCONJ,SCONJ,O,que,No
 me,PRON,PRON,O,me,No
 doy,,VERB,O,dar,
@@ -6748,9 +6747,9 @@ lectores,,NOUN,O,lector,
 .,PUNCT,PUNCT,O,.,No
 Por,ADP,ADP,B,Por,No
 cada,DET,DET,I,cada,No
-nota,name entity,NOUN,I,noto,No
+nota,Name Entity,NOUN,I,noto,No
 de,ADP,ADP,I,de,No
-sushi,name entity,ADJ,I,sushi,No
+sushi,Name Entity,ADJ,I,sushi,No
 fusión,,NOUN,O,fusión,
 ",",PUNCT,PUNCT,O,",",No
 de,ADP,ADP,O,de,No
@@ -6767,7 +6766,7 @@ diez,NUM,NUM,O,diez,No
 veinte,NUM,NUM,O,veinte,No
 y,CONJ,CONJ,O,y,No
 a,ADP,ADP,O,a,No
-veces,stop word,NOUN,O,vez,No
+veces,Stop Word,NOUN,O,vez,No
 más,ADV,ADV,O,más,No
 foristas,,NOUN,O,foristas,
 indignados,,ADJ,O,indignar,
@@ -6784,9 +6783,9 @@ inmediatamente,ADV,ADV,O,inmediatamente,No
 A,ADP,ADP,B,A,No
 algunos,PRON,PRON,I,alguno,No
 parece,AUX,AUX,I,parecer,No
-molestarles,name entity,ADJ,I,molestarles,No
+molestarles,Name Entity,ADJ,I,molestarles,No
 el,DET,DET,I,el,No
-precio,name entity,NOUN,I,preciar,No
+precio,Name Entity,NOUN,I,preciar,No
 ",",PUNCT,PUNCT,O,",",No
 a,ADP,ADP,O,a,No
 otros,DET,DET,O,otro,No
@@ -6801,7 +6800,7 @@ menú,,NOUN,O,menú,
 ",",PUNCT,PUNCT,O,",",No
 aunque,SCONJ,SCONJ,O,aunque,No
 la,DET,DET,O,lo,No
-gran,stop word,ADJ,O,gran,No
+gran,Stop Word,ADJ,O,gran,No
 mayoría,,NOUN,O,mayoría,
 concentra,,VERB,O,concentrar,
 sus,DET,DET,O,su,No
@@ -6812,7 +6811,7 @@ temor,,NOUN,O,temor,
 de,ADP,ADP,O,de,No
 que,SCONJ,SCONJ,O,que,No
 estos,DET,DET,O,este,No
-nuevos,stop word,ADJ,O,nuevo,No
+nuevos,Stop Word,ADJ,O,nuevo,No
 productos,,NOUN,O,producto,
 amenacen,,VERB,O,amenazar,
 su,DET,DET,O,su,No
@@ -6822,11 +6821,11 @@ sus,DET,DET,O,su,No
 tradiciones,,NOUN,O,tradición,
 .,PUNCT,PUNCT,O,.,No
 No,ADV,ADV,B,No,No
-quieren,name entity,VERB,I,querer,No
+quieren,Name Entity,VERB,I,querer,No
 que,SCONJ,SCONJ,I,que,No
 la,DET,DET,I,lo,No
-apreciación,name entity,NOUN,I,apreciación,No
-popular,name entity,ADJ,I,popular,No
+apreciación,Name Entity,NOUN,I,apreciación,No
+popular,Name Entity,ADJ,I,popular,No
 los,PRON,PRON,O,lo,No
 instale,,VERB,O,instalar,
 y,CONJ,CONJ,O,y,No
@@ -6836,7 +6835,7 @@ la,DET,DET,O,lo,No
 mesa,,NOUN,O,mesar,
 del,ADP,ADP,O,del,No
 domingo,,NOUN,O,domingo,
-tal,stop word,NOUN,O,tal,No
+tal,Stop Word,NOUN,O,tal,No
 cual,PRON,PRON,O,cual,No
 la,PRON,PRON,O,lo,No
 conocen,,VERB,O,conocer,
@@ -6856,14 +6855,14 @@ hay,AUX,AUX,O,haber,No
 nada,PRON,PRON,O,nadar,No
 como,SCONJ,SCONJ,O,comer,No
 una,DET,DET,O,uno,No
-buena,stop word,ADJ,O,bueno,No
+buena,Stop Word,ADJ,O,bueno,No
 milanesa,,NOUN,O,milanés,
 """",PUNCT,PUNCT,O,"""",No
 ",",PUNCT,PUNCT,O,",",No
 """",PUNCT,PUNCT,O,"""",No
 Me,PRON,PRON,B,Me,No
-dan,stop word,VERB,I,dar,No
-pena,name entity,NOUN,I,penar,No
+dan,Stop Word,VERB,I,dar,No
+pena,Name Entity,NOUN,I,penar,No
 ",",PUNCT,PUNCT,O,",",No
 les,PRON,PRON,O,les,No
 cobran,,VERB,O,cobrar,
@@ -6884,14 +6883,14 @@ focas,,ADJ,O,foca,
 ",",PUNCT,PUNCT,O,",",No
 """",PUNCT,PUNCT,O,"""",No
 El,DET,DET,B,El,No
-sushi,name entity,NOUN,I,sushi,No
+sushi,Name Entity,NOUN,I,sushi,No
 es,AUX,AUX,I,ser,No
-horrible,name entity,ADJ,I,horrible,No
+horrible,Name Entity,ADJ,I,horrible,No
 y,CONJ,CONJ,O,y,No
 no,ADV,ADV,O,no,No
 se,PRON,PRON,O,se,No
-dan,stop word,VERB,O,dar,No
-cuenta,stop word,NOUN,O,contar,No
+dan,Stop Word,VERB,O,dar,No
+cuenta,Stop Word,NOUN,O,contar,No
 porque,SCONJ,SCONJ,O,porque,No
 está,AUX,AUX,O,estar,No
 de,ADP,ADP,O,de,No
@@ -6911,7 +6910,7 @@ es,AUX,AUX,O,ser,No
 exquisita,,NOUN,O,exquisito,
 sólo,ADV,ADV,O,sólo,No
 porque,SCONJ,SCONJ,O,porque,No
-está,stop word,VERB,O,estar,No
+está,Stop Word,VERB,O,estar,No
 en,ADP,ADP,O,en,No
 Palermo,PROPN,PROPN,B,Palermo,No
 """",PUNCT,PUNCT,O,"""",No
@@ -6942,12 +6941,12 @@ sucede,,VERB,O,suceder,
 con,ADP,ADP,O,con,No
 algunos,DET,DET,O,alguno,No
 términos,,NOUN,O,término,
-nuevos,stop word,ADJ,O,nuevo,No
+nuevos,Stop Word,ADJ,O,nuevo,No
 .,PUNCT,PUNCT,O,.,No
 En,ADP,ADP,B,En,No
 todas,DET,DET,I,todo,No
 las,DET,DET,I,los,No
-notas,name entity,NOUN,I,noto,No
+notas,Name Entity,NOUN,I,noto,No
 sobre,ADP,ADP,O,sobrar,No
 cupcakes,,NOUN,O,cupcakes,
 hay,AUX,AUX,O,haber,No
@@ -6973,7 +6972,7 @@ estas,DET,DET,O,este,No
 especialidades,,NOUN,O,especialidad,
 .,PUNCT,PUNCT,O,.,No
 Los,DET,DET,B,Los,No
-anglicismos,name entity,VERB,I,anglicismo,No
+anglicismos,Name Entity,VERB,I,anglicismo,No
 ",",PUNCT,PUNCT,O,",",No
 al,ADP,ADP,O,al,No
 parecer,,NOUN,O,parecer,
@@ -6985,7 +6984,7 @@ los,DET,DET,O,lo,No
 lectores,,NOUN,O,lector,
 .,PUNCT,PUNCT,O,.,No
 No,ADV,ADV,B,No,No
-pasa,name entity,VERB,I,paso,No
+pasa,Name Entity,VERB,I,paso,No
 lo,DET,DET,I,el,No
 mismo,PRON,PRON,I,mismo,No
 con,ADP,ADP,O,con,No
@@ -6996,7 +6995,7 @@ italiano,,NOUN,O,italiano,
 :,PUNCT,PUNCT,O,:,No
 se,PRON,PRON,O,se,No
 puede,AUX,AUX,O,poder,No
-decir,stop word,VERB,O,decir,No
+decir,Stop Word,VERB,O,decir,No
 spaghetti,,NOUN,O,spaghetti,
 ",",PUNCT,PUNCT,O,",",No
 fusilli,,NOUN,O,fusilli,
@@ -7021,7 +7020,7 @@ enroscada,,ADJ,O,enroscar,
 Tampoco,ADV,ADV,B,Tampoco,No
 hay,AUX,AUX,I,haber,No
 tanto,DET,DET,I,tanto,No
-encono,name entity,NOUN,I,enconar,No
+encono,Name Entity,NOUN,I,enconar,No
 con,ADP,ADP,O,con,No
 los,DET,DET,O,lo,No
 galicismos,,NOUN,O,galicismo,
@@ -7053,7 +7052,7 @@ nuestras,DET,DET,O,nuestro,No
 costumbres,,NOUN,O,costumbre,
 ?,PUNCT,PUNCT,O,?,No
 El,DET,DET,B,El,No
-italiano,name entity,NOUN,I,italiano,No
+italiano,Name Entity,NOUN,I,italiano,No
 y,CONJ,CONJ,O,y,No
 el,DET,DET,O,el,No
 francés,,NOUN,O,francés,
@@ -7087,9 +7086,9 @@ esta,DET,DET,O,este,No
 altura,,NOUN,O,altura,
 ",",PUNCT,PUNCT,O,",",No
 ya,ADV,ADV,O,ya,No
-sabemos,stop word,VERB,O,saber,No
+sabemos,Stop Word,VERB,O,saber,No
 que,SCONJ,SCONJ,O,que,No
-usar,stop word,VERB,O,usar,No
+usar,Stop Word,VERB,O,usar,No
 la,DET,DET,O,lo,No
 palabra,,NOUN,O,palabra,
 """",PUNCT,PUNCT,O,"""",No
@@ -7135,7 +7134,7 @@ mercado,,NOUN,O,mercar,
 local,,ADJ,O,local,
 .,PUNCT,PUNCT,O,.,No
 Las,DET,DET,B,Las,No
-trompadas,name entity,NOUN,I,trompada,No
+trompadas,Name Entity,NOUN,I,trompada,No
 que,PRON,PRON,O,que,No
 reciben,,VERB,O,recibir,
 la,DET,DET,O,lo,No
@@ -7157,7 +7156,7 @@ lechuga,,NOUN,O,lechuga,
 criolla,,NOUN,O,criollo,
 son,AUX,AUX,O,ser,No
 cada,DET,DET,O,cada,No
-vez,stop word,NOUN,O,vez,No
+vez,Stop Word,NOUN,O,vez,No
 más,ADV,ADV,O,más,No
 violentas,,ADJ,O,violento,
 y,CONJ,CONJ,O,y,No
@@ -7176,17 +7175,17 @@ Tarzán,PROPN,PROPN,B,Tarzán,No
 ?,PUNCT,PUNCT,O,?,No
 ¿,PUNCT,PUNCT,O,¿,No
 El,DET,DET,B,El,No
-rey,name entity,NOUN,I,rey,No
+rey,Name Entity,NOUN,I,rey,No
 león,PROPN,PROPN,I,león,No
 ?,PUNCT,PUNCT,O,?,No
 Me,PRON,PRON,B,Me,No
-tienen,stop word,VERB,I,tener,No
+tienen,Stop Word,VERB,I,tener,No
 los,DET,DET,I,lo,No
-huevos,name entity,NOUN,I,huevo,No
-llenos,name entity,ADJ,I,lleno,No
+huevos,Name Entity,NOUN,I,huevo,No
+llenos,Name Entity,ADJ,I,lleno,No
 con,ADP,ADP,I,con,No
 el,DET,DET,I,el,No
-snobismo,name entity,NOUN,I,snobismo,No
+snobismo,Name Entity,NOUN,I,snobismo,No
 """",PUNCT,PUNCT,O,"""",No
 ",",PUNCT,PUNCT,O,",",No
 tipea,,NOUN,O,tipea,
@@ -7251,7 +7250,7 @@ grasa,,NOUN,O,graso,
 .,PUNCT,PUNCT,O,.,No
 Con,ADP,ADP,B,Con,No
 los,DET,DET,I,lo,No
-scones,name entity,NOUN,I,scones,No
+scones,Name Entity,NOUN,I,scones,No
 ",",PUNCT,PUNCT,O,",",No
 las,DET,DET,O,los,No
 medialunas,,NOUN,O,medialuna,
@@ -7268,28 +7267,28 @@ bien,ADV,ADV,O,bien,No
 .,PUNCT,PUNCT,O,.,No
 No,ADV,ADV,B,No,No
 hay,AUX,AUX,I,haber,No
-pica,name entity,NOUN,I,picar,No
+pica,Name Entity,NOUN,I,picar,No
 ni,CONJ,CONJ,O,ni,No
 resentimiento,,NOUN,O,resentimiento,
 ",",PUNCT,PUNCT,O,",",No
 ya,ADV,ADV,O,ya,No
 son,AUX,AUX,O,ser,No
-parte,stop word,NOUN,O,partir,No
+parte,Stop Word,NOUN,O,partir,No
 del,ADP,ADP,O,del,No
 paisaje,,NOUN,O,paisaje,
 porteño,,ADJ,O,porteño,
 .,PUNCT,PUNCT,O,.,No
 Al,ADP,ADP,B,Al,No
-parecer,name entity,NOUN,I,parecer,No
+parecer,Name Entity,NOUN,I,parecer,No
 ",",PUNCT,PUNCT,I,",",No
 nos,PRON,PRON,I,no,No
-incomoda,name entity,VERB,I,incomodar,No
+incomoda,Name Entity,VERB,I,incomodar,No
 todo,DET,DET,I,todo,No
 lo,DET,DET,I,el,No
-nuevo,stop word,ADJ,I,nuevo,No
+nuevo,Stop Word,ADJ,I,nuevo,No
 ",",PUNCT,PUNCT,O,",",No
 lo,DET,DET,O,el,No
-diferente,stop word,ADJ,O,diferente,No
+diferente,Stop Word,ADJ,O,diferente,No
 ",",PUNCT,PUNCT,O,",",No
 lo,DET,DET,O,el,No
 que,PRON,PRON,O,que,No
@@ -7306,13 +7305,13 @@ leer,,VERB,O,leer,
 """",PUNCT,PUNCT,O,"""",No
 .,PUNCT,PUNCT,O,.,No
 Nos,PRON,PRON,B,Nos,No
-quejamos,name entity,VERB,I,quejar,No
+quejamos,Name Entity,VERB,I,quejar,No
 de,ADP,ADP,I,de,No
 las,DET,DET,I,los,No
-nuevas,stop word,ADJ,I,nuevo,No
-pizzas,name entity,NOUN,I,pizza,No
+nuevas,Stop Word,ADJ,I,nuevo,No
+pizzas,Name Entity,NOUN,I,pizza,No
 con,ADP,ADP,I,con,No
-rúcula,name entity,NOUN,I,rúcula,No
+rúcula,Name Entity,NOUN,I,rúcula,No
 y,CONJ,CONJ,O,y,No
 queso,,NOUN,O,queso,
 brie,,VERB,O,brie,
@@ -7331,7 +7330,7 @@ entender,AUX,AUX,O,entender,No
 que,SCONJ,SCONJ,O,que,No
 las,DET,DET,O,los,No
 comidas,,NOUN,O,comida,
-existen,stop word,VERB,O,existir,No
+existen,Stop Word,VERB,O,existir,No
 mientras,SCONJ,SCONJ,O,mientras,No
 haya,AUX,AUX,O,haber,No
 alguien,PRON,PRON,O,alguien,No
@@ -7345,18 +7344,18 @@ quiera,,VERB,O,querer,
 comer,,VERB,O,comer,
 .,PUNCT,PUNCT,O,.,No
 El,DET,DET,B,El,No
-sushi,name entity,NOUN,I,sushi,No
+sushi,Name Entity,NOUN,I,sushi,No
 no,ADV,ADV,I,no,No
 va,AUX,AUX,I,ir,No
 a,ADP,ADP,I,a,No
-matar,name entity,VERB,I,matar,No
+matar,Name Entity,VERB,I,matar,No
 a,ADP,ADP,I,a,No
 la,DET,DET,I,lo,No
-milanesa,name entity,NOUN,I,milanés,No
+milanesa,Name Entity,NOUN,I,milanés,No
 .,PUNCT,PUNCT,O,.,No
 Si,SCONJ,SCONJ,B,Si,No
 las,DET,DET,I,los,No
-milanesas,name entity,NOUN,I,milanés,No
+milanesas,Name Entity,NOUN,I,milanés,No
 mueren,,VERB,O,morir,
 ",",PUNCT,PUNCT,O,",",No
 será,AUX,AUX,O,ser,No
@@ -7414,22 +7413,22 @@ desgracia,,NOUN,O,desgraciar,
 ",",PUNCT,PUNCT,O,",",No
 no,ADV,ADV,O,no,No
 ha,AUX,AUX,O,haber,No
-tenido,stop word,VERB,O,tener,No
+tenido,Stop Word,VERB,O,tener,No
 la,DET,DET,O,lo,No
 misma,DET,DET,O,mismo,No
 suerte,,NOUN,O,suerte,
 .,PUNCT,PUNCT,O,.,No
 Es,AUX,AUX,B,Es,No
 una,DET,DET,I,uno,No
-pena,name entity,NOUN,I,penar,No
+pena,Name Entity,NOUN,I,penar,No
 ",",PUNCT,PUNCT,O,",",No
 pero,CONJ,CONJ,O,pero,No
 es,AUX,AUX,O,ser,No
-verdad,stop word,NOUN,O,verdad,No
+verdad,Stop Word,NOUN,O,verdad,No
 .,PUNCT,PUNCT,O,.,No
 Para,ADP,ADP,B,Para,No
 mucha,DET,DET,I,mucho,No
-gente,name entity,NOUN,I,gente,No
+gente,Name Entity,NOUN,I,gente,No
 ",",PUNCT,PUNCT,O,",",No
 aquellos,PRON,PRON,O,aquel,No
 que,PRON,PRON,O,que,No
@@ -7452,7 +7451,7 @@ una,PRON,PRON,O,uno,No
 de,ADP,ADP,O,de,No
 esas,DET,DET,O,ese,No
 frutas,,NOUN,O,fruto,
-raras,stop word,ADJ,O,raro,No
+raras,Stop Word,ADJ,O,raro,No
 que,PRON,PRON,O,que,No
 vienen,,VERB,O,venir,
 de,ADP,ADP,O,de,No
@@ -7523,7 +7522,7 @@ se,PRON,PRON,O,se,No
 transformó,,VERB,O,transformar,
 en,ADP,ADP,O,en,No
 la,DET,DET,O,lo,No
-primera,stop word,ADJ,O,primero,No
+primera,Stop Word,ADJ,O,primero,No
 serie,,NOUN,O,seriar,
 de,ADP,ADP,O,de,No
 televisión,,NOUN,O,televisión,
@@ -7534,7 +7533,7 @@ blog,,NOUN,O,blog,
 en,ADP,ADP,O,en,No
 español,,NOUN,O,español,
 .,PUNCT,PUNCT,O,.,No
-Colaboró,name entity,VERB,B,Colaboró,No
+Colaboró,Name Entity,VERB,B,Colaboró,No
 con,ADP,ADP,O,con,No
 diversos,DET,DET,O,diverso,No
 diarios,,NOUN,O,diario,
@@ -7557,20 +7556,20 @@ Gataflora,PROPN,PROPN,B,Gataflora,No
 Ohlalá,PROPN,PROPN,B,Ohlalá,No
 y,CONJ,CONJ,O,y,No
 La,DET,DET,B,La,No
-mujer,name entity,NOUN,I,mujer,No
+mujer,Name Entity,NOUN,I,mujer,No
 de,ADP,ADP,I,de,No
 mi,DET,DET,I,mi,No
-vida,name entity,NOUN,I,vida,No
+vida,Name Entity,NOUN,I,vida,No
 .,PUNCT,PUNCT,O,.,No
 Como,SCONJ,SCONJ,B,Como,No
-guionista,name entity,NOUN,I,guionista,No
-escribe,name entity,VERB,I,escribir,No
+guionista,Name Entity,NOUN,I,guionista,No
+escribe,Name Entity,VERB,I,escribir,No
 para,ADP,ADP,I,parir,No
-televisión,name entity,NOUN,I,televisión,No
+televisión,Name Entity,NOUN,I,televisión,No
 y,CONJ,CONJ,I,y,No
-publicidad,name entity,NOUN,I,publicidad,No
+publicidad,Name Entity,NOUN,I,publicidad,No
 en,ADP,ADP,I,en,No
-canales,name entity,NOUN,I,canal,No
+canales,Name Entity,NOUN,I,canal,No
 y,CONJ,CONJ,O,y,No
 productoras,,NOUN,O,productor,
 como,SCONJ,SCONJ,O,comer,No
@@ -7588,7 +7587,7 @@ Actualmente,ADV,ADV,O,Actualmente,No
 es,AUX,AUX,O,ser,No
 columnista,,NOUN,O,columnista,
 del,ADP,ADP,O,del,No
-programa,name entity,NOUN,B,programar,No
+programa,Name Entity,NOUN,B,programar,No
 Mañana,ADV,ADV,I,Mañana,No
 es,AUX,AUX,O,ser,No
 tarde,ADV,ADV,O,tardar,No
@@ -7614,7 +7613,7 @@ encuentra,AUX,AUX,O,encontrar,No
 trabajando,,VERB,O,trabajar,
 en,ADP,ADP,O,en,No
 su,DET,DET,O,su,No
-próximo,stop word,ADJ,O,próximo,No
+próximo,Stop Word,ADJ,O,próximo,No
 libro,,NOUN,O,librar,
 ",",PUNCT,PUNCT,O,",",No
 que,PRON,PRON,O,que,No
@@ -7628,7 +7627,7 @@ del,ADP,ADP,O,del,No
 2010,,NOUN,O,2010,
 .,PUNCT,PUNCT,O,.,No
 """",PUNCT,PUNCT,O,"""",No
-ARTICLE0058,name entity,NOUN,B,ARTICLE0058,No
+ARTICLE0058,Name Entity,NOUN,B,ARTICLE0058,No
 ",",PUNCT,PUNCT,O,",",No
 Borrador,PROPN,PROPN,B,Borrador,No
 de,ADP,ADP,O,de,No
@@ -7641,13 +7640,13 @@ un,DET,DET,O,uno,No
 relato,,NOUN,O,relatar,
 construido,,ADJ,O,construir,
 a,ADP,ADP,O,a,No
-partir,stop word,NOUN,O,partir,No
+partir,Stop Word,NOUN,O,partir,No
 de,ADP,ADP,O,de,No
 grabaciones,,NOUN,O,grabación,
 ",",PUNCT,PUNCT,O,",",No
 Julian,PROPN,PROPN,B,Julian,No
 Assange,PROPN,PROPN,I,Assange,No
-cuenta,stop word,VERB,O,contar,No
+cuenta,Stop Word,VERB,O,contar,No
 su,DET,DET,O,su,No
 singular,,ADJ,O,singular,
 infancia,,NOUN,O,infancia,
@@ -7692,9 +7691,9 @@ Commodore,PROPN,PROPN,B,Commodore,No
 64,NUM,NUM,I,64,No
 .,PUNCT,PUNCT,O,.,No
 Enseguida,ADV,ADV,B,Enseguida,No
-llegó,stop word,VERB,I,llegar,No
+llegó,Stop Word,VERB,I,llegar,No
 el,DET,DET,I,el,No
-módem,name entity,NOUN,I,módem,No
+módem,Name Entity,NOUN,I,módem,No
 y,CONJ,CONJ,O,y,No
 la,DET,DET,O,lo,No
 posibilidad,,NOUN,O,posibilidad,
@@ -7710,7 +7709,7 @@ suburbio,,NOUN,O,suburbio,
 de,ADP,ADP,O,de,No
 Melbourne,PROPN,PROPN,B,Melbourne,No
 .,PUNCT,PUNCT,O,.,No
-Aprendió,name entity,VERB,B,Aprendió,No
+Aprendió,Name Entity,VERB,B,Aprendió,No
 a,ADP,ADP,O,a,No
 pasearse,PROPN,PROPN,O,pasearse,No
 por,ADP,ADP,O,por,No
@@ -7755,7 +7754,7 @@ gesto,,NOUN,O,gestar,
 que,PRON,PRON,O,que,No
 unía,,VERB,O,unir,
 su,DET,DET,O,su,No
-pasado,stop word,NOUN,O,pasar,No
+pasado,Stop Word,NOUN,O,pasar,No
 y,CONJ,CONJ,O,y,No
 su,DET,DET,O,su,No
 futuro,,NOUN,O,futuro,
@@ -7790,7 +7789,7 @@ lo,PRON,PRON,O,el,No
 protegían,,VERB,O,proteger,
 en,ADP,ADP,O,en,No
 sus,DET,DET,O,su,No
-nuevas,stop word,ADJ,O,nuevo,No
+nuevas,Stop Word,ADJ,O,nuevo,No
 errancias,,NOUN,O,errancias,
 .,PUNCT,PUNCT,O,.,No
 La,DET,DET,B,La,No
@@ -7848,10 +7847,10 @@ en,ADP,ADP,O,en,No
 Londres,PROPN,PROPN,B,Londres,No
 .,PUNCT,PUNCT,O,.,No
 Su,DET,DET,B,Su,No
-título,name entity,NOUN,I,título,No
-imposible,name entity,ADJ,I,imposible,No
+título,Name Entity,NOUN,I,título,No
+imposible,Name Entity,ADJ,I,imposible,No
 se,PRON,PRON,O,se,No
-debe,stop word,VERB,O,deber,No
+debe,Stop Word,VERB,O,deber,No
 a,ADP,ADP,O,a,No
 la,DET,DET,O,lo,No
 decisión,,NOUN,O,decisión,
@@ -7871,7 +7870,7 @@ que,PRON,PRON,O,que,No
 había,AUX,AUX,O,haber,No
 pagado,,VERB,O,pagar,
 un,DET,DET,O,uno,No
-buen,stop word,ADJ,O,bueno,No
+buen,Stop Word,ADJ,O,bueno,No
 adelanto,,NOUN,O,adelantar,
 .,PUNCT,PUNCT,O,.,No
 Assange,PROPN,PROPN,B,Assange,No
@@ -7888,7 +7887,7 @@ lo,PRON,PRON,O,el,No
 tuvieron,,VERB,O,tener,
 preso,,ADJ,O,preso,
 algunos,DET,DET,O,alguno,No
-días,stop word,NOUN,O,día,No
+días,Stop Word,NOUN,O,día,No
 en,ADP,ADP,O,en,No
 una,DET,DET,O,uno,No
 celda,,NOUN,O,celda,
@@ -7904,9 +7903,9 @@ extradición,,NOUN,O,extradición,
 .,PUNCT,PUNCT,O,.,No
 Pero,CONJ,CONJ,B,Pero,No
 se,PRON,PRON,I,se,No
-arrepintió,name entity,VERB,I,arrepentir,No
+arrepintió,Name Entity,VERB,I,arrepentir,No
 del,ADP,ADP,I,del,No
-trato,name entity,NOUN,I,tratar,No
+trato,Name Entity,NOUN,I,tratar,No
 y,CONJ,CONJ,O,y,No
 declaró,,VERB,O,declarar,
 :,PUNCT,PUNCT,O,:,No
@@ -7920,14 +7919,14 @@ prostitución,,NOUN,O,prostitución,
 .,PUNCT,PUNCT,O,.,No
 Tras,ADP,ADP,B,Tras,No
 cincuenta,NUM,NUM,I,cincuenta,No
-horas,stop word,NOUN,I,hora,No
+horas,Stop Word,NOUN,I,hora,No
 de,ADP,ADP,I,de,No
-grabación,name entity,NOUN,I,grabación,No
+grabación,Name Entity,NOUN,I,grabación,No
 y,CONJ,CONJ,I,y,No
 la,DET,DET,I,lo,No
-intervención,name entity,NOUN,I,intervención,No
+intervención,Name Entity,NOUN,I,intervención,No
 del,ADP,ADP,I,del,No
-novelista,name entity,NOUN,I,novelista,No
+novelista,Name Entity,NOUN,I,novelista,No
 escocés,,NOUN,O,escocés,
 Andrew,PROPN,PROPN,B,Andrew,No
 O,CONJ,CONJ,I,O,No
@@ -7941,12 +7940,12 @@ el,DET,DET,O,el,No
 resultado,,NOUN,O,resultar,
 es,AUX,AUX,O,ser,No
 un,DET,DET,O,uno,No
-largo,stop word,ADJ,O,largar,No
+largo,Stop Word,ADJ,O,largar,No
 oxímoron,,VERB,O,oxímoron,
 .,PUNCT,PUNCT,O,.,No
 Un,DET,DET,B,Un,No
-texto,name entity,NOUN,I,texto,No
-desparejo,name entity,ADJ,I,desparejar,No
+texto,Name Entity,NOUN,I,texto,No
+desparejo,Name Entity,ADJ,I,desparejar,No
 ",",PUNCT,PUNCT,O,",",No
 con,ADP,ADP,O,con,No
 unas,DET,DET,O,uno,No
@@ -7984,7 +7983,7 @@ ser,AUX,AUX,O,ser,No
 Claro,ADV,ADV,B,Claro,No
 que,SCONJ,SCONJ,O,que,No
 ",",PUNCT,PUNCT,O,",",No
-mejor,stop word,ADJ,O,mejor,No
+mejor,Stop Word,ADJ,O,mejor,No
 que,SCONJ,SCONJ,O,que,No
 con,ADP,ADP,O,con,No
 palabras,,NOUN,O,palabra,
@@ -8020,7 +8019,7 @@ evidencia,,NOUN,O,evidenciar,
 las,DET,DET,O,los,No
 manipulaciones,,NOUN,O,manipulación,
 del,ADP,ADP,O,del,No
-poder,stop word,NOUN,O,poder,No
+poder,Stop Word,NOUN,O,poder,No
 ",",PUNCT,PUNCT,O,",",No
 ha,AUX,AUX,O,haber,No
 logrado,,VERB,O,lograr,
@@ -8040,7 +8039,7 @@ que,PRON,PRON,O,que,No
 cumplió,,VERB,O,cumplir,
 el,DET,DET,O,el,No
 año,,NOUN,O,año,
-último,stop word,ADJ,O,último,No
+último,Stop Word,ADJ,O,último,No
 en,ADP,ADP,O,en,No
 Londres,PROPN,PROPN,B,Londres,No
 Fuente,PROPN,PROPN,I,Fuente,No
@@ -8061,7 +8060,7 @@ de,ADP,ADP,O,de,No
 formación,,NOUN,O,formación,
 .,PUNCT,PUNCT,O,.,No
 Sus,DET,DET,B,Sus,No
-padres,name entity,NOUN,I,padre,No
+padres,Name Entity,NOUN,I,padre,No
 se,PRON,PRON,O,se,No
 conocieron,,VERB,O,conocer,
 en,ADP,ADP,O,en,No
@@ -8069,7 +8068,7 @@ una,DET,DET,O,uno,No
 manifestación,,NOUN,O,manifestación,
 contra,ADP,ADP,O,contra,No
 la,DET,DET,O,lo,No
-guerra,name entity,NOUN,B,guerra,No
+guerra,Name Entity,NOUN,B,guerra,No
 de,ADP,ADP,I,de,No
 Vietnam,PROPN,PROPN,O,Vietnam,No
 ",",PUNCT,PUNCT,O,",",No
@@ -8081,13 +8080,13 @@ combatieron,,VERB,O,combatir,
 australianos,,ADJ,O,australiano,
 .,PUNCT,PUNCT,O,.,No
 La,DET,DET,B,La,No
-escena,name entity,NOUN,I,escena,No
+escena,Name Entity,NOUN,I,escena,No
 es,AUX,AUX,I,ser,No
 de,ADP,ADP,I,de,No
-película,name entity,NOUN,I,película,No
+película,Name Entity,NOUN,I,película,No
 :,PUNCT,PUNCT,I,:,No
 recién,ADV,ADV,I,recién,No
-llegada,name entity,ADJ,I,llegar,No
+llegada,Name Entity,ADJ,I,llegar,No
 a,ADP,ADP,O,a,No
 Sydney,PROPN,PROPN,B,Sydney,No
 ",",PUNCT,PUNCT,O,",",No
@@ -8100,7 +8099,7 @@ de,ADP,ADP,O,de,No
 años,,NOUN,O,año,
 ",",PUNCT,PUNCT,O,",",No
 se,PRON,PRON,O,se,No
-encuentra,stop word,VERB,O,encontrar,No
+encuentra,Stop Word,VERB,O,encontrar,No
 ante,ADP,ADP,O,ante,No
 una,DET,DET,O,uno,No
 marea,,NOUN,O,marear,
@@ -8108,7 +8107,7 @@ de,ADP,ADP,O,de,No
 protesta,,NOUN,O,protestar,
 .,PUNCT,PUNCT,O,.,No
 Un,DET,DET,B,Un,No
-hombre,name entity,NOUN,I,hombre,No
+hombre,Name Entity,NOUN,I,hombre,No
 de,ADP,ADP,I,de,No
 27,NUM,NUM,I,27,No
 ",",PUNCT,PUNCT,O,",",No
@@ -8122,24 +8121,24 @@ bigote,,NOUN,O,bigote,
 le,PRON,PRON,O,le,No
 pregunta,,VERB,O,preguntar,
 si,SCONJ,SCONJ,O,si,No
-está,stop word,VERB,O,estar,No
+está,Stop Word,VERB,O,estar,No
 con,ADP,ADP,O,con,No
 alguien,PRON,PRON,O,alguien,No
 .,PUNCT,PUNCT,O,.,No
 Cuando,SCONJ,SCONJ,B,Cuando,No
 ella,PRON,PRON,I,él,No
-responde,name entity,VERB,I,responder,No
+responde,Name Entity,VERB,I,responder,No
 que,SCONJ,SCONJ,I,que,No
 no,ADV,ADV,I,no,No
 ",",PUNCT,PUNCT,I,",",No
 la,DET,DET,I,lo,No
-toma,name entity,NOUN,I,tomar,No
+toma,Name Entity,NOUN,I,tomar,No
 de,ADP,ADP,I,de,No
 la,DET,DET,I,lo,No
-mano,name entity,NOUN,I,manir,No
+mano,Name Entity,NOUN,I,manir,No
 .,PUNCT,PUNCT,O,.,No
 Un,DET,DET,B,Un,No
-año,name entity,NOUN,I,año,No
+año,Name Entity,NOUN,I,año,No
 después,ADV,ADV,I,después,No
 ",",PUNCT,PUNCT,O,",",No
 el,DET,DET,O,el,No
@@ -8158,12 +8157,12 @@ matrimonio,,NOUN,O,matrimoniar,
 no,ADV,ADV,O,no,No
 dura,,VERB,O,duro,
 .,PUNCT,PUNCT,O,.,No
-Entra,name entity,VERB,B,Entra,No
+Entra,Name Entity,VERB,B,Entra,No
 entonces,ADV,ADV,O,entonces,No
 en,ADP,ADP,O,en,No
 escena,,NOUN,O,escena,
 el,DET,DET,O,el,No
-segundo,stop word,ADJ,O,segundar,No
+segundo,Stop Word,ADJ,O,segundar,No
 hombre,,NOUN,O,hombre,
 importante,,ADJ,O,importante,
 ",",PUNCT,PUNCT,O,",",No
@@ -8198,11 +8197,11 @@ la,DET,DET,O,lo,No
 bohemia,,NOUN,O,bohemio,
 .,PUNCT,PUNCT,O,.,No
 El,DET,DET,B,El,No
-tercer,name entity,ADJ,I,3,No
-hombre,name entity,NOUN,I,hombre,No
+tercer,Name Entity,ADJ,I,3,No
+hombre,Name Entity,NOUN,I,hombre,No
 es,AUX,AUX,O,ser,No
 la,DET,DET,O,lo,No
-tercera,stop word,ADJ,O,tercero,No
+tercera,Stop Word,ADJ,O,tercero,No
 pareja,,NOUN,O,parejo,
 de,ADP,ADP,O,de,No
 su,DET,DET,O,su,No
@@ -8240,7 +8239,7 @@ finalmente,ADV,ADV,O,finalmente,No
 ",",PUNCT,PUNCT,O,",",No
 que,PRON,PRON,O,que,No
 formaba,,VERB,O,formar,
-parte,stop word,NOUN,O,partir,No
+parte,Stop Word,NOUN,O,partir,No
 de,ADP,ADP,O,de,No
 una,DET,DET,O,uno,No
 secta,,NOUN,O,secta,
@@ -8250,7 +8249,7 @@ redes,,NOUN,O,redar,
 de,ADP,ADP,O,de,No
 complicidad,,NOUN,O,complicidad,
 hacían,,VERB,O,hacer,
-posible,stop word,ADJ,O,posible,No
+posible,Stop Word,ADJ,O,posible,No
 la,DET,DET,O,lo,No
 incesante,,ADJ,O,incesante,
 persecución,,NOUN,O,persecución,
@@ -8294,7 +8293,7 @@ que,PRON,PRON,O,que,No
 la,DET,DET,O,lo,No
 vida,,NOUN,O,vida,
 en,ADP,ADP,O,en,No
-verdad,stop word,NOUN,O,verdad,No
+verdad,Stop Word,NOUN,O,verdad,No
 es,AUX,AUX,O,ser,No
 """",PUNCT,PUNCT,O,"""",No
 .,PUNCT,PUNCT,O,.,No
@@ -8309,7 +8308,7 @@ los,DET,DET,O,lo,No
 veinte,NUM,NUM,O,veinte,No
 por,ADP,ADP,O,por,No
 iniciativa,,NOUN,O,iniciativo,
-propia,stop word,ADJ,O,propio,No
+propia,Stop Word,ADJ,O,propio,No
 ",",PUNCT,PUNCT,O,",",No
 y,CONJ,CONJ,O,y,No
 lamentó,,VERB,O,lamentar,
@@ -8339,11 +8338,11 @@ Koestler,PROPN,PROPN,B,Koestler,No
 .,PUNCT,PUNCT,O,.,No
 """",PUNCT,PUNCT,O,"""",No
 De,ADP,ADP,O,De,No
-repente,stop word,NOUN,O,repente,No
+repente,Stop Word,NOUN,O,repente,No
 comprendí,,VERB,O,comprender,
 que,PRON,PRON,O,que,No
 había,AUX,AUX,O,haber,No
-hecho,stop word,VERB,O,hacer,No
+hecho,Stop Word,VERB,O,hacer,No
 el,DET,DET,O,el,No
 mismo,DET,DET,O,mismo,No
 recorrido,,NOUN,O,recorrer,
@@ -8352,11 +8351,11 @@ que,SCONJ,SCONJ,O,que,No
 ",",PUNCT,PUNCT,O,",",No
 desde,ADP,ADP,O,desde,No
 el,DET,DET,O,el,No
-primer,stop word,ADJ,O,﻿1,No
+primer,Stop Word,ADJ,O,﻿1,No
 estante,,NOUN,O,estante,
 hasta,ADP,ADP,O,hasta,No
 el,DET,DET,O,el,No
-último,stop word,ADJ,O,último,No
+último,Stop Word,ADJ,O,último,No
 ",",PUNCT,PUNCT,O,",",No
 teniendo,AUX,AUX,O,tener,No
 de,ADP,ADP,O,de,No
@@ -8377,7 +8376,7 @@ ya,ADV,ADV,O,ya,No
 había,AUX,AUX,O,haber,No
 recibido,,VERB,O,recibir,
 su,DET,DET,O,su,No
-primera,stop word,ADJ,O,primero,No
+primera,Stop Word,ADJ,O,primero,No
 ",",PUNCT,PUNCT,O,",",No
 leve,,ADJ,O,levar,
 condena,,NOUN,O,condenar,
@@ -8396,12 +8395,12 @@ de,ADP,ADP,I,de,No
 Melbourne,PROPN,PROPN,I,Melbourne,No
 .,PUNCT,PUNCT,O,.,No
 El,DET,DET,B,El,No
-origen,name entity,NOUN,I,origen,No
+origen,Name Entity,NOUN,I,origen,No
 de,ADP,ADP,I,de,No
 WikiLeaks,PROPN,PROPN,I,WikiLeaks,No
 es,AUX,AUX,O,ser,No
 un,DET,DET,O,uno,No
-gran,stop word,ADJ,O,gran,No
+gran,Stop Word,ADJ,O,gran,No
 truco,,NOUN,O,trucar,
 informático,,ADJ,O,informático,
 ",",PUNCT,PUNCT,O,",",No
@@ -8425,7 +8424,7 @@ sean,AUX,AUX,O,ser,No
 interceptados,,VERB,O,interceptar,
 .,PUNCT,PUNCT,O,.,No
 Es,AUX,AUX,B,Es,No
-imposible,name entity,ADJ,I,imposible,No
+imposible,Name Entity,ADJ,I,imposible,No
 resistirse,,NOUN,O,resistirse,
 a,ADP,ADP,O,a,No
 la,DET,DET,O,lo,No
@@ -8482,7 +8481,7 @@ la,DET,DET,O,lo,No
 cibernética,,NOUN,O,cibernético,
 .,PUNCT,PUNCT,O,.,No
 Esa,DET,DET,B,Esa,No
-habilidad,name entity,NOUN,I,habilidad,No
+habilidad,Name Entity,NOUN,I,habilidad,No
 también,ADV,ADV,I,también,No
 es,AUX,AUX,O,ser,No
 el,DET,DET,O,el,No
@@ -8522,7 +8521,7 @@ de,ADP,ADP,O,de,No
 su,DET,DET,O,su,No
 propuesta,,NOUN,O,proponer,
 revolucionaria,,ADJ,O,revolucionario,
-está,stop word,VERB,O,estar,No
+está,Stop Word,VERB,O,estar,No
 el,DET,DET,O,el,No
 principio,,NOUN,O,principiar,
 de,ADP,ADP,O,de,No
@@ -8532,7 +8531,7 @@ las,DET,DET,O,los,No
 fuentes,,NOUN,O,fuente,
 .,PUNCT,PUNCT,O,.,No
 Assange,PROPN,PROPN,B,Assange,No
-cuenta,stop word,VERB,O,contar,No
+cuenta,Stop Word,VERB,O,contar,No
 con,ADP,ADP,O,con,No
 detalle,,NOUN,O,detallar,
 cada,DET,DET,O,cada,No
@@ -8547,7 +8546,7 @@ WikiLeaks,PROPN,PROPN,B,WikiLeaks,No
 ",",PUNCT,PUNCT,O,",",No
 cómo,PRON,PRON,O,cómo,No
 las,PRON,PRON,O,los,No
-hicieron,stop word,VERB,O,hacer,No
+hicieron,Stop Word,VERB,O,hacer,No
 públicas,,ADJ,O,público,
 ",",PUNCT,PUNCT,O,",",No
 su,DET,DET,O,su,No
@@ -8555,7 +8554,7 @@ complicada,,ADJ,O,complicar,
 relación,,NOUN,O,relación,
 con,ADP,ADP,O,con,No
 algunos,DET,DET,O,alguno,No
-grandes,stop word,ADJ,O,grande,No
+grandes,Stop Word,ADJ,O,grande,No
 medios,,NOUN,O,medio,
 -,PUNCT,PUNCT,O,-,No
 The,PROPN,PROPN,B,The,No
@@ -8579,7 +8578,7 @@ aprendizajes,,NOUN,O,aprendizaje,
 .,PUNCT,PUNCT,O,.,No
 Si,SCONJ,SCONJ,B,Si,No
 el,DET,DET,I,el,No
-video,name entity,NOUN,I,video,No
+video,Name Entity,NOUN,I,video,No
 de,ADP,ADP,I,de,No
 Collateral,PROPN,PROPN,I,Collateral,No
 Murder,PROPN,PROPN,I,Murder,No
@@ -8650,7 +8649,7 @@ La,DET,DET,B,La,No
 Autobiografía,PROPN,PROPN,I,Autobiografía,No
 ...,PUNCT,PUNCT,O,...,No
 también,ADV,ADV,O,también,No
-tiene,stop word,VERB,O,tener,No
+tiene,Stop Word,VERB,O,tener,No
 su,DET,DET,O,su,No
 versión,,NOUN,O,versión,
 de,ADP,ADP,O,de,No
@@ -8670,16 +8669,16 @@ presunto,,ADJ,O,presunto,
 violador,,NOUN,O,violador,
 .,PUNCT,PUNCT,O,.,No
 El,DET,DET,B,El,No
-tono,name entity,NOUN,I,tono,No
+tono,Name Entity,NOUN,I,tono,No
 del,ADP,ADP,I,del,No
-libro,name entity,NOUN,I,librar,No
+libro,Name Entity,NOUN,I,librar,No
 es,AUX,AUX,O,ser,No
 evocativo,,ADJ,O,evocativo,
 y,CONJ,CONJ,O,y,No
 poético,,ADJ,O,poético,
 en,ADP,ADP,O,en,No
 la,DET,DET,O,lo,No
-primera,stop word,ADJ,O,primero,No
+primera,Stop Word,ADJ,O,primero,No
 mitad,,NOUN,O,mitad,
 ;,PUNCT,PUNCT,O,;,No
 sostenidamente,ADV,ADV,O,sostenidamente,No
@@ -8697,11 +8696,11 @@ rabia,,NOUN,O,rabiar,
 ",",PUNCT,PUNCT,O,",",No
 en,ADP,ADP,O,en,No
 la,DET,DET,O,lo,No
-segunda,stop word,ADJ,O,segundar,No
+segunda,Stop Word,ADJ,O,segundar,No
 .,PUNCT,PUNCT,O,.,No
 Pero,CONJ,CONJ,B,Pero,No
 algún,DET,DET,I,alguno,No
-tramo,name entity,NOUN,I,tramar,No
+tramo,Name Entity,NOUN,I,tramar,No
 vuelve,,VERB,O,volver,
 a,ADP,ADP,O,a,No
 iluminarse,,NOUN,O,iluminarse,
@@ -8713,9 +8712,9 @@ Christine,PROPN,PROPN,B,Christine,No
 .,PUNCT,PUNCT,O,.,No
 Tras,ADP,ADP,B,Tras,No
 la,DET,DET,I,lo,No
-conferencia,name entity,NOUN,I,conferenciar,No
+conferencia,Name Entity,NOUN,I,conferenciar,No
 de,ADP,ADP,I,de,No
-prensa,name entity,NOUN,I,prensar,No
+prensa,Name Entity,NOUN,I,prensar,No
 para,ADP,ADP,O,parir,No
 anunciar,,VERB,O,anunciar,
 las,DET,DET,O,los,No
@@ -8747,7 +8746,7 @@ la,DET,DET,O,lo,No
 conexión,,NOUN,O,conexión,
 con,ADP,ADP,O,con,No
 el,DET,DET,O,el,No
-lugar,stop word,NOUN,O,lugar,No
+lugar,Stop Word,NOUN,O,lugar,No
 y,CONJ,CONJ,O,y,No
 las,DET,DET,O,los,No
 circunstancias,,NOUN,O,circunstancia,
@@ -8761,7 +8760,7 @@ todo,DET,DET,O,todo,No
 aquello,PRON,PRON,O,aquel,No
 """",PUNCT,PUNCT,O,"""",No
 .,PUNCT,PUNCT,O,.,No
-Borrador,name entity,NOUN,B,Borrador,No
+Borrador,Name Entity,NOUN,B,Borrador,No
 de,ADP,ADP,O,de,No
 la,DET,DET,O,lo,No
 historia,,NOUN,O,historia,
@@ -8793,7 +8792,7 @@ otros,DET,DET,O,otro,No
 apenas,ADV,ADV,O,apenar,No
 esbozados,,ADJ,O,esbozar,
 .,PUNCT,PUNCT,O,.,No
-Continuará,name entity,VERB,B,Continuará,No
+Continuará,Name Entity,VERB,B,Continuará,No
 .,PUNCT,PUNCT,O,.,No
 C,PROPN,PROPN,O,C,No
 Autobiografía,PROPN,PROPN,B,Autobiografía,No
@@ -8813,15 +8812,14 @@ páginas,,NOUN,O,página,
 $,ADP,ADP,O,$,No
 90,NUM,NUM,O,90,No
 """",PUNCT,PUNCT,O,"""",No
- ,SPACE,SPACE,O, ,No
 ARTICLE0069,PROPN,PROPN,B,ARTICLE0069,No
 ",",PUNCT,PUNCT,O,",",No
 Alivio,PROPN,PROPN,B,Alivio,No
 para,ADP,ADP,I,parir,No
 el,DET,DET,I,el,No
-adicto,name entity,NOUN,I,adicto,No
+adicto,Name Entity,NOUN,I,adicto,No
 al,ADP,ADP,I,al,No
-shopping,name entity,NOUN,I,shopping,No
+shopping,Name Entity,NOUN,I,shopping,No
 ",",PUNCT,PUNCT,O,",",No
 """",PUNCT,PUNCT,O,"""",No
 Un,DET,DET,O,Un,No
@@ -8836,7 +8834,7 @@ para,ADP,ADP,O,parir,No
 comprar,,VERB,O,comprar,
 todo,DET,DET,O,todo,No
 el,DET,DET,O,el,No
-día,stop word,NOUN,O,día,No
+día,Stop Word,NOUN,O,día,No
 ",",PUNCT,PUNCT,O,",",No
 irse,AUX,AUX,O,irse,No
 a,ADP,ADP,O,a,No
@@ -8848,17 +8846,17 @@ más,ADV,ADV,O,más,No
 a,ADP,ADP,O,a,No
 la,DET,DET,O,lo,No
 mañana,,NOUN,O,mañana,
-siguiente,stop word,ADJ,O,siguiente,No
+siguiente,Stop Word,ADJ,O,siguiente,No
 NUEVA,,ADJ,O,NUEVA,
 YORK,PROPN,PROPN,B,YORK,No
 .,PUNCT,PUNCT,O,.,No
 -,PUNCT,PUNCT,O,-,No
 El,DET,DET,B,El,No
-próximo,stop word,ADJ,I,próximo,No
-viernes,name entity,NOUN,I,viernes,No
+próximo,Stop Word,ADJ,I,próximo,No
+viernes,Name Entity,NOUN,I,viernes,No
 no,ADV,ADV,I,no,No
 es,AUX,AUX,I,ser,No
-negro,name entity,ADJ,I,negro,No
+negro,Name Entity,ADJ,I,negro,No
 ",",PUNCT,PUNCT,O,",",No
 pero,CONJ,CONJ,O,pero,No
 podría,AUX,AUX,O,poder,No
@@ -8888,7 +8886,7 @@ el,DET,DET,O,el,No
 valle,,NOUN,O,vallar,
 central,,ADJ,O,central,
 del,ADP,ADP,O,del,No
-estado,stop word,NOUN,B,estar,No
+estado,Stop Word,NOUN,B,estar,No
 de,ADP,ADP,I,de,No
 Nueva,PROPN,PROPN,I,Nueva,No
 York,PROPN,PROPN,I,York,No
@@ -8898,8 +8896,8 @@ black,,ADJ,O,black,
 friday,,NOUN,O,friday,
 parece,AUX,AUX,O,parecer,No
 no,ADV,ADV,O,no,No
-tener,stop word,VERB,O,tener,No
-fin,stop word,NOUN,O,fin,No
+tener,Stop Word,VERB,O,tener,No
+fin,Stop Word,NOUN,O,fin,No
 .,PUNCT,PUNCT,O,.,No
 Allí,ADV,ADV,B,Allí,No
 está,AUX,AUX,I,estar,No
@@ -8931,7 +8929,7 @@ diseñador,,NOUN,O,diseñador,
 .,PUNCT,PUNCT,O,.,No
 Y,CONJ,CONJ,O,Y,No
 aquel,DET,DET,O,aquel,No
-día,stop word,NOUN,O,día,No
+día,Stop Word,NOUN,O,día,No
 originado,,ADJ,O,originar,
 en,ADP,ADP,O,en,No
 Filadelfia,PROPN,PROPN,B,Filadelfia,No
@@ -8949,8 +8947,8 @@ colma,,VERB,O,colmo,
 las,DET,DET,O,los,No
 calles,,NOUN,O,calle,
 al,ADP,ADP,O,al,No
-día,stop word,NOUN,O,día,No
-siguiente,stop word,ADJ,O,siguiente,No
+día,Stop Word,NOUN,O,día,No
+siguiente,Stop Word,ADJ,O,siguiente,No
 de,ADP,ADP,O,de,No
 Acción,PROPN,PROPN,B,Acción,No
 de,ADP,ADP,I,de,No
@@ -8974,7 +8972,7 @@ a,ADP,ADP,O,a,No
 significativas,,ADJ,O,significativo,
 rebajas,,NOUN,O,rebajar,
 .,PUNCT,PUNCT,O,.,No
-Temperaturas,name entity,NOUN,B,Temperaturas,No
+Temperaturas,Name Entity,NOUN,B,Temperaturas,No
 bajo,ADP,ADP,O,bajar,No
 cero,,NOUN,O,cero,
 y,CONJ,CONJ,O,y,No
@@ -8996,19 +8994,19 @@ caminar,,VERB,O,caminar,
 parecen,AUX,AUX,O,parecer,No
 no,ADV,ADV,O,no,No
 ser,AUX,AUX,O,ser,No
-gran,stop word,ADJ,O,gran,No
+gran,Stop Word,ADJ,O,gran,No
 obstáculo,,NOUN,O,obstáculo,
 .,PUNCT,PUNCT,O,.,No
 La,DET,DET,B,La,No
-distancia,name entity,NOUN,I,distanciar,No
+distancia,Name Entity,NOUN,I,distanciar,No
 tampoco,ADV,ADV,I,tampoco,No
 es,AUX,AUX,I,ser,No
-problema,name entity,NOUN,I,problema,No
+problema,Name Entity,NOUN,I,problema,No
 .,PUNCT,PUNCT,O,.,No
 La,DET,DET,B,La,No
-facilidad,name entity,NOUN,I,facilidad,No
+facilidad,Name Entity,NOUN,I,facilidad,No
 de,ADP,ADP,I,de,No
-llegar,name entity,VERB,I,llegar,No
+llegar,Name Entity,VERB,I,llegar,No
 no,PART,PART,O,no,No
 sólo,ADV,ADV,O,sólo,No
 en,ADP,ADP,O,en,No
@@ -9031,7 +9029,7 @@ cualquier,DET,DET,O,cualquiera,No
 inconveniente,,NOUN,O,inconveniente,
 .,PUNCT,PUNCT,O,.,No
 Los,DET,DET,B,Los,No
-descuentos,name entity,NOUN,I,descuento,No
+descuentos,Name Entity,NOUN,I,descuento,No
 de,ADP,ADP,I,de,No
 hasta,ADP,ADP,I,hasta,No
 el,DET,DET,I,el,No
@@ -9070,7 +9068,7 @@ Unidos,PROPN,PROPN,I,Unidos,No
 Pintoresca,PROPN,PROPN,B,Pintoresca,No
 villa,,VERB,O,villa,
 en,ADP,ADP,O,en,No
-medio,stop word,NOUN,O,mediar,No
+medio,Stop Word,NOUN,O,mediar,No
 de,ADP,ADP,O,de,No
 las,DET,DET,O,los,No
 montañas,,NOUN,O,montaña,
@@ -9094,10 +9092,10 @@ sabido,,VERB,O,saber,
 no,ADV,ADV,O,no,No
 hay,AUX,AUX,O,haber,No
 quien,PRON,PRON,O,quien,No
-vaya,stop word,VERB,O,ir,No
+vaya,Stop Word,VERB,O,ir,No
 a,ADP,ADP,O,a,No
 la,DET,DET,O,lo,No
-Gran,name entity,ADJ,B,Gran,No
+Gran,Name Entity,ADJ,B,Gran,No
 Manzana,PROPN,PROPN,I,Manzana,No
 y,CONJ,CONJ,O,y,No
 no,ADV,ADV,O,no,No
@@ -9110,11 +9108,11 @@ Más,ADV,ADV,B,Más,No
 aún,ADV,ADV,O,aun,No
 si,SCONJ,SCONJ,O,si,No
 se,PRON,PRON,O,se,No
-trata,stop word,VERB,O,tratar,No
+trata,Stop Word,VERB,O,tratar,No
 de,ADP,ADP,O,de,No
 oportunidades,,NOUN,O,oportunidad,
 de,ADP,ADP,O,de,No
-grandes,stop word,ADJ,O,grande,No
+grandes,Stop Word,ADJ,O,grande,No
 firmas,,NOUN,O,firmar,
 como,SCONJ,SCONJ,O,comer,No
 Gucci,PROPN,PROPN,B,Gucci,No
@@ -9157,8 +9155,8 @@ Anne,PROPN,PROPN,B,Anne,No
 Taylor,PROPN,PROPN,I,Taylor,No
 .,PUNCT,PUNCT,O,.,No
 Este,DET,DET,B,Este,No
-centro,name entity,NOUN,I,centrar,No
-comercial,name entity,ADJ,I,comercial,No
+centro,Name Entity,NOUN,I,centrar,No
+comercial,Name Entity,ADJ,I,comercial,No
 al,ADP,ADP,O,al,No
 aire,,NOUN,O,aire,
 libre,,ADJ,O,librar,
@@ -9174,7 +9172,7 @@ necesario,,ADJ,O,necesario,
 para,ADP,ADP,O,parir,No
 pasar,,VERB,O,pasar,
 un,DET,DET,O,uno,No
-día,stop word,NOUN,O,día,No
+día,Stop Word,NOUN,O,día,No
 entero,,ADJ,O,enterar,
 comprando,,VERB,O,comprar,
 ",",PUNCT,PUNCT,O,",",No
@@ -9188,7 +9186,7 @@ parezca,AUX,AUX,O,parecer,No
 .,PUNCT,PUNCT,O,.,No
 Obviamente,ADV,ADV,B,Obviamente,No
 ",",PUNCT,PUNCT,I,",",No
-restaurantes,name entity,NOUN,I,restaurante,No
+restaurantes,Name Entity,NOUN,I,restaurante,No
 ",",PUNCT,PUNCT,O,",",No
 asientos,,ADJ,O,asiento,
 por,ADP,ADP,O,por,No
@@ -9213,7 +9211,7 @@ mucho,ADV,ADV,O,mucho,No
 más,ADV,ADV,O,más,No
 .,PUNCT,PUNCT,O,.,No
 Una,DET,DET,B,Una,No
-guía,name entity,NOUN,I,guiar,No
+guía,Name Entity,NOUN,I,guiar,No
 con,ADP,ADP,I,con,No
 el,DET,DET,I,el,No
 listado,,NOUN,O,listar,
@@ -9253,7 +9251,7 @@ descuento,,NOUN,O,descontar,
 (,PUNCT,PUNCT,O,(,No
 148,NUM,NUM,O,148,No
 en,ADP,ADP,O,en,No
-total,stop word,NOUN,O,total,No
+total,Stop Word,NOUN,O,total,No
 ),PUNCT,PUNCT,O,),No
 que,PRON,PRON,O,que,No
 se,PRON,PRON,O,se,No
@@ -9264,7 +9262,7 @@ rebajas,,NOUN,O,rebajar,
 existentes,,ADJ,O,existente,
 .,PUNCT,PUNCT,O,.,No
 Un,DET,DET,B,Un,No
-infaltable,name entity,ADJ,I,infaltable,No
+infaltable,Name Entity,ADJ,I,infaltable,No
 centro,,NOUN,O,centrar,
 de,ADP,ADP,O,de,No
 información,,NOUN,O,información,
@@ -9284,9 +9282,9 @@ las,DET,DET,O,los,No
 compras,,NOUN,O,comprar,
 .,PUNCT,PUNCT,O,.,No
 Una,DET,DET,B,Una,No
-suerte,name entity,NOUN,I,suerte,No
+suerte,Name Entity,NOUN,I,suerte,No
 de,ADP,ADP,I,de,No
-personal,name entity,NOUN,I,personal,No
+personal,Name Entity,NOUN,I,personal,No
 shopper,,VERB,O,shopper,
 o,CONJ,CONJ,O,o,No
 guía,,NOUN,O,guiar,
@@ -9314,7 +9312,7 @@ el,DET,DET,O,el,No
 dato,,NOUN,O,datar,
 :,PUNCT,PUNCT,O,:,No
 se,PRON,PRON,O,se,No
-consiguen,stop word,VERB,O,conseguir,No
+consiguen,Stop Word,VERB,O,conseguir,No
 mejores,,ADJ,O,mejorar,
 descuentos,,NOUN,O,descuento,
 asociándose,ADV,ADV,O,asociándose,No
@@ -9335,20 +9333,20 @@ www.premiumoutlets.com,PROPN,PROPN,O,www.premiumoutlets.com,No
 ),PUNCT,PUNCT,O,),No
 .,PUNCT,PUNCT,O,.,No
 De,ADP,ADP,B,De,No
-compras,name entity,NOUN,I,comprar,No
+compras,Name Entity,NOUN,I,comprar,No
 y,CONJ,CONJ,O,y,No
 turistas,,NOUN,O,turista,
 Bien,ADV,ADV,B,Bien,No
-valen,name entity,VERB,I,valer,No
+valen,Name Entity,VERB,I,valer,No
 los,DET,DET,I,lo,No
-anglicismos,name entity,VERB,I,anglicismo,No
+anglicismos,Name Entity,VERB,I,anglicismo,No
 :,PUNCT,PUNCT,I,:,No
 el,DET,DET,I,el,No
-paseo,name entity,NOUN,I,pasear,No
+paseo,Name Entity,NOUN,I,pasear,No
 no,ADV,ADV,I,no,No
 es,AUX,AUX,I,ser,No
 para,ADP,ADP,I,parir,No
-shopaholic,name entity,NOUN,I,shopaholic,No
+shopaholic,Name Entity,NOUN,I,shopaholic,No
 o,CONJ,CONJ,O,o,No
 fashion,,NOUN,O,fashion,
 victims,,ADJ,O,victims,
@@ -9359,15 +9357,15 @@ sí,ADV,ADV,O,sí,No
 Es,AUX,AUX,B,Es,No
 que,SCONJ,SCONJ,I,que,No
 este,DET,DET,I,este,No
-seductor,name entity,NOUN,I,seductor,No
-pasatiempo,name entity,NOUN,I,pasatiempo,No
+seductor,Name Entity,NOUN,I,seductor,No
+pasatiempo,Name Entity,NOUN,I,pasatiempo,No
 ",",PUNCT,PUNCT,O,",",No
 más,ADV,ADV,O,más,No
 o,CONJ,CONJ,O,o,No
 menos,ADV,ADV,O,menos,No
 compulsivo,,ADJ,O,compulsivo,
 ",",PUNCT,PUNCT,O,",",No
-está,stop word,VERB,O,estar,No
+está,Stop Word,VERB,O,estar,No
 en,ADP,ADP,O,en,No
 la,DET,DET,O,lo,No
 agenda,,NOUN,O,agenda,
@@ -9377,11 +9375,11 @@ turista,,NOUN,O,turista,
 .,PUNCT,PUNCT,O,.,No
 No,ADV,ADV,B,No,No
 hay,AUX,AUX,I,haber,No
-duda,name entity,NOUN,I,dudar,No
+duda,Name Entity,NOUN,I,dudar,No
 de,ADP,ADP,I,de,No
 que,SCONJ,SCONJ,I,que,No
 los,DET,DET,I,lo,No
-japoneses,name entity,NOUN,I,japonés,No
+japoneses,Name Entity,NOUN,I,japonés,No
 y,CONJ,CONJ,O,y,No
 chinos,,NOUN,O,chino,
 son,AUX,AUX,O,ser,No
@@ -9390,8 +9388,8 @@ protagonistas,,NOUN,O,protagonista,
 .,PUNCT,PUNCT,O,.,No
 Se,PRON,PRON,B,Se,No
 los,PRON,PRON,I,lo,No
-ve,name entity,VERB,I,ver,No
-cargadísimos,name entity,VERB,I,cargadísimos,No
+ve,Name Entity,VERB,I,ver,No
+cargadísimos,Name Entity,VERB,I,cargadísimos,No
 con,ADP,ADP,O,con,No
 bolsas,,NOUN,O,bolsa,
 o,CONJ,CONJ,O,o,No
@@ -9402,7 +9400,7 @@ ruedas,,NOUN,O,rueda,
 .,PUNCT,PUNCT,O,.,No
 Entre,ADP,ADP,B,Entre,No
 los,DET,DET,I,lo,No
-latinos,name entity,NOUN,I,latino,No
+latinos,Name Entity,NOUN,I,latino,No
 se,PRON,PRON,O,se,No
 cuentan,,VERB,O,contar,
 a,ADP,ADP,O,a,No
@@ -9424,7 +9422,7 @@ argentinos,,NOUN,O,argentino,
 .,PUNCT,PUNCT,O,.,No
 Premium,PROPN,PROPN,B,Premium,No
 Outlets,PROPN,PROPN,I,Outlets,No
-tiene,stop word,VERB,O,tener,No
+tiene,Stop Word,VERB,O,tener,No
 12,NUM,NUM,O,12,No
 millones,,NOUN,O,millón,
 de,ADP,ADP,O,de,No
@@ -9443,23 +9441,23 @@ todo,PRON,PRON,I,todo,No
 .,PUNCT,PUNCT,I,.,No
 Aunque,SCONJ,SCONJ,B,Aunque,No
 la,DET,DET,I,lo,No
-ola,name entity,NOUN,I,ola,No
+ola,Name Entity,NOUN,I,ola,No
 de,ADP,ADP,I,de,No
-frío,name entity,NOUN,I,freír,No
+frío,Name Entity,NOUN,I,freír,No
 bien,ADV,ADV,I,bien,No
 puede,AUX,AUX,I,poder,No
-llevar,stop word,VERB,I,llevar,No
+llevar,Stop Word,VERB,I,llevar,No
 a,ADP,ADP,I,a,No
-buscar,name entity,VERB,I,buscar,No
+buscar,Name Entity,VERB,I,buscar,No
 un,DET,DET,I,uno,No
-conveniente,name entity,ADJ,I,conveniente,No
-abrigo,name entity,NOUN,I,abrigar,No
-impermeable,name entity,ADJ,I,impermeable,No
+conveniente,Name Entity,ADJ,I,conveniente,No
+abrigo,Name Entity,NOUN,I,abrigar,No
+impermeable,Name Entity,ADJ,I,impermeable,No
 es,AUX,AUX,O,ser,No
-mejor,stop word,ADJ,O,mejor,No
-ir,stop word,VERB,O,ir,No
+mejor,Stop Word,ADJ,O,mejor,No
+ir,Stop Word,VERB,O,ir,No
 al,ADP,ADP,O,al,No
-final,stop word,NOUN,O,final,No
+final,Stop Word,NOUN,O,final,No
 de,ADP,ADP,O,de,No
 las,DET,DET,O,los,No
 tiendas,,NOUN,O,tienda,
@@ -9476,12 +9474,12 @@ contratemporada,,NOUN,O,contratemporada,
 Algunas,PRON,PRON,B,Algunas,No
 de,ADP,ADP,I,de,No
 las,DET,DET,I,los,No
-marcas,name entity,NOUN,I,marcar,No
+marcas,Name Entity,NOUN,I,marcar,No
 más,ADV,ADV,I,más,No
-buscadas,name entity,ADJ,I,buscar,No
+buscadas,Name Entity,ADJ,I,buscar,No
 por,ADP,ADP,I,por,No
 las,DET,DET,I,los,No
-argentinas,name entity,NOUN,I,argentino,No
+argentinas,Name Entity,NOUN,I,argentino,No
 son,AUX,AUX,O,ser,No
 Banana,PROPN,PROPN,B,Banana,No
 Republic,PROPN,PROPN,I,Republic,No
@@ -9498,9 +9496,9 @@ Ann,PROPN,PROPN,B,Ann,No
 Taylor,PROPN,PROPN,I,Taylor,No
 .,PUNCT,PUNCT,O,.,No
 Se,PRON,PRON,B,Se,No
-encuentran,name entity,VERB,I,encontrar,No
-remeras,name entity,NOUN,I,remero,No
-básicas,name entity,ADJ,I,básico,No
+encuentran,Name Entity,VERB,I,encontrar,No
+remeras,Name Entity,NOUN,I,remero,No
+básicas,Name Entity,ADJ,I,básico,No
 por,ADP,ADP,I,por,No
 8,NUM,NUM,I,8,No
 ",",PUNCT,PUNCT,O,",",No
@@ -9561,11 +9559,11 @@ por,ADP,ADP,O,por,No
 99,NUM,NUM,O,99,No
 .,PUNCT,PUNCT,O,.,No
 Más,ADV,ADV,B,Más,No
-acorde,name entity,VERB,I,acorde,No
+acorde,Name Entity,VERB,I,acorde,No
 con,ADP,ADP,I,con,No
 el,DET,DET,I,el,No
-clima,name entity,NOUN,I,clima,No
-neoyorquino,name entity,ADJ,I,neoyorquino,No
+clima,Name Entity,NOUN,I,clima,No
+neoyorquino,Name Entity,ADJ,I,neoyorquino,No
 ",",PUNCT,PUNCT,O,",",No
 no,PART,PART,O,no,No
 obstante,,NOUN,O,obstante,
@@ -9602,9 +9600,9 @@ hay,AUX,AUX,I,haber,No
 .,PUNCT,PUNCT,I,.,No
 Sólo,ADV,ADV,B,Sólo,No
 a,ADP,ADP,O,a,No
-modo,stop word,NOUN,O,modo,No
+modo,Stop Word,NOUN,O,modo,No
 de,ADP,ADP,O,de,No
-ejemplo,stop word,NOUN,O,ejemplo,No
+ejemplo,Stop Word,NOUN,O,ejemplo,No
 ",",PUNCT,PUNCT,O,",",No
 chaquetas,CONJ,CONJ,O,chaqueta,No
 tipo,,NOUN,O,tipo,
@@ -9627,9 +9625,9 @@ de,ADP,ADP,O,de,No
 95,NUM,NUM,O,95,No
 .,PUNCT,PUNCT,O,.,No
 Un,DET,DET,B,Un,No
-par,name entity,NOUN,I,par,No
+par,Name Entity,NOUN,I,par,No
 de,ADP,ADP,I,de,No
-sandalias,name entity,NOUN,I,sandalia,No
+sandalias,Name Entity,NOUN,I,sandalia,No
 de,ADP,ADP,I,de,No
 Prada,PROPN,PROPN,I,Prada,No
 en,ADP,ADP,O,en,No
@@ -9639,7 +9637,7 @@ de,ADP,ADP,O,de,No
 650,NUM,NUM,O,650,No
 dólares,,NOUN,O,dólar,
 se,PRON,PRON,O,se,No
-consigue,stop word,VERB,O,conseguir,No
+consigue,Stop Word,VERB,O,conseguir,No
 por,ADP,ADP,O,por,No
 292,NUM,NUM,O,292,No
 .,PUNCT,PUNCT,O,.,No
@@ -9663,7 +9661,7 @@ obtienen,,VERB,O,obtener,
 por,ADP,ADP,O,por,No
 977,NUM,NUM,O,977,No
 .,PUNCT,PUNCT,O,.,No
-Precios,name entity,NOUN,B,Precios,No
+Precios,Name Entity,NOUN,B,Precios,No
 que,PRON,PRON,O,que,No
 ",",PUNCT,PUNCT,O,",",No
 aun,ADV,ADV,O,aun,No
@@ -9686,11 +9684,11 @@ vidrieras,,NOUN,O,vidriera,
 locales,,ADJ,O,local,
 .,PUNCT,PUNCT,O,.,No
 A,ADP,ADP,B,A,No
-llenar,name entity,VERB,I,llenar,No
+llenar,Name Entity,VERB,I,llenar,No
 la,DET,DET,I,lo,No
-valija,name entity,NOUN,I,valija,No
+valija,Name Entity,NOUN,I,valija,No
 Una,DET,DET,B,Una,No
-sugerencia,name entity,NOUN,I,sugerencia,No
+sugerencia,Name Entity,NOUN,I,sugerencia,No
 :,PUNCT,PUNCT,O,:,No
 lo,DET,DET,O,el,No
 ideal,,ADJ,O,ideal,
@@ -9711,11 +9709,11 @@ cercano,,ADJ,O,cercano,
 y,CONJ,CONJ,O,y,No
 regresar,,VERB,O,regresar,
 al,ADP,ADP,O,al,No
-día,stop word,NOUN,O,día,No
-siguiente,stop word,ADJ,O,siguiente,No
+día,Stop Word,NOUN,O,día,No
+siguiente,Stop Word,ADJ,O,siguiente,No
 para,ADP,ADP,O,parir,No
 esas,DET,DET,O,ese,No
-cosas,stop word,NOUN,O,coser,No
+cosas,Stop Word,NOUN,O,coser,No
 que,PRON,PRON,O,que,No
 faltan,,VERB,O,faltar,
 o,CONJ,CONJ,O,o,No
@@ -9724,7 +9722,7 @@ hay,AUX,AUX,O,haber,No
 que,SCONJ,SCONJ,O,que,No
 devolver,,VERB,O,devolver,
 .,PUNCT,PUNCT,O,.,No
-Ropa,name entity,NOUN,B,Ropa,No
+Ropa,Name Entity,NOUN,B,Ropa,No
 y,CONJ,CONJ,O,y,No
 calzados,,NOUN,O,calzar,
 cómodos,,ADJ,O,cómodo,
@@ -9734,7 +9732,7 @@ abrigo,,NOUN,O,abrigar,
 impermeable,,ADJ,O,impermeable,
 ",",PUNCT,PUNCT,O,",",No
 una,DET,DET,O,uno,No
-buena,stop word,ADJ,O,bueno,No
+buena,Stop Word,ADJ,O,bueno,No
 bandolera,,NOUN,O,bandolero,
 o,CONJ,CONJ,O,o,No
 mochila,,ADJ,O,mochila,
@@ -9752,9 +9750,9 @@ parezca,AUX,AUX,O,parecer,No
 exagerado,,ADJ,O,exagerar,
 .,PUNCT,PUNCT,O,.,No
 Hay,AUX,AUX,B,Hay,No
-paquetes,name entity,NOUN,I,paquete,No
+paquetes,Name Entity,NOUN,I,paquete,No
 de,ADP,ADP,I,de,No
-compras,name entity,NOUN,I,comprar,No
+compras,Name Entity,NOUN,I,comprar,No
 con,ADP,ADP,O,con,No
 hotel,,NOUN,O,hotel,
 incluido,,ADJ,O,incluir,
@@ -9854,9 +9852,9 @@ Como,SCONJ,SCONJ,O,Como,No
 llegar,,VERB,O,llegar,
 De,ADP,ADP,B,De,No
 la,DET,DET,I,lo,No
-estación,name entity,NOUN,I,estación,No
+estación,Name Entity,NOUN,I,estación,No
 de,ADP,ADP,I,de,No
-bus,name entity,NOUN,I,bus,No
+bus,Name Entity,NOUN,I,bus,No
 Port,PROPN,PROPN,I,Port,No
 Authority,PROPN,PROPN,I,Authority,No
 ",",PUNCT,PUNCT,O,",",No
@@ -9874,7 +9872,7 @@ avenida,,NOUN,O,avenir,
 :,PUNCT,PUNCT,O,:,No
 subir,,VERB,O,subir,
 al,ADP,ADP,O,al,No
-primer,stop word,ADJ,O,﻿1,No
+primer,Stop Word,ADJ,O,﻿1,No
 piso,,NOUN,O,pisar,
 por,ADP,ADP,O,por,No
 unas,DET,DET,O,uno,No
@@ -9893,13 +9891,13 @@ Woodbury,PROPN,PROPN,B,Woodbury,No
 Common,PROPN,PROPN,I,Common,No
 .,PUNCT,PUNCT,O,.,No
 Un,DET,DET,B,Un,No
-piso,name entity,NOUN,I,pisar,No
+piso,Name Entity,NOUN,I,pisar,No
 y,CONJ,CONJ,I,y,No
 está,AUX,AUX,I,estar,No
 la,DET,DET,I,lo,No
-puerta,name entity,NOUN,I,puerta,No
+puerta,Name Entity,NOUN,I,puerta,No
 de,ADP,ADP,I,de,No
-salida,name entity,NOUN,I,salir,No
+salida,Name Entity,NOUN,I,salir,No
 de,ADP,ADP,O,de,No
 los,DET,DET,O,lo,No
 buses,,NOUN,O,bus,
@@ -10025,12 +10023,12 @@ Wikipedia,PROPN,PROPN,B,Wikipedia,No
 """",PUNCT,PUNCT,O,"""",No
 Creo,,VERB,O,Creo,
 la,DET,DET,O,lo,No
-mayor,stop word,ADJ,O,mayor,No
+mayor,Stop Word,ADJ,O,mayor,No
 enciclopedia,,NOUN,O,enciclopedia,
 online,,ADJ,O,online,
 ;,PUNCT,PUNCT,O,;,No
 su,DET,DET,O,su,No
-trabajo,stop word,NOUN,O,trabajar,No
+trabajo,Stop Word,NOUN,O,trabajar,No
 despierta,,VERB,O,despierto,
 admiración,,NOUN,O,admiración,
 y,CONJ,CONJ,O,y,No
@@ -10039,8 +10037,8 @@ críticas,,NOUN,O,crítico,
 .,PUNCT,PUNCT,O,.,No
 Guardián,PROPN,PROPN,B,Guardián,No
 del,ADP,ADP,I,del,No
-libre,name entity,ADJ,I,librar,No
-conocimiento,name entity,NOUN,I,conocimiento,No
+libre,Name Entity,ADJ,I,librar,No
+conocimiento,Name Entity,NOUN,I,conocimiento,No
 ",",PUNCT,PUNCT,O,",",No
 pelea,,NOUN,O,pelear,
 contra,ADP,ADP,O,contra,No
@@ -10060,7 +10058,7 @@ rincones,,NOUN,O,rincón,
 del,ADP,ADP,O,del,No
 planeta,,NOUN,O,planeta,
 de,ADP,ADP,O,de,No
-manera,stop word,NOUN,O,manera,No
+manera,Stop Word,NOUN,O,manera,No
 libre,,ADJ,O,librar,
 y,CONJ,CONJ,O,y,No
 gratuita,,ADJ,O,gratuito,
@@ -10070,7 +10068,7 @@ es,AUX,AUX,O,ser,No
 la,DET,DET,O,lo,No
 idea,,NOUN,O,ideo,
 que,PRON,PRON,O,que,No
-tuvo,stop word,VERB,O,tener,No
+tuvo,Stop Word,VERB,O,tener,No
 Jimmy,PROPN,PROPN,B,Jimmy,No
 Wales,PROPN,PROPN,I,Wales,No
 ",",PUNCT,PUNCT,O,",",No
@@ -10101,7 +10099,7 @@ que,PRON,PRON,O,que,No
 se,PRON,PRON,O,se,No
 construye,,VERB,O,construir,
 de,ADP,ADP,O,de,No
-manera,stop word,NOUN,O,manera,No
+manera,Stop Word,NOUN,O,manera,No
 colaborativa,,ADJ,O,colaborativa,
 ",",PUNCT,PUNCT,O,",",No
 es,AUX,AUX,O,ser,No
@@ -10118,9 +10116,9 @@ Con,ADP,ADP,B,Con,No
 más,ADV,ADV,I,más,No
 de,ADP,ADP,I,de,No
 30,NUM,NUM,I,30,No
-millones,name entity,NOUN,I,millón,No
+millones,Name Entity,NOUN,I,millón,No
 de,ADP,ADP,I,de,No
-artículos,name entity,NOUN,I,artículo,No
+artículos,Name Entity,NOUN,I,artículo,No
 ",",PUNCT,PUNCT,O,",",No
 es,AUX,AUX,O,ser,No
 la,DET,DET,O,lo,No
@@ -10147,7 +10145,7 @@ de,ADP,ADP,O,de,No
 crecer,,VERB,O,crecer,
 .,PUNCT,PUNCT,O,.,No
 Wales,PROPN,PROPN,B,Wales,No
-habla,stop word,VERB,O,hablar,No
+habla,Stop Word,VERB,O,hablar,No
 con,ADP,ADP,O,con,No
 la,DET,DET,O,lo,No
 Revista,PROPN,PROPN,B,Revista,No
@@ -10168,14 +10166,14 @@ su,DET,DET,O,su,No
 actual,,ADJ,O,actual,
 (,PUNCT,PUNCT,O,(,No
 y,CONJ,CONJ,O,y,No
-tercera,stop word,ADJ,O,tercero,No
+tercera,Stop Word,ADJ,O,tercero,No
 ),PUNCT,PUNCT,O,),No
 esposa,,NOUN,O,esposo,
 ",",PUNCT,PUNCT,O,",",No
 y,CONJ,CONJ,O,y,No
 con,ADP,ADP,O,con,No
 su,DET,DET,O,su,No
-segunda,stop word,ADJ,O,segundar,No
+segunda,Stop Word,ADJ,O,segundar,No
 hija,,NOUN,O,hijo,
 ",",PUNCT,PUNCT,O,",",No
 de,ADP,ADP,O,de,No
@@ -10202,7 +10200,7 @@ en,ADP,ADP,O,en,No
 entrevistas,,NOUN,O,entrevistar,
 .,PUNCT,PUNCT,O,.,No
 No,ADV,ADV,B,No,No
-tiene,stop word,VERB,O,tener,No
+tiene,Stop Word,VERB,O,tener,No
 problema,,NOUN,O,problema,
 en,ADP,ADP,O,en,No
 entregar,,VERB,O,entregar,
@@ -10216,26 +10214,26 @@ incomoda,,NOUN,O,incomodar,
 especialmente,ADV,ADV,O,especialmente,No
 cuando,SCONJ,SCONJ,O,cuando,No
 se,PRON,PRON,O,se,No
-trata,stop word,VERB,O,tratar,No
+trata,Stop Word,VERB,O,tratar,No
 de,ADP,ADP,O,de,No
 alguna,DET,DET,O,alguno,No
 crítica,,NOUN,O,crítico,
 a,ADP,ADP,O,a,No
 su,DET,DET,O,su,No
-trabajo,stop word,NOUN,O,trabajar,No
+trabajo,Stop Word,NOUN,O,trabajar,No
 o,CONJ,CONJ,O,o,No
 temas,,NOUN,O,temer,
 personales,,ADJ,O,personal,
 .,PUNCT,PUNCT,O,.,No
 Su,DET,DET,B,Su,No
-nombre,name entity,NOUN,I,nombrar,No
+nombre,Name Entity,NOUN,I,nombrar,No
 comenzó,AUX,AUX,I,comenzar,No
 a,ADP,ADP,I,a,No
-sonar,name entity,VERB,I,sonar,No
+sonar,Name Entity,VERB,I,sonar,No
 hace,AUX,AUX,I,hacer,No
 unos,DET,DET,I,uno,No
 diez,NUM,NUM,I,diez,No
-años,name entity,NOUN,I,año,No
+años,Name Entity,NOUN,I,año,No
 ",",PUNCT,PUNCT,O,",",No
 a,ADP,ADP,O,a,No
 medida,,NOUN,O,medir,
@@ -10245,7 +10243,7 @@ crecía,,VERB,O,crecer,
 .,PUNCT,PUNCT,O,.,No
 Pero,CONJ,CONJ,B,Pero,No
 hay,AUX,AUX,I,haber,No
-historia,name entity,NOUN,I,historia,No
+historia,Name Entity,NOUN,I,historia,No
 antes,ADV,ADV,I,antes,No
 de,ADP,ADP,I,de,No
 eso,PRON,PRON,I,ese,No
@@ -10283,11 +10281,11 @@ la,DET,DET,O,lo,No
 que,PRON,PRON,O,que,No
 Wales,PROPN,PROPN,B,Wales,No
 estudió,,VERB,O,estudiar,
-buena,stop word,ADJ,O,bueno,No
-parte,stop word,NOUN,O,partir,No
+buena,Stop Word,ADJ,O,bueno,No
+parte,Stop Word,NOUN,O,partir,No
 de,ADP,ADP,O,de,No
 sus,DET,DET,O,su,No
-primeros,stop word,ADJ,O,primero,No
+primeros,Stop Word,ADJ,O,primero,No
 años,,NOUN,O,año,
 escolares,,ADJ,O,escolar,
 y,CONJ,CONJ,O,y,No
@@ -10304,7 +10302,7 @@ conocimiento,,NOUN,O,conocimiento,
 .,PUNCT,PUNCT,O,.,No
 Más,ADV,ADV,B,Más,No
 tarde,ADV,ADV,I,tardar,No
-estudió,name entity,VERB,I,estudiar,No
+estudió,Name Entity,VERB,I,estudiar,No
 Finanzas,PROPN,PROPN,B,Finanzas,No
 en,ADP,ADP,O,en,No
 la,DET,DET,O,lo,No
@@ -10319,7 +10317,7 @@ Universidad,PROPN,PROPN,B,Universidad,No
 de,ADP,ADP,I,de,No
 Indiana,PROPN,PROPN,I,Indiana,No
 .,PUNCT,PUNCT,O,.,No
-Trabajó,name entity,VERB,B,Trabajó,No
+Trabajó,Name Entity,VERB,B,Trabajó,No
 como,SCONJ,SCONJ,O,comer,No
 asesor,,NOUN,O,asesor,
 financiero,,ADJ,O,financiero,
@@ -10331,9 +10329,9 @@ donde,PRON,PRON,O,donde,No
 ",",PUNCT,PUNCT,O,",",No
 aseguran,,VERB,O,asegurar,
 ",",PUNCT,PUNCT,O,",",No
-hizo,stop word,VERB,O,hacer,No
+hizo,Stop Word,VERB,O,hacer,No
 una,DET,DET,O,uno,No
-buena,stop word,ADJ,O,bueno,No
+buena,Stop Word,ADJ,O,bueno,No
 fortuna,,NOUN,O,fortuna,
 .,PUNCT,PUNCT,O,.,No
 Al,ADP,ADP,B,Al,No
@@ -10350,11 +10348,11 @@ de,ADP,ADP,O,de,No
 Wikipedia,PROPN,PROPN,B,Wikipedia,No
 .,PUNCT,PUNCT,O,.,No
 El,DET,DET,B,El,No
-germen,name entity,NOUN,I,germen,No
+germen,Name Entity,NOUN,I,germen,No
 de,ADP,ADP,I,de,No
 Wikipedia,PROPN,PROPN,I,Wikipedia,No
 ",",PUNCT,PUNCT,O,",",No
-cuenta,stop word,VERB,O,contar,No
+cuenta,Stop Word,VERB,O,contar,No
 el,DET,DET,O,el,No
 mismo,DET,DET,O,mismo,No
 Wales,PROPN,PROPN,B,Wales,No
@@ -10427,10 +10425,10 @@ jóvenes,,NOUN,O,joven,
 """",PUNCT,PUNCT,O,"""",No
 .,PUNCT,PUNCT,O,.,No
 Las,DET,DET,B,Las,No
-chicas,name entity,NOUN,I,chico,No
+chicas,Name Entity,NOUN,I,chico,No
 con,ADP,ADP,I,con,No
 poca,DET,DET,I,poco,No
-ropa,name entity,NOUN,I,ropa,No
+ropa,Name Entity,NOUN,I,ropa,No
 le,PRON,PRON,O,le,No
 generaron,,VERB,O,generar,
 ganancias,,NOUN,O,ganancia,
@@ -10475,24 +10473,24 @@ embrión,,NOUN,O,embrión,
 de,ADP,ADP,O,de,No
 Wikipedia,PROPN,PROPN,B,Wikipedia,No
 .,PUNCT,PUNCT,O,.,No
-Transcurría,name entity,VERB,B,Transcurría,No
+Transcurría,Name Entity,VERB,B,Transcurría,No
 el,DET,DET,O,el,No
 año,,NOUN,O,año,
 2000,NUM,NUM,O,2000,No
 y,CONJ,CONJ,O,y,No
 Jimmy,PROPN,PROPN,B,Jimmy,No
 ya,ADV,ADV,O,ya,No
-estaba,stop word,VERB,O,estar,No
+estaba,Stop Word,VERB,O,estar,No
 con,ADP,ADP,O,con,No
 su,DET,DET,O,su,No
-segunda,stop word,ADJ,O,segundar,No
+segunda,Stop Word,ADJ,O,segundar,No
 esposa,,NOUN,O,esposo,
 ",",PUNCT,PUNCT,O,",",No
 Christine,PROPN,PROPN,B,Christine,No
 ",",PUNCT,PUNCT,O,",",No
 con,ADP,ADP,O,con,No
 quien,PRON,PRON,O,quien,No
-tuvo,stop word,VERB,O,tener,No
+tuvo,Stop Word,VERB,O,tener,No
 a,ADP,ADP,O,a,No
 su,DET,DET,O,su,No
 hija,,NOUN,O,hijo,
@@ -10542,7 +10540,7 @@ de,ADP,ADP,O,de,No
 nació,,VERB,O,nacer,
 www.wikipedia.org,PROPN,PROPN,O,www.wikipedia.org,No
 Al,ADP,ADP,B,Al,No
-alcance,name entity,NOUN,I,alcanzar,No
+alcance,Name Entity,NOUN,I,alcanzar,No
 de,ADP,ADP,O,de,No
 todos,DET,DET,O,todo,No
 Wikipedia,PROPN,PROPN,B,Wikipedia,No
@@ -10564,14 +10562,14 @@ y,CONJ,CONJ,O,y,No
 editarlo,,VERB,O,editarlo,
 .,PUNCT,PUNCT,O,.,No
 De,ADP,ADP,B,De,No
-hecho,stop word,NOUN,I,hacer,No
+hecho,Stop Word,NOUN,I,hacer,No
 ",",PUNCT,PUNCT,I,",",No
 más,ADV,ADV,I,más,No
 de,ADP,ADP,I,de,No
 un,NUM,NUM,I,uno,No
-millón,name entity,NOUN,I,millón,No
+millón,Name Entity,NOUN,I,millón,No
 de,ADP,ADP,I,de,No
-personas,name entity,NOUN,I,personar,No
+personas,Name Entity,NOUN,I,personar,No
 han,AUX,AUX,O,haber,No
 editado,,VERB,O,editar,
 al,ADP,ADP,O,al,No
@@ -10580,10 +10578,10 @@ un,DET,DET,O,uno,No
 artículo,,NOUN,O,artículo,
 .,PUNCT,PUNCT,O,.,No
 Lo,DET,DET,B,Lo,No
-distintivo,name entity,ADJ,I,distintivo,No
+distintivo,Name Entity,ADJ,I,distintivo,No
 de,ADP,ADP,I,de,No
 esta,DET,DET,I,este,No
-plataforma,name entity,NOUN,I,plataforma,No
+plataforma,Name Entity,NOUN,I,plataforma,No
 es,AUX,AUX,O,ser,No
 que,SCONJ,SCONJ,O,que,No
 cualquier,DET,DET,O,cualquiera,No
@@ -10594,9 +10592,9 @@ una,DET,DET,O,uno,No
 publicación,,NOUN,O,publicación,
 ",",PUNCT,PUNCT,O,",",No
 mientras,SCONJ,SCONJ,O,mientras,No
-existe,stop word,VERB,O,existir,No
+existe,Stop Word,VERB,O,existir,No
 una,DET,DET,O,uno,No
-gran,stop word,ADJ,O,gran,No
+gran,Stop Word,ADJ,O,gran,No
 comunidad,,NOUN,O,comunidad,
 de,ADP,ADP,O,de,No
 más,ADV,ADV,O,más,No
@@ -10631,11 +10629,11 @@ errores,,NOUN,O,error,
 .,PUNCT,PUNCT,O,.,No
 De,ADP,ADP,B,De,No
 este,DET,DET,I,este,No
-devoto,name entity,NOUN,I,devoto,No
-ejército,name entity,ADJ,I,ejército,No
-pende,name entity,VERB,I,pender,No
+devoto,Name Entity,NOUN,I,devoto,No
+ejército,Name Entity,ADJ,I,ejército,No
+pende,Name Entity,VERB,I,pender,No
 la,DET,DET,I,lo,No
-veracidad,name entity,NOUN,I,veracidad,No
+veracidad,Name Entity,NOUN,I,veracidad,No
 y,CONJ,CONJ,O,y,No
 el,DET,DET,O,el,No
 mantenimiento,,NOUN,O,mantenimiento,
@@ -10648,7 +10646,7 @@ millones,,NOUN,O,millón,
 de,ADP,ADP,O,de,No
 entradas,,NOUN,O,entrar,
 que,PRON,PRON,O,que,No
-existen,stop word,VERB,O,existir,No
+existen,Stop Word,VERB,O,existir,No
 en,ADP,ADP,O,en,No
 la,DET,DET,O,lo,No
 actualidad,,NOUN,O,actualidad,
@@ -10656,7 +10654,7 @@ actualidad,,NOUN,O,actualidad,
 Como,SCONJ,SCONJ,B,Como,No
 en,ADP,ADP,I,en,No
 toda,DET,DET,I,todo,No
-comunidad,name entity,NOUN,I,comunidad,No
+comunidad,Name Entity,NOUN,I,comunidad,No
 no,ADV,ADV,O,no,No
 faltan,,VERB,O,faltar,
 las,DET,DET,O,los,No
@@ -10688,7 +10686,7 @@ publicación,,NOUN,O,publicación,
 .,PUNCT,PUNCT,O,.,No
 Cuando,SCONJ,SCONJ,B,Cuando,No
 una,DET,DET,I,uno,No
-disputa,name entity,NOUN,I,disputar,No
+disputa,Name Entity,NOUN,I,disputar,No
 levanta,,VERB,O,levantar,
 demasiado,ADV,ADV,O,demasiar,No
 revuelo,,NOUN,O,revuelo,
@@ -10714,9 +10712,9 @@ hermanos,,NOUN,O,hermano,
 ",",PUNCT,PUNCT,O,",",No
 porque,SCONJ,SCONJ,O,porque,No
 a,ADP,ADP,O,a,No
-pesar,stop word,NOUN,O,pesar,No
+pesar,Stop Word,NOUN,O,pesar,No
 de,ADP,ADP,O,de,No
-tener,stop word,VERB,O,tener,No
+tener,Stop Word,VERB,O,tener,No
 múltiples,,ADJ,O,múltiple,
 roles,,ADJ,O,rolar,
 dentro,ADV,ADV,O,dentro,No
@@ -10739,25 +10737,25 @@ en,ADP,ADP,O,en,No
 Wikipedia,PROPN,PROPN,B,Wikipedia,No
 todos,DET,DET,O,todo,No
 los,DET,DET,O,lo,No
-días,stop word,NOUN,O,día,No
+días,Stop Word,NOUN,O,día,No
 ",",PUNCT,PUNCT,O,",",No
 me,PRON,PRON,O,me,No
 apasiona,,VERB,O,apasionar,
-hacerlo,stop word,VERB,O,hacerlo,No
+hacerlo,Stop Word,VERB,O,hacerlo,No
 y,CONJ,CONJ,O,y,No
 lo,PRON,PRON,O,el,No
 haré,,VERB,O,hacer,
 todo,DET,DET,O,todo,No
 el,DET,DET,O,el,No
-tiempo,stop word,NOUN,O,tiempo,No
+tiempo,Stop Word,NOUN,O,tiempo,No
 que,PRON,PRON,O,que,No
 pueda,AUX,AUX,O,poder,No
 """",PUNCT,PUNCT,O,"""",No
 ",",PUNCT,PUNCT,O,",",No
-dice,stop word,VERB,O,decir,No
+dice,Stop Word,VERB,O,decir,No
 .,PUNCT,PUNCT,O,.,No
 La,DET,DET,B,La,No
-burbuja,name entity,NOUN,I,burbuja,No
+burbuja,Name Entity,NOUN,I,burbuja,No
 de,ADP,ADP,I,de,No
 Internet,PROPN,PROPN,I,Internet,No
 explotó,,VERB,O,explotar,
@@ -10792,7 +10790,7 @@ operación,,NOUN,O,operación,
 .,PUNCT,PUNCT,O,.,No
 En,ADP,ADP,B,En,No
 cada,DET,DET,I,cada,No
-país,name entity,NOUN,I,país,No
+país,Name Entity,NOUN,I,país,No
 ",",PUNCT,PUNCT,O,",",No
 la,DET,DET,O,lo,No
 fundación,,NOUN,O,fundación,
@@ -10826,16 +10824,16 @@ funciona,,VERB,O,funcionar,
 desde,ADP,ADP,O,desde,No
 2007,,NOUN,O,2007,
 (,PUNCT,PUNCT,O,(,No
-ver,stop word,VERB,O,ver,No
+ver,Stop Word,VERB,O,ver,No
 recuadro,,NOUN,O,recuadrar,
 ),PUNCT,PUNCT,O,),No
 .,PUNCT,PUNCT,O,.,No
 A,ADP,ADP,B,A,No
 13,NUM,NUM,I,13,No
-años,name entity,NOUN,I,año,No
+años,Name Entity,NOUN,I,año,No
 de,ADP,ADP,I,de,No
 su,DET,DET,I,su,No
-nacimiento,name entity,NOUN,I,nacimiento,No
+nacimiento,Name Entity,NOUN,I,nacimiento,No
 ",",PUNCT,PUNCT,O,",",No
 Wikipedia,PROPN,PROPN,B,Wikipedia,No
 está,AUX,AUX,O,estar,No
@@ -10846,7 +10844,7 @@ en,ADP,ADP,O,en,No
 lenguas,,NOUN,O,lengua,
 ",",PUNCT,PUNCT,O,",",No
 y,CONJ,CONJ,O,y,No
-tiene,stop word,VERB,O,tener,No
+tiene,Stop Word,VERB,O,tener,No
 más,ADV,ADV,O,más,No
 de,ADP,ADP,O,de,No
 20,NUM,NUM,O,20,No
@@ -10868,12 +10866,12 @@ mes,,NOUN,O,mes,
 .,PUNCT,PUNCT,O,.,No
 Es,AUX,AUX,B,Es,No
 la,DET,DET,I,lo,No
-quinta,name entity,ADJ,I,quinto,No
-página,name entity,NOUN,I,página,No
+quinta,Name Entity,ADJ,I,quinto,No
+página,Name Entity,NOUN,I,página,No
 más,ADV,ADV,I,más,No
-visitada,name entity,ADJ,I,visitar,No
+visitada,Name Entity,ADJ,I,visitar,No
 del,ADP,ADP,I,del,No
-mundo,name entity,NOUN,I,mundo,No
+mundo,Name Entity,NOUN,I,mundo,No
 ",",PUNCT,PUNCT,O,",",No
 después,ADV,ADV,O,después,No
 de,ADP,ADP,O,de,No
@@ -10886,32 +10884,32 @@ y,CONJ,CONJ,O,y,No
 Facebook,PROPN,PROPN,B,Facebook,No
 .,PUNCT,PUNCT,O,.,No
 Se,PRON,PRON,B,Se,No
-estima,name entity,VERB,I,estimar,No
+estima,Name Entity,VERB,I,estimar,No
 que,SCONJ,SCONJ,I,que,No
 si,SCONJ,SCONJ,I,si,No
-aceptara,name entity,VERB,I,aceptar,No
-publicidad,name entity,NOUN,I,publicidad,No
+aceptara,Name Entity,VERB,I,aceptar,No
+publicidad,Name Entity,NOUN,I,publicidad,No
 en,ADP,ADP,I,en,No
 su,DET,DET,I,su,No
-sitio,name entity,NOUN,I,sitiar,No
-valdría,name entity,VERB,I,valer,No
+sitio,Name Entity,NOUN,I,sitiar,No
+valdría,Name Entity,VERB,I,valer,No
 más,ADV,ADV,I,más,No
 de,ADP,ADP,I,de,No
 5,NUM,NUM,I,5,No
 mil,NUM,NUM,I,mil,No
-millones,name entity,NOUN,I,millón,No
+millones,Name Entity,NOUN,I,millón,No
 de,ADP,ADP,I,de,No
-dólares,name entity,NOUN,I,dólar,No
+dólares,Name Entity,NOUN,I,dólar,No
 .,PUNCT,PUNCT,O,.,No
-Editor,name entity,NOUN,B,Editor,No
+Editor,Name Entity,NOUN,B,Editor,No
 con,ADP,ADP,O,con,No
 privilegios,,NOUN,O,privilegio,
 La,DET,DET,B,La,No
 popularidad,PROPN,PROPN,I,popularidad,No
 de,ADP,ADP,I,de,No
 Wales,PROPN,PROPN,I,Wales,No
-creció,name entity,VERB,I,crecer,No
-junto,stop word,ADJ,O,juntar,No
+creció,Name Entity,VERB,I,crecer,No
+junto,Stop Word,ADJ,O,juntar,No
 con,ADP,ADP,O,con,No
 la,DET,DET,O,lo,No
 de,ADP,ADP,O,de,No
@@ -10925,7 +10923,7 @@ fue,AUX,AUX,O,ser,No
 nombrado,,VERB,O,nombrar,
 ",",PUNCT,PUNCT,O,",",No
 por,ADP,ADP,O,por,No
-ejemplo,stop word,NOUN,O,ejemplo,No
+ejemplo,Stop Word,NOUN,O,ejemplo,No
 ",",PUNCT,PUNCT,O,",",No
 como,SCONJ,SCONJ,O,comer,No
 una,PRON,PRON,O,uno,No
@@ -10947,11 +10945,11 @@ en,ADP,ADP,O,en,No
 Davos,PROPN,PROPN,B,Davos,No
 .,PUNCT,PUNCT,O,.,No
 El,DET,DET,B,El,No
-destino,name entity,NOUN,I,destinar,No
-llevó,name entity,VERB,I,llevar,No
+destino,Name Entity,NOUN,I,destinar,No
+llevó,Name Entity,VERB,I,llevar,No
 a,ADP,ADP,I,a,No
 este,DET,DET,I,este,No
-hombre,name entity,NOUN,I,hombre,No
+hombre,Name Entity,NOUN,I,hombre,No
 ",",PUNCT,PUNCT,O,",",No
 que,PRON,PRON,O,que,No
 hasta,ADP,ADP,O,hasta,No
@@ -10968,8 +10966,8 @@ Unidos,PROPN,PROPN,I,Unidos,No
 ",",PUNCT,PUNCT,O,",",No
 a,ADP,ADP,O,a,No
 pasar,,VERB,O,pasar,
-buena,stop word,ADJ,O,bueno,No
-parte,stop word,NOUN,O,partir,No
+buena,Stop Word,ADJ,O,bueno,No
+parte,Stop Word,NOUN,O,partir,No
 de,ADP,ADP,O,de,No
 su,DET,DET,O,su,No
 vida,,NOUN,O,vida,
@@ -10998,7 +10996,7 @@ York,PROPN,PROPN,I,York,No
 Times,PROPN,PROPN,I,Times,No
 ",",PUNCT,PUNCT,O,",",No
 su,DET,DET,O,su,No
-cuenta,stop word,NOUN,O,contar,No
+cuenta,Stop Word,NOUN,O,contar,No
 apenas,ADV,ADV,O,apenar,No
 supera,,VERB,O,superar,
 el,DET,DET,O,el,No
@@ -11024,7 +11022,7 @@ páginas,,NOUN,O,página,
 de,ADP,ADP,O,de,No
 Internet,PROPN,PROPN,B,Internet,No
 .,PUNCT,PUNCT,O,.,No
-Crédito,name entity,NOUN,B,Crédito,No
+Crédito,Name Entity,NOUN,B,Crédito,No
 :,PUNCT,PUNCT,I,:,No
 Corbis,PROPN,PROPN,I,Corbis,No
 Entre,ADP,ADP,I,Entre,No
@@ -11058,7 +11056,7 @@ que,PRON,PRON,O,que,No
 es,AUX,AUX,O,ser,No
 que,SCONJ,SCONJ,O,que,No
 para,ADP,ADP,O,parir,No
-hacer,stop word,VERB,O,hacer,No
+hacer,Stop Word,VERB,O,hacer,No
 una,DET,DET,O,uno,No
 entrada,,NOUN,O,entrar,
 o,CONJ,CONJ,O,o,No
@@ -11084,7 +11082,7 @@ En,ADP,ADP,O,En,No
 2005,,NOUN,O,2005,
 ",",PUNCT,PUNCT,O,",",No
 por,ADP,ADP,O,por,No
-ejemplo,stop word,NOUN,O,ejemplo,No
+ejemplo,Stop Word,NOUN,O,ejemplo,No
 ",",PUNCT,PUNCT,O,",",No
 Wales,PROPN,PROPN,B,Wales,No
 corrigió,,VERB,O,corregir,
@@ -11093,7 +11091,7 @@ propia,DET,DET,O,propio,No
 biografía,,NOUN,O,biografiar,
 ",",PUNCT,PUNCT,O,",",No
 que,PRON,PRON,O,que,No
-tenía,stop word,VERB,O,tener,No
+tenía,Stop Word,VERB,O,tener,No
 un,DET,DET,O,uno,No
 error,,NOUN,O,error,
 en,ADP,ADP,O,en,No
@@ -11103,7 +11101,7 @@ de,ADP,ADP,O,de,No
 nacimiento,,NOUN,O,nacimiento,
 .,PUNCT,PUNCT,O,.,No
 """",PUNCT,PUNCT,O,"""",No
-Siento,name entity,VERB,B,Siento,No
+Siento,Name Entity,VERB,B,Siento,No
 decir,AUX,AUX,O,decir,No
 que,SCONJ,SCONJ,O,que,No
 esta,DET,DET,O,este,No
@@ -11136,13 +11134,13 @@ comunidad,,NOUN,O,comunidad,
 wikipedista,,ADJ,O,wikipedista,
 .,PUNCT,PUNCT,O,.,No
 Otro,DET,DET,B,Otro,No
-conflicto,name entity,NOUN,I,conflicto,No
-gira,name entity,VERB,I,girar,No
+conflicto,Name Entity,NOUN,I,conflicto,No
+gira,Name Entity,VERB,I,girar,No
 en,ADP,ADP,I,en,No
-torno,name entity,NOUN,I,tornar,No
+torno,Name Entity,NOUN,I,tornar,No
 de,ADP,ADP,I,de,No
 la,DET,DET,I,lo,No
-cofundación,name entity,NOUN,I,cofundación,No
+cofundación,Name Entity,NOUN,I,cofundación,No
 de,ADP,ADP,O,de,No
 Wikipedia,PROPN,PROPN,B,Wikipedia,No
 ",",PUNCT,PUNCT,O,",",No
@@ -11157,7 +11155,7 @@ el,DET,DET,O,el,No
 responsable,,NOUN,O,responsable,
 .,PUNCT,PUNCT,O,.,No
 En,ADP,ADP,B,En,No
-2000,name entity,NOUN,I,2000,No
+2000,Name Entity,NOUN,I,2000,No
 ",",PUNCT,PUNCT,O,",",No
 Wales,PROPN,PROPN,B,Wales,No
 contrató,,VERB,O,contratar,
@@ -11173,7 +11171,7 @@ software,,NOUN,O,software,
 libre,,ADJ,O,librar,
 ",",PUNCT,PUNCT,O,",",No
 para,ADP,ADP,O,parir,No
-trabajar,stop word,VERB,O,trabajar,No
+trabajar,Stop Word,VERB,O,trabajar,No
 en,ADP,ADP,O,en,No
 el,DET,DET,O,el,No
 lanzamiento,,NOUN,O,lanzamiento,
@@ -11181,12 +11179,12 @@ de,ADP,ADP,O,de,No
 Wikipedia,PROPN,PROPN,B,Wikipedia,No
 .,PUNCT,PUNCT,O,.,No
 La,DET,DET,B,La,No
-idea,name entity,NOUN,I,ideo,No
+idea,Name Entity,NOUN,I,ideo,No
 de,ADP,ADP,I,de,No
 que,SCONJ,SCONJ,I,que,No
 todo,DET,DET,I,todo,No
 el,DET,DET,I,el,No
-mundo,name entity,NOUN,I,mundo,No
+mundo,Name Entity,NOUN,I,mundo,No
 ",",PUNCT,PUNCT,O,",",No
 y,CONJ,CONJ,O,y,No
 no,ADV,ADV,O,no,No
@@ -11225,7 +11223,7 @@ la,DET,DET,O,lo,No
 plataforma,,NOUN,O,plataforma,
 .,PUNCT,PUNCT,O,.,No
 De,ADP,ADP,B,De,No
-hecho,stop word,NOUN,I,hacer,No
+hecho,Stop Word,NOUN,I,hacer,No
 ",",PUNCT,PUNCT,I,",",No
 así,ADV,ADV,I,asir,No
 es,AUX,AUX,O,ser,No
@@ -11246,7 +11244,7 @@ Sanger,PROPN,PROPN,B,Sanger,No
 quien,PRON,PRON,O,quien,No
 declinó,,VERB,O,declinar,
 de,ADP,ADP,O,de,No
-hacer,stop word,VERB,O,hacer,No
+hacer,Stop Word,VERB,O,hacer,No
 comentarios,,NOUN,O,comentario,
 sobre,ADP,ADP,O,sobrar,No
 Wales,PROPN,PROPN,B,Wales,No
@@ -11258,15 +11256,15 @@ en,ADP,ADP,O,en,No
 particular,,NOUN,O,particular,
 .,PUNCT,PUNCT,O,.,No
 Sin,ADP,ADP,B,Sin,No
-embargo,stop word,NOUN,I,embargar,No
+embargo,Stop Word,NOUN,I,embargar,No
 ",",PUNCT,PUNCT,I,",",No
 su,DET,DET,I,su,No
-opinión,name entity,NOUN,I,opinión,No
-queda,name entity,VERB,I,quedo,No
-clara,name entity,ADJ,I,claro,No
+opinión,Name Entity,NOUN,I,opinión,No
+queda,Name Entity,VERB,I,quedo,No
+clara,Name Entity,ADJ,I,claro,No
 en,ADP,ADP,I,en,No
 su,DET,DET,I,su,No
-blog,name entity,NOUN,I,blog,No
+blog,Name Entity,NOUN,I,blog,No
 Larrysanger,PROPN,PROPN,I,Larrysanger,No
 .,PUNCT,PUNCT,O,.,No
 org,,VERB,O,org,
@@ -11301,7 +11299,7 @@ Wikipedia,PROPN,PROPN,B,Wikipedia,No
 quizá,ADV,ADV,O,quizá,No
 demasiado,ADV,ADV,O,demasiar,No
 .,PUNCT,PUNCT,O,.,No
-Conoce,name entity,VERB,B,Conoce,No
+Conoce,Name Entity,VERB,B,Conoce,No
 a,ADP,ADP,O,a,No
 los,DET,DET,O,lo,No
 editores,,NOUN,O,editor,
@@ -11338,13 +11336,13 @@ por,ADP,ADP,O,por,No
 sus,DET,DET,O,su,No
 nombres,,NOUN,O,nombre,
 o,CONJ,CONJ,O,o,No
-hacer,stop word,VERB,O,hacer,No
+hacer,Stop Word,VERB,O,hacer,No
 referencias,,NOUN,O,referenciar,
 a,ADP,ADP,O,a,No
 temas,,NOUN,O,temer,
 personales,,ADJ,O,personal,
 en,ADP,ADP,O,en,No
-medio,stop word,NOUN,O,mediar,No
+medio,Stop Word,NOUN,O,mediar,No
 de,ADP,ADP,O,de,No
 las,DET,DET,O,los,No
 multitudinarias,,NOUN,O,multitudinario,
@@ -11382,13 +11380,13 @@ asistentes,,NOUN,O,asistente,
 como,SCONJ,SCONJ,O,comer,No
 en,ADP,ADP,O,en,No
 un,DET,DET,O,uno,No
-gran,stop word,ADJ,O,gran,No
+gran,Stop Word,ADJ,O,gran,No
 campamento,,NOUN,O,campamento,
 scout,,ADJ,O,scout,
 .,PUNCT,PUNCT,O,.,No
 ¿,PUNCT,PUNCT,O,¿,No
 Usted,PRON,PRON,B,Usted,No
-tiene,stop word,VERB,O,tener,No
+tiene,Stop Word,VERB,O,tener,No
 hobbies,,NOUN,O,hobby,
 ?,PUNCT,PUNCT,O,?,No
 No,ADV,ADV,B,No,No
@@ -11402,7 +11400,7 @@ deporte,,NOUN,O,deportar,
 ?,PUNCT,PUNCT,O,?,No
 No,ADV,ADV,B,No,No
 .,PUNCT,PUNCT,I,.,No
-Estar,name entity,VERB,B,Estar,No
+Estar,Name Entity,VERB,B,Estar,No
 en,ADP,ADP,I,en,No
 Wikipedia,PROPN,PROPN,I,Wikipedia,No
 es,AUX,AUX,O,ser,No
@@ -11411,10 +11409,10 @@ hobby,,NOUN,O,hobby,
 .,PUNCT,PUNCT,O,.,No
 Entre,ADP,ADP,B,Entre,No
 sus,DET,DET,I,su,No
-viajes,name entity,NOUN,I,viaje,No
+viajes,Name Entity,NOUN,I,viaje,No
 visita,,VERB,O,visitar,
 dos,NUM,NUM,O,do,No
-veces,stop word,NOUN,O,vez,No
+veces,Stop Word,NOUN,O,vez,No
 al,ADP,ADP,O,al,No
 mes,,NOUN,O,mes,
 a,ADP,ADP,O,a,No
@@ -11424,7 +11422,7 @@ Kira,PROPN,PROPN,B,Kira,No
 ",",PUNCT,PUNCT,O,",",No
 que,PRON,PRON,O,que,No
 vive,,VERB,O,vivir,
-junto,stop word,ADJ,O,juntar,No
+junto,Stop Word,ADJ,O,juntar,No
 a,ADP,ADP,O,a,No
 su,DET,DET,O,su,No
 madre,,NOUN,O,madre,
@@ -11432,14 +11430,14 @@ en,ADP,ADP,O,en,No
 Florida,PROPN,PROPN,B,Florida,No
 .,PUNCT,PUNCT,O,.,No
 Al,ADP,ADP,B,Al,No
-hablar,name entity,VERB,I,hablar,No
+hablar,Name Entity,VERB,I,hablar,No
 de,ADP,ADP,I,de,No
 la,DET,DET,I,lo,No
-niña,name entity,NOUN,I,niño,No
+niña,Name Entity,NOUN,I,niño,No
 ",",PUNCT,PUNCT,O,",",No
 afloja,,ADJ,O,aflojar,
 por,ADP,ADP,O,por,No
-fin,stop word,NOUN,O,fin,No
+fin,Stop Word,NOUN,O,fin,No
 su,DET,DET,O,su,No
 tono,,NOUN,O,tono,
 de,ADP,ADP,O,de,No
@@ -11464,7 +11462,7 @@ diversión,,NOUN,O,diversión,
 """",PUNCT,PUNCT,O,"""",No
 Sobre,ADP,ADP,O,Sobre,No
 su,DET,DET,O,su,No
-segunda,stop word,ADJ,O,segundar,No
+segunda,Stop Word,ADJ,O,segundar,No
 hija,,NOUN,O,hijo,
 ",",PUNCT,PUNCT,O,",",No
 de,ADP,ADP,O,de,No
@@ -11503,7 +11501,7 @@ ciudad,,NOUN,O,ciudad,
 por,ADP,ADP,O,por,No
 ser,AUX,AUX,O,ser,No
 la,DET,DET,O,lo,No
-ex,stop word,ADJ,O,ex,No
+ex,Stop Word,ADJ,O,ex,No
 secretaria,,NOUN,O,secretario,
 de,ADP,ADP,O,de,No
 Tony,PROPN,PROPN,B,Tony,No
@@ -11535,7 +11533,7 @@ a,ADP,ADP,O,a,No
 Londres,PROPN,PROPN,B,Londres,No
 ocasionó,,VERB,O,ocasionar,
 un,DET,DET,O,uno,No
-gran,stop word,ADJ,O,gran,No
+gran,Stop Word,ADJ,O,gran,No
 movimiento,,NOUN,O,movimiento,
 en,ADP,ADP,O,en,No
 su,DET,DET,O,su,No
@@ -11557,7 +11555,7 @@ temas,,NOUN,O,temer,
 personales,,ADJ,O,personal,
 .,PUNCT,PUNCT,O,.,No
 ¿,PUNCT,PUNCT,B,¿,No
-Cuesta,name entity,VERB,I,Cuesta,No
+Cuesta,Name Entity,VERB,I,Cuesta,No
 mantener,,VERB,O,mantener,
 Wikipedia,PROPN,PROPN,B,Wikipedia,No
 sin,ADP,ADP,O,sin,No
@@ -11565,7 +11563,7 @@ publicidad,,NOUN,O,publicidad,
 ?,PUNCT,PUNCT,O,?,No
 Es,AUX,AUX,O,Es,No
 habitual,,ADJ,O,habitual,
-ver,stop word,VERB,O,ver,No
+ver,Stop Word,VERB,O,ver,No
 las,DET,DET,O,los,No
 campañas,,NOUN,O,campaña,
 de,ADP,ADP,O,de,No
@@ -11580,11 +11578,11 @@ de,ADP,ADP,O,de,No
 inicio,,NOUN,O,iniciar,
 .,PUNCT,PUNCT,O,.,No
 La,DET,DET,B,La,No
-mayor,stop word,ADJ,I,mayor,No
-parte,stop word,NOUN,I,partir,No
+mayor,Stop Word,ADJ,I,mayor,No
+parte,Stop Word,NOUN,I,partir,No
 de,ADP,ADP,I,de,No
 las,DET,DET,I,los,No
-donaciones,name entity,NOUN,I,donación,No
+donaciones,Name Entity,NOUN,I,donación,No
 proviene,,VERB,O,provenir,
 de,ADP,ADP,O,de,No
 los,DET,DET,O,lo,No
@@ -11593,8 +11591,8 @@ usuarios,,NOUN,O,usuario,
 donantes,,NOUN,O,donante,
 pequeños,,ADJ,O,pequeño,
 que,PRON,PRON,O,que,No
-hacen,stop word,VERB,O,hacer,No
-posible,stop word,ADJ,O,posible,No
+hacen,Stop Word,VERB,O,hacer,No
+posible,Stop Word,ADJ,O,posible,No
 que,SCONJ,SCONJ,O,que,No
 Wikipedia,PROPN,PROPN,B,Wikipedia,No
 exista,,VERB,O,existir,
@@ -11620,7 +11618,7 @@ Wikipedia,PROPN,PROPN,B,Wikipedia,No
 pertenezca,,VERB,O,pertenecer,
 a,ADP,ADP,O,a,No
 todos,PRON,PRON,O,todo,No
-¿o,name entity,VERB,B,¿o,No
+¿o,Name Entity,VERB,B,¿o,No
 a,ADP,ADP,O,a,No
 nadie,PRON,PRON,O,nadie,No
 ?,PUNCT,PUNCT,O,?,No
@@ -11640,7 +11638,7 @@ filo,,NOUN,O,filo,
 Esta,DET,DET,O,Esta,No
 empresa,,NOUN,O,empresa,
 colectiva,,ADJ,O,colectivo,
-hace,stop word,VERB,O,hacer,No
+hace,Stop Word,VERB,O,hacer,No
 que,SCONJ,SCONJ,O,que,No
 nadie,PRON,PRON,O,nadie,No
 gane,,VERB,O,ganar,
@@ -11667,11 +11665,11 @@ Twitter,PROPN,PROPN,B,Twitter,No
 .,PUNCT,PUNCT,O,.,No
 A,ADP,ADP,O,A,No
 su,PRON,PRON,O,su,No
-vez,stop word,NOUN,O,vez,No
+vez,Stop Word,NOUN,O,vez,No
 ",",PUNCT,PUNCT,O,",",No
 si,SCONJ,SCONJ,O,si,No
 un,DET,DET,O,uno,No
-día,stop word,NOUN,O,día,No
+día,Stop Word,NOUN,O,día,No
 Wales,PROPN,PROPN,B,Wales,No
 despertara,,VERB,O,despertar,
 con,ADP,ADP,O,con,No
@@ -11683,7 +11681,7 @@ su,DET,DET,O,su,No
 cabeza,,NOUN,O,cabeza,
 ",",PUNCT,PUNCT,O,",",No
 podría,AUX,AUX,O,poder,No
-intentar,stop word,VERB,O,intentar,No
+intentar,Stop Word,VERB,O,intentar,No
 abrir,,VERB,O,abrir,
 su,DET,DET,O,su,No
 plataforma,,NOUN,O,plataforma,
@@ -11697,13 +11695,13 @@ publicitario,,ADJ,O,publicitario,
 Pero,CONJ,CONJ,B,Pero,No
 eso,PRON,PRON,I,ese,No
 podría,AUX,AUX,I,poder,No
-generar,name entity,VERB,I,generar,No
+generar,Name Entity,VERB,I,generar,No
 una,DET,DET,I,uno,No
-revuelta,name entity,NOUN,I,revolver,No
+revuelta,Name Entity,NOUN,I,revolver,No
 en,ADP,ADP,I,en,No
 la,DET,DET,I,lo,No
-granja,name entity,NOUN,I,granja,No
-global,name entity,ADJ,I,global,No
+granja,Name Entity,NOUN,I,granja,No
+global,Name Entity,ADJ,I,global,No
 de,ADP,ADP,O,de,No
 voluntarios,,NOUN,O,voluntario,
 ",",PUNCT,PUNCT,O,",",No
@@ -11716,12 +11714,12 @@ de,ADP,ADP,O,de,No
 pago,,NOUN,O,pagar,
 .,PUNCT,PUNCT,O,.,No
 El,DET,DET,B,El,No
-diseño,name entity,NOUN,I,diseñar,No
+diseño,Name Entity,NOUN,I,diseñar,No
 y,CONJ,CONJ,I,y,No
 la,DET,DET,I,lo,No
-manera,stop word,NOUN,I,manera,No
+manera,Stop Word,NOUN,I,manera,No
 de,ADP,ADP,I,de,No
-mostrar,name entity,VERB,I,mostrar,No
+mostrar,Name Entity,VERB,I,mostrar,No
 los,DET,DET,O,lo,No
 contenidos,,NOUN,O,contenido,
 ha,AUX,AUX,O,haber,No
@@ -11733,7 +11731,7 @@ su,DET,DET,O,su,No
 lanzamiento,,NOUN,O,lanzamiento,
 .,PUNCT,PUNCT,O,.,No
 ¿,PUNCT,PUNCT,B,¿,No
-Planean,name entity,VERB,I,Planean,No
+Planean,Name Entity,VERB,I,Planean,No
 alguna,DET,DET,O,alguno,No
 evolución,,NOUN,O,evolución,
 hacia,ADP,ADP,O,hacia,No
@@ -11745,12 +11743,12 @@ más,ADV,ADV,O,más,No
 atractivo,,ADJ,O,atractivo,
 ?,PUNCT,PUNCT,O,?,No
 Estamos,AUX,AUX,B,Estamos,No
-cambiando,name entity,VERB,I,cambiar,No
+cambiando,Name Entity,VERB,I,cambiar,No
 la,DET,DET,I,lo,No
-tecnología,name entity,NOUN,I,tecnología,No
+tecnología,Name Entity,NOUN,I,tecnología,No
 para,ADP,ADP,O,parir,No
 una,DET,DET,O,uno,No
-mejor,stop word,ADJ,O,mejor,No
+mejor,Stop Word,ADJ,O,mejor,No
 navegación,,NOUN,O,navegación,
 ",",PUNCT,PUNCT,O,",",No
 pero,CONJ,CONJ,O,pero,No
@@ -11762,11 +11760,11 @@ de,ADP,ADP,O,de,No
 diseño,,NOUN,O,diseñar,
 .,PUNCT,PUNCT,O,.,No
 Nos,PRON,PRON,B,Nos,No
-gusta,name entity,VERB,I,gustar,No
+gusta,Name Entity,VERB,I,gustar,No
 así,ADV,ADV,I,asir,No
 y,CONJ,CONJ,I,y,No
 no,ADV,ADV,O,no,No
-queremos,stop word,VERB,O,querer,No
+queremos,Stop Word,VERB,O,querer,No
 parecernos,,NOUN,O,parecernos,
 a,ADP,ADP,O,a,No
 Facebook,PROPN,PROPN,B,Facebook,No
@@ -11799,7 +11797,7 @@ de,ADP,ADP,O,de,No
 certificar,,VERB,O,certificar,
 de,ADP,ADP,O,de,No
 algún,DET,DET,O,alguno,No
-modo,stop word,NOUN,O,modo,No
+modo,Stop Word,NOUN,O,modo,No
 los,DET,DET,O,lo,No
 artículos,,NOUN,O,artículo,
 ",",PUNCT,PUNCT,O,",",No
@@ -11827,17 +11825,17 @@ totalmente,ADV,ADV,O,totalmente,No
 incorrecto,,ADJ,O,incorrecto,
 .,PUNCT,PUNCT,O,.,No
 Esa,DET,DET,B,Esa,No
-noción,name entity,NOUN,I,noción,No
+noción,Name Entity,NOUN,I,noción,No
 de,ADP,ADP,I,de,No
 que,SCONJ,SCONJ,I,que,No
 para,ADP,ADP,I,parir,No
-tener,stop word,VERB,I,tener,No
+tener,Stop Word,VERB,I,tener,No
 la,DET,DET,I,lo,No
-mejor,stop word,ADJ,I,mejor,No
-información,name entity,NOUN,I,información,No
+mejor,Stop Word,ADJ,I,mejor,No
+información,Name Entity,NOUN,I,información,No
 hay,AUX,AUX,O,haber,No
 que,SCONJ,SCONJ,O,que,No
-tener,stop word,VERB,O,tener,No
+tener,Stop Word,VERB,O,tener,No
 un,DET,DET,O,uno,No
 experto,,ADJ,O,experto,
 certificado,,ADJ,O,certificar,
@@ -11846,16 +11844,16 @@ atrasa,,VERB,O,atrasar,
 Sí,ADV,ADV,B,Sí,No
 hay,AUX,AUX,I,haber,No
 mucha,DET,DET,I,mucho,No
-evidencia,name entity,NOUN,I,evidenciar,No
+evidencia,Name Entity,NOUN,I,evidenciar,No
 de,ADP,ADP,O,de,No
 que,SCONJ,SCONJ,O,que,No
-tener,stop word,VERB,O,tener,No
+tener,Stop Word,VERB,O,tener,No
 la,DET,DET,O,lo,No
-mejor,stop word,ADJ,O,mejor,No
+mejor,Stop Word,ADJ,O,mejor,No
 información,,NOUN,O,información,
-parte,stop word,NOUN,O,partir,No
+parte,Stop Word,NOUN,O,partir,No
 de,ADP,ADP,O,de,No
-tener,stop word,VERB,O,tener,No
+tener,Stop Word,VERB,O,tener,No
 un,DET,DET,O,uno,No
 diálogo,,NOUN,O,diálogo,
 pensado,,ADJ,O,pensar,
@@ -11868,9 +11866,9 @@ público,,ADJ,O,público,
 asegura,,VERB,O,asegurar,
 .,PUNCT,PUNCT,O,.,No
 Cuando,SCONJ,SCONJ,B,Cuando,No
-comenzó,name entity,VERB,I,comenzar,No
+comenzó,Name Entity,VERB,I,comenzar,No
 el,DET,DET,I,el,No
-proyecto,name entity,NOUN,I,proyectar,No
+proyecto,Name Entity,NOUN,I,proyectar,No
 ",",PUNCT,PUNCT,O,",",No
 muchos,PRON,PRON,O,mucho,No
 sugerían,,VERB,O,sugerir,
@@ -11910,7 +11908,7 @@ cambiado,,VERB,O,cambiar,
 sobre,ADP,ADP,O,sobrar,No
 ",",PUNCT,PUNCT,O,",",No
 por,ADP,ADP,O,por,No
-ejemplo,stop word,NOUN,O,ejemplo,No
+ejemplo,Stop Word,NOUN,O,ejemplo,No
 ",",PUNCT,PUNCT,O,",",No
 Julio,PROPN,PROPN,B,Julio,No
 César,PROPN,PROPN,I,César,No
@@ -11925,15 +11923,15 @@ es,AUX,AUX,O,ser,No
 mucho,ADV,ADV,O,mucho,No
 .,PUNCT,PUNCT,O,.,No
 Las,DET,DET,B,Las,No
-miradas,name entity,NOUN,I,mirar,No
+miradas,Name Entity,NOUN,I,mirar,No
 sobre,ADP,ADP,I,sobrar,No
 los,DET,DET,I,lo,No
-acontecimientos,name entity,NOUN,I,acontecimiento,No
-evolucionan,name entity,VERB,I,evolucionar,No
+acontecimientos,Name Entity,NOUN,I,acontecimiento,No
+evolucionan,Name Entity,VERB,I,evolucionar,No
 ",",PUNCT,PUNCT,O,",",No
 por,ADP,ADP,O,por,No
 eso,PRON,PRON,O,ese,No
-creo,stop word,VERB,O,creer,No
+creo,Stop Word,VERB,O,creer,No
 que,SCONJ,SCONJ,O,que,No
 Wikipedia,PROPN,PROPN,B,Wikipedia,No
 es,AUX,AUX,O,ser,No
@@ -11951,12 +11949,12 @@ evolucionando,,VERB,O,evolucionar,
 enfatiza,,VERB,O,enfatizar,
 .,PUNCT,PUNCT,O,.,No
 Otra,DET,DET,B,Otra,No
-crítica,name entity,NOUN,I,crítico,No
+crítica,Name Entity,NOUN,I,crítico,No
 que,PRON,PRON,I,que,No
 se,PRON,PRON,I,se,No
-repite,name entity,VERB,I,repetir,No
+repite,Name Entity,VERB,I,repetir,No
 en,ADP,ADP,I,en,No
-foros,name entity,NOUN,I,foro,No
+foros,Name Entity,NOUN,I,foro,No
 y,CONJ,CONJ,I,y,No
 sobre,ADP,ADP,I,sobrar,No
 la,DET,DET,I,lo,No
@@ -12053,7 +12051,7 @@ ha,AUX,AUX,O,haber,No
 reconocido,,VERB,O,reconocer,
 que,SCONJ,SCONJ,O,que,No
 muchas,DET,DET,O,mucho,No
-veces,stop word,NOUN,O,vez,No
+veces,Stop Word,NOUN,O,vez,No
 se,PRON,PRON,O,se,No
 inician,,VERB,O,iniciar,
 pujas,,NOUN,O,pujar,
@@ -12071,7 +12069,7 @@ información,,NOUN,O,información,
 ",",PUNCT,PUNCT,O,",",No
 lo,DET,DET,O,el,No
 que,PRON,PRON,O,que,No
-considera,stop word,VERB,O,considerar,No
+considera,Stop Word,VERB,O,considerar,No
 sano,,ADJ,O,sanar,
 y,CONJ,CONJ,O,y,No
 """",PUNCT,PUNCT,O,"""",No
@@ -12086,12 +12084,12 @@ visitado,,VERB,O,visitar,
 la,DET,DET,O,lo,No
 Argentina,PROPN,PROPN,B,Argentina,No
 varias,DET,DET,O,varios,No
-veces,stop word,NOUN,O,vez,No
+veces,Stop Word,NOUN,O,vez,No
 .,PUNCT,PUNCT,O,.,No
 Es,AUX,AUX,B,Es,No
-amigo,name entity,NOUN,I,amigar,No
+amigo,Name Entity,NOUN,I,amigar,No
 del,ADP,ADP,I,del,No
-empresario,name entity,NOUN,I,empresario,No
+empresario,Name Entity,NOUN,I,empresario,No
 Martín,PROPN,PROPN,I,Martín,No
 Varsavsky,PROPN,PROPN,I,Varsavsky,No
 ",",PUNCT,PUNCT,O,",",No
@@ -12107,7 +12105,7 @@ quien,PRON,PRON,O,quien,No
 en,ADP,ADP,O,en,No
 2009,,NOUN,O,2009,
 le,PRON,PRON,O,le,No
-hizo,stop word,VERB,O,hacer,No
+hizo,Stop Word,VERB,O,hacer,No
 un,DET,DET,O,uno,No
 regalo,,NOUN,O,regalar,
 especial,,ADJ,O,especial,
@@ -12156,7 +12154,7 @@ en,ADP,ADP,O,en,No
 español,,NOUN,O,español,
 """",PUNCT,PUNCT,O,"""",No
 ",",PUNCT,PUNCT,O,",",No
-cuenta,stop word,VERB,O,contar,No
+cuenta,Stop Word,VERB,O,contar,No
 Varsavsky,PROPN,PROPN,B,Varsavsky,No
 desde,ADP,ADP,O,desde,No
 su,DET,DET,O,su,No
@@ -12165,11 +12163,11 @@ en,ADP,ADP,O,en,No
 España,PROPN,PROPN,B,España,No
 .,PUNCT,PUNCT,O,.,No
 El,DET,DET,B,El,No
-desafío,name entity,NOUN,I,desafiar,No
+desafío,Name Entity,NOUN,I,desafiar,No
 no,ADV,ADV,I,no,No
 estaba,AUX,AUX,I,estar,No
 en,ADP,ADP,I,en,No
-meter,name entity,VERB,I,meter,No
+meter,Name Entity,VERB,I,meter,No
 todo,DET,DET,O,todo,No
 el,DET,DET,O,el,No
 contenido,,NOUN,O,contener,
@@ -12178,14 +12176,14 @@ Wikipedia,PROPN,PROPN,B,Wikipedia,No
 en,ADP,ADP,O,en,No
 un,DET,DET,O,uno,No
 soporte,,NOUN,O,soportar,
-de,name entity,ADJ,B,de,No
-hecho,stop word,ADJ,O,hacer,No
+de,Name Entity,ADJ,B,de,No
+hecho,Stop Word,ADJ,O,hacer,No
 entra,,VERB,O,entrar,
 todo,DET,DET,O,todo,No
 el,DET,DET,O,el,No
 en,ADP,ADP,O,en,No
 un,DET,DET,O,uno,No
-DVD,name entity,NOUN,B,DVD,No
+DVD,Name Entity,NOUN,B,DVD,No
 ",",PUNCT,PUNCT,O,",",No
 sino,CONJ,CONJ,O,sino,No
 en,ADP,ADP,O,en,No
@@ -12222,7 +12220,7 @@ dinero,,NOUN,O,dinero,
 Pero,CONJ,CONJ,B,Pero,No
 en,ADP,ADP,I,en,No
 el,DET,DET,I,el,No
-caso,name entity,NOUN,I,casar,No
+caso,Name Entity,NOUN,I,casar,No
 de,ADP,ADP,I,de,No
 Jimmy,PROPN,PROPN,B,Jimmy,No
 se,PRON,PRON,O,se,No
@@ -12250,19 +12248,19 @@ esté,,VERB,O,estar,
 .,PUNCT,PUNCT,O,.,No
 Y,CONJ,CONJ,B,Y,No
 de,ADP,ADP,I,de,No
-paso,name entity,NOUN,I,pasar,No
-logró,name entity,VERB,I,lograr,No
+paso,Name Entity,NOUN,I,pasar,No
+logró,Name Entity,VERB,I,lograr,No
 que,SCONJ,SCONJ,O,que,No
 todos,PRON,PRON,O,todo,No
 pudiéramos,,VERB,O,poder,
-hacer,stop word,VERB,O,hacer,No
+hacer,Stop Word,VERB,O,hacer,No
 lo,PRON,PRON,O,el,No
 mismo,PRON,PRON,O,mismo,No
 .,PUNCT,PUNCT,O,.,No
 Hoy,ADV,ADV,B,Hoy,No
 ",",PUNCT,PUNCT,I,",",No
 la,DET,DET,I,lo,No
-vida,name entity,NOUN,I,vida,No
+vida,Name Entity,NOUN,I,vida,No
 sin,ADP,ADP,O,sin,No
 Wikipedia,PROPN,PROPN,B,Wikipedia,No
 es,AUX,AUX,O,ser,No
@@ -12333,7 +12331,7 @@ trabajos,,NOUN,O,trabajo,
 universitarios,,ADJ,O,universitario,
 y,CONJ,CONJ,O,y,No
 hasta,ADP,ADP,O,hasta,No
-existe,stop word,VERB,O,existir,No
+existe,Stop Word,VERB,O,existir,No
 un,DET,DET,O,uno,No
 documental,,NOUN,O,documental,
 holandés,,ADJ,O,holandés,
@@ -12353,7 +12351,7 @@ la,DET,DET,O,lo,No
 dicotomía,,NOUN,O,dicotomía,
 entre,ADP,ADP,O,entrar,No
 el,DET,DET,O,el,No
-uso,stop word,NOUN,O,usar,No
+uso,Stop Word,NOUN,O,usar,No
 de,ADP,ADP,O,de,No
 expertos,,NOUN,O,experto,
 frente,ADV,ADV,O,frente,No
@@ -12361,7 +12359,7 @@ a,ADP,ADP,O,a,No
 editores,,NOUN,O,editor,
 aficionados,,NOUN,O,aficionar,
 .,PUNCT,PUNCT,O,.,No
-Crédito,name entity,NOUN,B,Crédito,No
+Crédito,Name Entity,NOUN,B,Crédito,No
 :,PUNCT,PUNCT,I,:,No
 Corbis,PROPN,PROPN,I,Corbis,No
 Para,ADP,ADP,I,Para,No
@@ -12370,7 +12368,7 @@ Kalinowski,PROPN,PROPN,I,Kalinowski,No
 ",",PUNCT,PUNCT,O,",",No
 director,,NOUN,O,director,
 del,ADP,ADP,O,del,No
-departamento,name entity,NOUN,B,departamento,No
+departamento,Name Entity,NOUN,B,departamento,No
 de,ADP,ADP,I,de,No
 Investigaciones,PROPN,PROPN,I,Investigaciones,No
 Lingüísticas,PROPN,PROPN,I,Lingüísticas,No
@@ -12410,10 +12408,10 @@ contenidos,,NOUN,O,contenido,
 .,PUNCT,PUNCT,O,.,No
 """",PUNCT,PUNCT,O,"""",No
 Es,AUX,AUX,O,Es,No
-verdad,stop word,NOUN,O,verdad,No
+verdad,Stop Word,NOUN,O,verdad,No
 que,SCONJ,SCONJ,O,que,No
 uno,PRON,PRON,O,unir,No
-puede,stop word,VERB,O,poder,No
+puede,Stop Word,VERB,O,poder,No
 encontrarse,,VERB,O,encontrarse,
 con,ADP,ADP,O,con,No
 artículos,,NOUN,O,artículo,
@@ -12439,9 +12437,9 @@ específicos,,ADJ,O,específico,
 opina,,VERB,O,opinar,
 .,PUNCT,PUNCT,O,.,No
 El,DET,DET,B,El,No
-lingüista,name entity,NOUN,I,lingüista,No
+lingüista,Name Entity,NOUN,I,lingüista,No
 también,ADV,ADV,I,también,No
-señala,name entity,VERB,I,señalar,No
+señala,Name Entity,VERB,I,señalar,No
 la,DET,DET,O,lo,No
 obra,,NOUN,O,obrar,
 en,ADP,ADP,O,en,No
@@ -12470,7 +12468,7 @@ a,ADP,ADP,O,a,No
 distinguir,,VERB,O,distinguir,
 entre,ADP,ADP,O,entrar,No
 los,DET,DET,O,lo,No
-buenos,stop word,ADJ,O,bueno,No
+buenos,Stop Word,ADJ,O,bueno,No
 y,CONJ,CONJ,O,y,No
 malos,,ADJ,O,malo,
 contenidos,,NOUN,O,contenido,
@@ -12479,7 +12477,7 @@ contenidos,,NOUN,O,contenido,
 Pero,CONJ,CONJ,O,Pero,No
 de,ADP,ADP,O,de,No
 ninguna,DET,DET,O,ninguno,No
-manera,stop word,NOUN,O,manera,No
+manera,Stop Word,NOUN,O,manera,No
 me,PRON,PRON,O,me,No
 pararía,,VERB,O,parar,
 como,SCONJ,SCONJ,O,comer,No
@@ -12500,8 +12498,8 @@ esparcir,,VERB,O,esparcir,
 conocimiento,,NOUN,O,conocimiento,
 .,PUNCT,PUNCT,O,.,No
 """",PUNCT,PUNCT,O,"""",No
-Asumir,name entity,VERB,B,Asumir,No
-nuevos,stop word,ADJ,O,nuevo,No
+Asumir,Name Entity,VERB,B,Asumir,No
+nuevos,Stop Word,ADJ,O,nuevo,No
 roles,,NOUN,O,rolar,
 Éste,PRON,PRON,B,Éste,No
 es,AUX,AUX,O,ser,No
@@ -12536,7 +12534,7 @@ se,PRON,PRON,O,se,No
 autoproclama,,VERB,O,autoproclama,
 como,SCONJ,SCONJ,O,comer,No
 la,DET,DET,O,lo,No
-primera,stop word,ADJ,O,primero,No
+primera,Stop Word,ADJ,O,primero,No
 telefónica,,NOUN,O,telefónico,
 ética,,ADJ,O,ético,
 .,PUNCT,PUNCT,O,.,No
@@ -12544,7 +12542,7 @@ De,ADP,ADP,B,De,No
 lo,DET,DET,I,el,No
 que,PRON,PRON,I,que,No
 le,PRON,PRON,I,le,No
-cobra,name entity,VERB,I,cobrar,No
+cobra,Name Entity,VERB,I,cobrar,No
 a,ADP,ADP,I,a,No
 sus,DET,DET,I,su,No
 clientes,,NOUN,O,cliente,
@@ -12565,7 +12563,7 @@ a,ADP,ADP,O,a,No
 donar,,VERB,O,donar,
 a,ADP,ADP,O,a,No
 su,DET,DET,O,su,No
-vez,stop word,NOUN,O,vez,No
+vez,Stop Word,NOUN,O,vez,No
 el,DET,DET,O,el,No
 25,NUM,NUM,O,25,No
 %,SYM,SYM,O,%,No
@@ -12583,7 +12581,7 @@ distinta,,ADJ,O,distinto,
 Mucho,ADV,ADV,B,Mucho,No
 de,ADP,ADP,I,de,No
 mi,DET,DET,I,mi,No
-trabajo,stop word,NOUN,I,trabajar,No
+trabajo,Stop Word,NOUN,I,trabajar,No
 será,AUX,AUX,O,ser,No
 conversar,,VERB,O,conversar,
 con,ADP,ADP,O,con,No
@@ -12595,7 +12593,7 @@ organismos,,NOUN,O,organismo,
 ",",PUNCT,PUNCT,O,",",No
 para,ADP,ADP,O,parir,No
 hacer,AUX,AUX,O,hacer,No
-conocer,stop word,NOUN,O,conocer,No
+conocer,Stop Word,NOUN,O,conocer,No
 el,DET,DET,O,el,No
 concepto,,NOUN,O,concepto,
 de,ADP,ADP,O,de,No
@@ -12647,16 +12645,16 @@ problema,,NOUN,O,problema,
 Estoy,AUX,AUX,B,Estoy,No
 habituado,,ADJ,O,habituar,
 a,ADP,ADP,O,a,No
-trabajar,stop word,VERB,O,trabajar,No
+trabajar,Stop Word,VERB,O,trabajar,No
 part-time,ADV,ADV,O,part-time,No
 en,ADP,ADP,O,en,No
 distintas,DET,DET,O,distinto,No
-cosas,stop word,NOUN,O,coser,No
+cosas,Stop Word,NOUN,O,coser,No
 y,CONJ,CONJ,O,y,No
 no,ADV,ADV,O,no,No
 dejaré,,VERB,O,dejar,
 de,ADP,ADP,O,de,No
-trabajar,stop word,VERB,O,trabajar,No
+trabajar,Stop Word,VERB,O,trabajar,No
 en,ADP,ADP,O,en,No
 Wikipedia,PROPN,PROPN,B,Wikipedia,No
 .,PUNCT,PUNCT,O,.,No
@@ -12667,7 +12665,7 @@ menos,ADV,ADV,O,menos,No
 lo,DET,DET,O,el,No
 que,PRON,PRON,O,que,No
 son,AUX,AUX,O,ser,No
-buenas,stop word,ADJ,O,bueno,No
+buenas,Stop Word,ADJ,O,bueno,No
 noticias,,NOUN,O,noticiar,
 para,ADP,ADP,O,parir,No
 mi,DET,DET,O,mi,No
@@ -12677,11 +12675,11 @@ mujer,,NOUN,O,mujer,
 bromea,,VERB,O,bromear,
 .,PUNCT,PUNCT,O,.,No
 Otro,DET,DET,B,Otro,No
-proyecto,name entity,NOUN,I,proyectar,No
-ligado,name entity,ADJ,I,ligar,No
+proyecto,Name Entity,NOUN,I,proyectar,No
+ligado,Name Entity,ADJ,I,ligar,No
 a,ADP,ADP,I,a,No
 la,DET,DET,I,lo,No
-telefonía,name entity,NOUN,I,telefonía,No
+telefonía,Name Entity,NOUN,I,telefonía,No
 es,AUX,AUX,O,ser,No
 Wikipedia,PROPN,PROPN,B,Wikipedia,No
 Zero,PROPN,PROPN,I,Zero,No
@@ -12751,7 +12749,7 @@ regulación,,NOUN,O,regulación,
 de,ADP,ADP,O,de,No
 Internet,PROPN,PROPN,B,Internet,No
 .,PUNCT,PUNCT,O,.,No
-Tomó,name entity,VERB,B,Tomó,No
+Tomó,Name Entity,VERB,B,Tomó,No
 un,DET,DET,O,uno,No
 rol,,NOUN,O,rol,
 preponderante,ADV,ADV,O,preponderante,No
@@ -12786,12 +12784,12 @@ que,SCONJ,SCONJ,O,que,No
 se,PRON,PRON,O,se,No
 quite,,VERB,O,quitar,
 información,,NOUN,O,información,
-propia,stop word,ADJ,O,propio,No
+propia,Stop Word,ADJ,O,propio,No
 ",",PUNCT,PUNCT,O,",",No
 lo,DET,DET,O,el,No
 que,PRON,PRON,O,que,No
 Wales,PROPN,PROPN,B,Wales,No
-considera,stop word,VERB,O,considerar,No
+considera,Stop Word,VERB,O,considerar,No
 """",PUNCT,PUNCT,O,"""",No
 un,DET,DET,O,uno,No
 peligro,,NOUN,O,peligrar,
@@ -12824,10 +12822,10 @@ nos,PRON,PRON,O,no,No
 gusta,,VERB,O,gustar,
 """",PUNCT,PUNCT,O,"""",No
 ",",PUNCT,PUNCT,O,",",No
-dice,stop word,VERB,O,decir,No
+dice,Stop Word,VERB,O,decir,No
 .,PUNCT,PUNCT,O,.,No
 Lo,DET,DET,B,Lo,No
-cierto,stop word,ADJ,I,cierto,No
+cierto,Stop Word,ADJ,I,cierto,No
 es,AUX,AUX,O,ser,No
 que,SCONJ,SCONJ,O,que,No
 en,ADP,ADP,O,en,No
@@ -12843,13 +12841,13 @@ pedidos,,ADJ,O,pedir,
 en,ADP,ADP,O,en,No
 un,DET,DET,O,uno,No
 único,,ADJ,O,único,
-día,stop word,NOUN,O,día,No
+día,Stop Word,NOUN,O,día,No
 de,ADP,ADP,O,de,No
 revisión,,NOUN,O,revisión,
 de,ADP,ADP,O,de,No
 información,,NOUN,O,información,
 y,CONJ,CONJ,O,y,No
-dijo,stop word,VERB,O,decir,No
+dijo,Stop Word,VERB,O,decir,No
 que,SCONJ,SCONJ,O,que,No
 procesaría,,VERB,O,procesar,
 uno,PRON,PRON,O,unir,No
@@ -12862,11 +12860,11 @@ los,DET,DET,O,lo,No
 pedidos,,ADJ,O,pedir,
 .,PUNCT,PUNCT,O,.,No
 Todo,PRON,PRON,B,Todo,No
-indica,name entity,VERB,I,indicar,No
+indica,Name Entity,VERB,I,indicar,No
 que,SCONJ,SCONJ,O,que,No
 esto,PRON,PRON,O,este,No
 generará,,VERB,O,generar,
-grandes,stop word,ADJ,O,grande,No
+grandes,Stop Word,ADJ,O,grande,No
 debates,,NOUN,O,debatir,
 acerca,ADV,ADV,O,acercar,No
 de,ADP,ADP,O,de,No
@@ -12940,17 +12938,17 @@ que,PRON,PRON,O,que,No
 podamos,AUX,AUX,O,poder,No
 pensar,,VERB,O,pensar,
 y,CONJ,CONJ,O,y,No
-poner,stop word,VERB,O,poner,No
+poner,Stop Word,VERB,O,poner,No
 a,ADP,ADP,O,a,No
 discusión,,NOUN,O,discusión,
 .,PUNCT,PUNCT,O,.,No
 No,ADV,ADV,B,No,No
-actuaremos,name entity,VERB,I,actuar,No
+actuaremos,Name Entity,VERB,I,actuar,No
 sobre,ADP,ADP,I,sobrar,No
-requerimientos,name entity,NOUN,I,requerimiento,No
-específicos,name entity,ADJ,I,específico,No
+requerimientos,Name Entity,NOUN,I,requerimiento,No
+específicos,Name Entity,ADJ,I,específico,No
 .,PUNCT,PUNCT,O,.,No
-Haremos,name entity,VERB,B,Haremos,No
+Haremos,Name Entity,VERB,B,Haremos,No
 recomendaciones,,NOUN,O,recomendación,
 no,PART,PART,O,no,No
 sólo,ADV,ADV,O,sólo,No
@@ -12958,7 +12956,7 @@ a,ADP,ADP,O,a,No
 Google,PROPN,PROPN,B,Google,No
 ",",PUNCT,PUNCT,O,",",No
 sino,CONJ,CONJ,O,sino,No
-también,stop word,NOUN,O,también,No
+también,Stop Word,NOUN,O,también,No
 a,ADP,ADP,O,a,No
 los,DET,DET,O,lo,No
 legisladores,,NOUN,O,legislador,
@@ -12966,15 +12964,15 @@ y,CONJ,CONJ,O,y,No
 el,DET,DET,O,el,No
 público,,NOUN,O,público,
 en,ADP,ADP,O,en,No
-general,stop word,NOUN,O,general,No
+general,Stop Word,NOUN,O,general,No
 """",PUNCT,PUNCT,O,"""",No
 ",",PUNCT,PUNCT,O,",",No
 explica,,VERB,O,explicar,
 .,PUNCT,PUNCT,O,.,No
 ¿,PUNCT,PUNCT,O,¿,No
-Tendrían,name entity,VERB,B,Tendrían,No
+Tendrían,Name Entity,VERB,B,Tendrían,No
 que,SCONJ,SCONJ,O,que,No
-tener,stop word,VERB,O,tener,No
+tener,Stop Word,VERB,O,tener,No
 los,DET,DET,O,lo,No
 usuarios,,NOUN,O,usuario,
 algún,DET,DET,O,alguno,No
@@ -13001,7 +12999,7 @@ no,ADV,ADV,O,no,No
 difamatoria,,ADJ,O,difamatorio,
 conseguida,,ADJ,O,conseguir,
 de,ADP,ADP,O,de,No
-manera,stop word,NOUN,O,manera,No
+manera,Stop Word,NOUN,O,manera,No
 legal,,ADJ,O,legal,
 y,CONJ,CONJ,O,y,No
 que,SCONJ,SCONJ,O,que,No
@@ -13011,9 +13009,9 @@ la,DET,DET,O,lo,No
 ley,,NOUN,O,ley,
 ",",PUNCT,PUNCT,O,",",No
 no,ADV,ADV,O,no,No
-creo,stop word,VERB,O,creer,No
+creo,Stop Word,VERB,O,creer,No
 que,SCONJ,SCONJ,O,que,No
-tenga,stop word,VERB,O,tener,No
+tenga,Stop Word,VERB,O,tener,No
 que,SCONJ,SCONJ,O,que,No
 haber,AUX,AUX,O,haber,No
 ningún,DET,DET,O,ninguno,No
@@ -13064,9 +13062,9 @@ aclara,,VERB,O,aclarar,
 que,SCONJ,SCONJ,O,que,No
 no,ADV,ADV,O,no,No
 se,PRON,PRON,O,se,No
-considera,stop word,VERB,O,considerar,No
+considera,Stop Word,VERB,O,considerar,No
 un,DET,DET,O,uno,No
-gran,stop word,ADJ,O,gran,No
+gran,Stop Word,ADJ,O,gran,No
 visionario,,ADJ,O,visionario,
 .,PUNCT,PUNCT,O,.,No
 Pero,CONJ,CONJ,O,Pero,No
@@ -13100,7 +13098,7 @@ desarrollo,,NOUN,O,desarrollar,
 """",PUNCT,PUNCT,O,"""",No
 Creo,,VERB,O,Creo,
 que,SCONJ,SCONJ,O,que,No
-tiene,stop word,VERB,O,tener,No
+tiene,Stop Word,VERB,O,tener,No
 que,SCONJ,SCONJ,O,que,No
 venir,,VERB,O,venir,
 un,DET,DET,O,uno,No
@@ -13117,7 +13115,7 @@ los,DET,DET,O,lo,No
 televisores,,NOUN,O,televisor,
 también,ADV,ADV,O,también,No
 .,PUNCT,PUNCT,O,.,No
-Espero,name entity,VERB,B,Espero,No
+Espero,Name Entity,VERB,B,Espero,No
 que,SCONJ,SCONJ,O,que,No
 desaparezcan,,VERB,O,desaparecer,
 los,DET,DET,O,lo,No
@@ -13162,14 +13160,14 @@ particular,,NOUN,O,particular,
 Dentro,ADV,ADV,B,Dentro,No
 de,ADP,ADP,I,de,No
 las,DET,DET,I,los,No
-actividades,name entity,NOUN,I,actividad,No
-busca,name entity,VERB,I,buscar,No
-aumentar,name entity,VERB,I,aumentar,No
+actividades,Name Entity,NOUN,I,actividad,No
+busca,Name Entity,VERB,I,buscar,No
+aumentar,Name Entity,VERB,I,aumentar,No
 la,DET,DET,I,lo,No
-comunidad,name entity,NOUN,I,comunidad,No
+comunidad,Name Entity,NOUN,I,comunidad,No
 de,ADP,ADP,I,de,No
-editores,name entity,NOUN,I,editor,No
-locales,name entity,ADJ,I,local,No
+editores,Name Entity,NOUN,I,editor,No
+locales,Name Entity,ADJ,I,local,No
 y,CONJ,CONJ,O,y,No
 de,ADP,ADP,O,de,No
 artículos,,NOUN,O,artículo,
@@ -13179,7 +13177,7 @@ en,ADP,ADP,O,en,No
 Wikipedia,PROPN,PROPN,B,Wikipedia,No
 ",",PUNCT,PUNCT,O,",",No
 a,ADP,ADP,O,a,No
-través,stop word,NOUN,O,través,No
+través,Stop Word,NOUN,O,través,No
 de,ADP,ADP,O,de,No
 digitalización,,NOUN,O,digitalización,
 de,ADP,ADP,O,de,No
@@ -13210,7 +13208,7 @@ con,ADP,ADP,O,con,No
 la,DET,DET,O,lo,No
 democratización,,NOUN,O,democratización,
 del,ADP,ADP,O,del,No
-saber,stop word,NOUN,O,saber,No
+saber,Stop Word,NOUN,O,saber,No
 y,CONJ,CONJ,O,y,No
 el,DET,DET,O,el,No
 acceso,,NOUN,O,acceso,
@@ -13219,7 +13217,7 @@ la,DET,DET,O,lo,No
 cultura,,NOUN,O,cultura,
 .,PUNCT,PUNCT,O,.,No
 Las,DET,DET,B,Las,No
-bibliotecas,name entity,NOUN,I,biblioteca,No
+bibliotecas,Name Entity,NOUN,I,biblioteca,No
 ",",PUNCT,PUNCT,O,",",No
 los,DET,DET,O,lo,No
 museos,,NOUN,O,museo,
@@ -13246,7 +13244,7 @@ verdaderamente,ADV,ADV,O,verdaderamente,No
 participativa,,ADJ,O,participativo,
 ",",PUNCT,PUNCT,O,",",No
 para,ADP,ADP,O,parir,No
-poner,stop word,VERB,O,poner,No
+poner,Stop Word,VERB,O,poner,No
 en,ADP,ADP,O,en,No
 relevancia,,NOUN,O,relevancia,
 la,DET,DET,O,lo,No
@@ -13264,9 +13262,9 @@ ejecutiva,,ADJ,O,ejecutivo,
 .,PUNCT,PUNCT,O,.,No
 Entre,ADP,ADP,B,Entre,No
 las,DET,DET,I,los,No
-actividades,name entity,NOUN,I,actividad,No
+actividades,Name Entity,NOUN,I,actividad,No
 se,PRON,PRON,O,se,No
-realizó,stop word,VERB,O,realizar,No
+realizó,Stop Word,VERB,O,realizar,No
 en,ADP,ADP,O,en,No
 junio,,NOUN,O,junio,
 una,DET,DET,O,uno,No
@@ -13276,7 +13274,7 @@ Exilio,PROPN,PROPN,B,Exilio,No
 Español,PROPN,PROPN,I,Español,No
 en,ADP,ADP,O,en,No
 Argentina,PROPN,PROPN,B,Argentina,No
-junto,stop word,ADJ,O,juntar,No
+junto,Stop Word,ADJ,O,juntar,No
 a,ADP,ADP,O,a,No
 sobrevivientes,,NOUN,O,sobreviviente,
 de,ADP,ADP,O,de,No
@@ -13289,9 +13287,9 @@ la,DET,DET,O,lo,No
 posguerra,,NOUN,O,posguerra,
 .,PUNCT,PUNCT,O,.,No
 El,DET,DET,B,El,No
-evento,name entity,NOUN,I,evento,No
+evento,Name Entity,NOUN,I,evento,No
 se,PRON,PRON,O,se,No
-realizó,stop word,VERB,O,realizar,No
+realizó,Stop Word,VERB,O,realizar,No
 en,ADP,ADP,O,en,No
 simultáneo,,NOUN,O,simultáneo,
 con,ADP,ADP,O,con,No
@@ -13334,14 +13332,14 @@ voluntarios,,NOUN,O,voluntario,
 .,PUNCT,PUNCT,O,.,No
 La,DET,DET,B,La,No
 Argentina,PROPN,PROPN,I,Argentina,No
-tiene,stop word,VERB,O,tener,No
+tiene,Stop Word,VERB,O,tener,No
 el,DET,DET,O,el,No
 12,NUM,NUM,O,12,No
 ",",PUNCT,PUNCT,O,",",No
 8,NUM,NUM,O,8,No
 %,SYM,SYM,O,%,No
 del,ADP,ADP,O,del,No
-total,stop word,NOUN,O,total,No
+total,Stop Word,NOUN,O,total,No
 de,ADP,ADP,O,de,No
 ediciones,,NOUN,O,edición,
 en,ADP,ADP,O,en,No
@@ -13349,7 +13347,7 @@ Wikipedia,PROPN,PROPN,B,Wikipedia,No
 en,ADP,ADP,O,en,No
 español,,NOUN,O,español,
 .,PUNCT,PUNCT,O,.,No
-Wikipedia,name entity,NOUN,B,Wikipedia,No
+Wikipedia,Name Entity,NOUN,B,Wikipedia,No
 en,ADP,ADP,O,en,No
 números,,NOUN,O,número,
 30,NUM,NUM,O,30,No

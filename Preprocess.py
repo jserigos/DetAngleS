@@ -11,11 +11,19 @@ from spacy.util import compile_prefix_regex, compile_infix_regex, compile_suffix
 import re
 import subprocess
 
+
+# this version still leaves extra whitespace, not sure why
+def cleanText_new(text):
+    # get rid of newlines
+    regex = r"\s\s+|\n|\r"
+    subst = " "
+    cleaned = re.subn(regex, subst, text, re.MULTILINE)
+    return cleaned
+
 # clean text before spacy
 def cleanText(text):
     # get rid of newlines
-    text = text.strip().replace("\n", " ").replace("\r", " ").replace("\r\n", " ")
-
+    text = text.strip().replace("\n", " ").replace("\r", " ").replace("\r\n", " ").replace("  ", " ")
     return text
 
 # deal with more symbols to seperate tokens
@@ -86,8 +94,8 @@ def main():
 
     # Samples to run in python console or testing
 
-    text = open("NACC-GoldStandard-Text.txt", encoding="utf8").read()
-    text1 = open("Sample.txt").read()
+    text = open("Data/OpinionArticles.txt", encoding="utf8").read()
+    #text1 = open("Sample.txt").read()
 
     # clean text
     clean_text = cleanText(text)
@@ -99,13 +107,13 @@ def main():
     print("Processing %s word document" %len(doc))
 
     # write token into data frame
-    NACC_df = custom_tokenizer_to_df(doc)
+    text_df = custom_tokenizer_to_df(doc)
 
     # Filter out non interested tokens by assigning label
-    filter_noninterested_text(nlp, NACC_df)
+    filter_noninterested_text(nlp, text_df)
 
     # write df to csv
-    NACC_df.to_csv(r'spacy-annotated_df.csv', index=None, header=True)
+    text_df.to_csv(r'spacy-annotated_df.csv', index=None, header=True)
 
     #open annotated file
     subprocess.call(['open',r'spacy-annotated_df.csv'])
