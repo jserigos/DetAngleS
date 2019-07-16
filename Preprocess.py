@@ -22,7 +22,7 @@ def cleanText(text):
 def custom_tokenizer_modified(nlp):
     # spacy defaults: when the standard behaviour is required, they
     # need to be included when subclassing the tokenizer
-    infix_re = re.compile(r'''[.\,\?\!\:\;\...\‘\’\`\“\”\"\'~]''')
+    infix_re = re.compile(r'''[.\,\?\!\:\...\‘\’\`\“\”\"\'\/~]''')
     prefix_re = compile_prefix_regex(nlp.Defaults.prefixes)
     suffix_re = compile_suffix_regex(nlp.Defaults.suffixes)
 
@@ -71,8 +71,9 @@ def filter_noninterested_text(nlp, df):
         elif(df.loc[i,'NE'] != "O"):
             df.loc[i, 'Language'] = "name entity"
             df.loc[i, 'Anglicism'] = "No"
-        # Ignore internet jargon 
-        elif({r"@", r"#", r"."} & set(df.loc[i,'Token']) == True):
+
+        # Ignore internet jargon
+        elif ({r"@", r"#", r"."} & set(df.loc[i, 'Token']) == True):
             df.loc[i, 'Language'] = "InternetJargon"
             df.loc[i, 'Anglicism'] = "No"
     return df
@@ -86,7 +87,7 @@ def main():
     nlp.tokenizer = custom_tokenizer_modified(nlp)
 
     # Samples to run in python console or testing
-    text = open("OpinionArticles.txt", encoding="utf8").read()
+    text = open("NACC-GoldStandard-Text.txt", encoding="utf8").read()
 
     # clean text
     clean_text = cleanText(text)
@@ -102,14 +103,18 @@ def main():
 
     # Filter out non interested tokens by assigning label
     filter_noninterested_text(nlp, NACC_df)
-    
-    # write to csv file
+
+    # write df containing all tokens to csv
     NACC_df.to_csv(r'spacy-annotated_df.csv', index=None, header=True)
 
+    # Create a csv of interested tokens
+    target_token = NACC_df[NACC_df.Anglicism.isnull()]
+    target_token.to_csv(r'target_token_df.csv', index=None, header=True)
+
     # Create a list of interested tokens
-    target_token = NACC_df.Token[NACC_df.Anglicism.isnull()].tolist()
+    target_token_list = NACC_df.Token[NACC_df.Anglicism.isnull()].tolist()
     with open('target_token.txt', 'w', encoding="utf8") as f:
-        for item in target_token:
+        for item in target_token_list:
             f.write("%s\n" % item)
 
 if __name__ == '__main__':
