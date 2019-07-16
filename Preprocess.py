@@ -14,7 +14,7 @@ import subprocess
 # clean text before spacy
 def cleanText(text):
     # get rid of newlines
-    text = text.strip().replace("\n", "").replace("\r", "").replace("\r\n", "")
+    text = text.strip().replace("\n", " ").replace("\r", " ").replace("\r\n", " ")
 
     return text
 
@@ -88,7 +88,7 @@ def main():
     nlp.tokenizer = custom_tokenizer_modified(nlp)
 
     # Samples to run in python console or testing
-    text = open("NACC-GoldStandard-Text.txt", encoding="utf8").read()
+    text = open("Data/OpinionShort.txt", encoding="utf8").read()
 
     # clean text
     clean_text = cleanText(text)
