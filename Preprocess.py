@@ -9,6 +9,7 @@ from spacy.tokenizer import Tokenizer
 from spacy.lang.tokenizer_exceptions import URL_PATTERN
 from spacy.util import compile_prefix_regex, compile_infix_regex, compile_suffix_regex
 import re
+import subprocess
 
 # clean text before spacy
 def cleanText(text):
@@ -23,8 +24,10 @@ def custom_tokenizer_modified(nlp):
     # spacy defaults: when the standard behaviour is required, they
     # need to be included when subclassing the tokenizer
     infix_re = re.compile(r'''[.\,\?\!\:\...\‘\’\`\“\”\"\'\/~]''')
-    prefix_re = compile_prefix_regex(nlp.Defaults.prefixes)
-    suffix_re = compile_suffix_regex(nlp.Defaults.suffixes)
+    extended_prefixes = tuple(list(nlp.Defaults.prefixes) + ["-"])
+    prefix_re = compile_prefix_regex(extended_prefixes)
+    extended_suffixes = tuple(list(nlp.Defaults.suffixes) + ["-"])
+    suffix_re = compile_suffix_regex(extended_suffixes)
 
     # extending the default url regex with regex for hashtags with "or" = |
     hashtag_pattern = r'''|^(#[\w_-]+)$'''
@@ -92,6 +95,9 @@ def main():
     # spacy text
     doc = nlp(clean_text)
 
+    # update user on length of tokens
+    print("Processing %s word document" %len(doc))
+
     # write token into data frame
     NACC_df = custom_tokenizer_to_df(doc)
 
@@ -100,6 +106,9 @@ def main():
 
     # write df to csv
     NACC_df.to_csv(r'spacy-annotated_df.csv', index=None, header=True)
+
+    #open annotated file
+    subprocess.call(['open',r'spacy-annotated_df.csv'])
 
 
 if __name__ == '__main__':
