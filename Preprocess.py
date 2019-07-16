@@ -94,6 +94,9 @@ def main():
     # spacy text
     doc = nlp(clean_text)
 
+    # inform user status
+    print("Processing %s word document" %len(doc))
+
     # write token into data frame
     NACC_df = custom_tokenizer_to_df(doc)
 
