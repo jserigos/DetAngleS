@@ -90,7 +90,7 @@ def main():
     nlp.tokenizer = custom_tokenizer_modified(nlp)
 
     # Samples to run in python console or testing
-    text = open("Data/OpinionShort.txt", encoding="utf8").read()
+    text = open("Data/OpinionArticles.txt", encoding="utf8").read()
 
     # clean text
     clean_text = cleanText(text)
