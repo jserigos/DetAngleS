@@ -113,10 +113,10 @@ def main():
     filter_noninterested_text(nlp, text_df)
 
     # write df to csv
-    text_df.to_csv(r'spacy-annotated_df.csv', index=None, header=True)
+    text_df.to_csv(r'OpinionArticles-TASI.csv', index=None, header=True)
 
     #open annotated file
-    subprocess.call(['open',r'spacy-annotated_df.csv'])
+    subprocess.call(['open',r'OpinionArticles-TASI.csv'])
 
 
 if __name__ == '__main__':
