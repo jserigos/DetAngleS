@@ -20,7 +20,7 @@ def main():
     # df of interested tokens
     target_token = NACC_csv_df[NACC_csv_df.Anglicism.isnull()]
     target_full_df = pd.merge(target_token, GoldStandard_tsv_df, on='Token', how='left')
-    target_full_df.drop(['Language', 'Anglicism_x', 'Index'], axis=1, inplace=True)
+    target_full_df.drop(['Language', 'Anglicism_x'], axis=1, inplace=True)
     target_full_df.rename(columns={'Anglicism_y': 'Anglicism'},inplace=True)
     target_full_df.drop_duplicates(keep='first', inplace=True)
     print(len(target_full_df))
