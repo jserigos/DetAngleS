@@ -7,7 +7,7 @@ def main():
     print(len(NACC_csv_df))
 
     # read Goldstandard file
-    GoldStandard_tsv = pd.read_csv('Data/OpinionArticles-GS-Retokenized.csv', encoding='utf-8')
+    GoldStandard_tsv = pd.read_csv('Data/OpinionArticlesRetokenized-GS.csv', encoding='utf-8')
     GoldStandard_tsv_df = pd.DataFrame(GoldStandard_tsv)
     print(len(GoldStandard_tsv_df))
 

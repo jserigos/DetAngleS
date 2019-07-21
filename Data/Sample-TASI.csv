@@ -149,3 +149,23 @@ sitio,,NOUN,O,sitiar,
 web,,ADJ,O,web,
 www.cristina.com.ar,,NOUN,O,www.cristina.com.ar,
 .,PUNCT,PUNCT,O,.,No
+Sus,DET,DET,B,Sus,No
+padres,Name Entity,NOUN,I,padre,No
+se,PRON,PRON,O,se,No
+conocieron,,VERB,O,conocer,
+en,ADP,ADP,O,en,No
+una,DET,DET,O,uno,No
+manifestación,,NOUN,O,manifestación,
+contra,ADP,ADP,O,contra,No
+la,DET,DET,O,lo,No
+guerra,Name Entity,NOUN,B,guerra,No
+de,ADP,ADP,I,de,No
+Vietnam,PROPN,PROPN,O,Vietnam,No
+",",PUNCT,PUNCT,O,",",No
+donde,PRON,PRON,O,donde,No
+combatieron,,VERB,O,combatir,
+60,NUM,NUM,O,60,No
+.,PUNCT,PUNCT,O,.,No
+000,NUM,NUM,O,000,No
+australianos,,ADJ,O,australiano,
+.,PUNCT,PUNCT,O,.,No
