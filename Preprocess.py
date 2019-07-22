@@ -1,6 +1,7 @@
 # Using Python 3.6.5
 # TO DO
 ## Note multi-word anglicisms as a unit with I,O,B tagging
+
 import pandas as pd
 import numpy as np
 import spacy
@@ -9,7 +10,6 @@ from spacy.tokenizer import Tokenizer
 from spacy.lang.tokenizer_exceptions import URL_PATTERN
 from spacy.util import compile_prefix_regex, compile_infix_regex, compile_suffix_regex
 import re
-import subprocess
 
 
 # this version still leaves extra whitespace, not sure why
@@ -58,12 +58,13 @@ def custom_tokenizer_to_df(doc):
 
     # Write the tokens to data frame
     df = pd.DataFrame()
-    df["Token"] = [token.text for token in doc]
-    df["Language"] = np.nan
-    df["POS"] = [token.pos_ for token in doc]
-    df["NE"] = [token.ent_iob_ for token in doc]
-    df["Lemma"] = [token.lemma_ for token in doc]
-    df["Anglicism"] = np.nan
+    df['Token'] = [token.text for token in doc]
+    df['POS'] = [token.pos_ for token in doc]
+    df['NE'] = [token.ent_iob_ for token in doc]
+    df['Lemma'] = [token.lemma_ for token in doc]
+    df['Language'] = np.nan
+    df['Candidate'] = True
+    df['Anglicism'] = np.nan
     return df
 
 
@@ -71,17 +72,20 @@ def custom_tokenizer_to_df(doc):
 def filter_noninterested_text(nlp, df):
     for i in df.Token.index:
         # Ignore any POS tags that are not Noun, VERB, or Adjective
-        if(df.loc[i,"POS"] not in ["NOUN", "VERB", "ADJ"]):
+        if(df.loc[i,"POS"] not in ['NOUN', 'VERB', 'ADJ']):
             df.loc[i, 'Language'] = df.loc[i,'POS']
-            df.loc[i, 'Anglicism'] = "No"
+            df.loc[i, 'Candidate'] = False
+            df.loc[i, 'Anglicism'] = False
         # Ignore Stop Words
         elif(nlp.vocab[df.loc[i,'Token']].is_stop):
-            df.loc[i, 'Language'] = "Stop Word"
-            df.loc[i, 'Anglicism'] = "No"
+            df.loc[i, 'Language'] = 'Stop Word'
+            df.loc[i, 'Candidate'] = False
+            df.loc[i, 'Anglicism'] = False
         # Ignore NEs
-        elif(df.loc[i,'NE'] != "O"):
-            df.loc[i, 'Language'] = "Name Entity"
-            df.loc[i, 'Anglicism'] = "No"
+        elif(df.loc[i,'NE'] != 'O'):
+            df.loc[i, 'Language'] = 'Name Entity'
+            df.loc[i, 'Candidate'] = False
+            df.loc[i, 'Anglicism'] = False
     return df
 
 
@@ -95,7 +99,7 @@ def main():
     # Samples to run in python console or testing
 
     text = open("Data/OpinionArticles-text.txt", encoding="utf8").read()
-    #text1 = open("Sample.txt").read()
+    #text1 = open("Data/Sample-text.txt", encoding="utf8").read()
 
     # clean text
     clean_text = cleanText(text)
