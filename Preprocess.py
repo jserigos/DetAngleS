@@ -7,10 +7,10 @@ import numpy as np
 import spacy
 from spacy.tokens import Token
 from spacy.tokenizer import Tokenizer
+from spacy.matcher import Matcher
 from spacy.lang.tokenizer_exceptions import URL_PATTERN
 from spacy.util import compile_prefix_regex, compile_infix_regex, compile_suffix_regex
 import re
-
 
 # this version still leaves extra whitespace, not sure why
 def cleanText_new(text):
@@ -38,23 +38,36 @@ def custom_tokenizer_modified(nlp):
     suffix_re = compile_suffix_regex(extended_suffixes)
 
     # extending the default url regex with regex for hashtags with "or" = |
-    hashtag_pattern = r'''|^(#[\w_-]+)$'''
-    url_and_hashtag = URL_PATTERN + hashtag_pattern
-    url_and_hashtag_re = re.compile(url_and_hashtag)
-
-    # set a custom extension to match if token is a hashtag
-    hashtag_getter = lambda token: token.text.startswith('#')
-    Token.set_extension('is_hashtag', getter=hashtag_getter, force=True)
+    url = URL_PATTERN
+    url_re = re.compile(url)
 
     return Tokenizer(nlp.vocab, prefix_search=prefix_re.search,
                      suffix_search=suffix_re.search,
                      infix_finditer=infix_re.finditer,
-                     token_match=url_and_hashtag_re.match
+                     token_match=url_re.match
                      )
 
 
 # write all the tokens extracted from text into a data frame
-def custom_tokenizer_to_df(doc):
+def custom_tokenizer_to_df(nlp, doc):
+    matcher = Matcher(nlp.vocab)
+
+    # Add pattern for valid hashtag, i.e. '#' plus any ASCII token
+    matcher.add("HASHTAG", None, [{"ORTH": "#"}, {"IS_ALPHA": True}])
+
+    # Register token extension
+    Token.set_extension("is_hashtag", default=False)
+
+    matches = matcher(doc)
+    hashtags = []
+    for match_id, start, end in matches:
+        if doc.vocab.strings[match_id] == "HASHTAG":
+            hashtags.append(doc[start:end])
+    with doc.retokenize() as retokenizer:
+        for span in hashtags:
+            retokenizer.merge(span)
+            for token in span:
+                token._.is_hashtag = True
 
     # Write the tokens to data frame
     df = pd.DataFrame()
@@ -65,11 +78,8 @@ def custom_tokenizer_to_df(doc):
     df['Language'] = np.nan
     df['Candidate'] = True
     df['Anglicism'] = np.nan
-    return df
 
-
-# filter out non interested text by three criteria below
-def filter_noninterested_text(nlp, df):
+    # filter out non interested text by three criteria below
     for i in df.Token.index:
         # Ignore any POS tags that are not Noun, VERB, or Adjective
         if(df.loc[i,"POS"] not in ['NOUN', 'VERB', 'ADJ']):
@@ -98,8 +108,8 @@ def main():
 
     # Samples to run in python console or testing
 
-    text = open("Data/OpinionArticles-text.txt", encoding="utf8").read()
-    #text1 = open("Data/Sample-text.txt", encoding="utf8").read()
+    #text = open("Data/OpinionArticles-text.txt", encoding="utf8").read()
+    text = open("Data/Sample-text.txt", encoding="utf8").read()
 
     # clean text
     clean_text = cleanText(text)
@@ -107,17 +117,14 @@ def main():
     # spacy text
     doc = nlp(clean_text)
 
-    # update user on length of tokens
-    print("Processing %s word document" %len(doc))
-
     # write token into data frame
-    text_df = custom_tokenizer_to_df(doc)
+    text_df = custom_tokenizer_to_df(nlp, doc)
 
-    # Filter out non interested tokens by assigning label
-    filter_noninterested_text(nlp, text_df)
+    # update user on length of tokens
+    print("Processing %s word document" % len(text_df))
 
     # write df to csv
-    text_df.to_csv(r'Data/OpinionArticles-TASI.csv', index=None, header=True)
+    text_df.to_csv(r'Data/Sample-TASI.csv', index=None, header=True)
 
     #open annotated file
     #subprocess.call(['open',r'Data/OpinionArticles-TASI.csv'])
