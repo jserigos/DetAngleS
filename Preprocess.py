@@ -94,7 +94,7 @@ def main():
 
     # Samples to run in python console or testing
 
-    text = open("Data/OpinionArticles.txt", encoding="utf8").read()
+    text = open("Data/OpinionArticles-text.txt", encoding="utf8").read()
     #text1 = open("Sample.txt").read()
 
     # clean text
@@ -113,10 +113,10 @@ def main():
     filter_noninterested_text(nlp, text_df)
 
     # write df to csv
-    text_df.to_csv(r'OpinionArticles-TASI.csv', index=None, header=True)
+    text_df.to_csv(r'Data/OpinionArticles-TASI.csv', index=None, header=True)
 
     #open annotated file
-    subprocess.call(['open',r'OpinionArticles-TASI.csv'])
+    subprocess.call(['open',r'Data/OpinionArticles-TASI.csv'])
 
 
 if __name__ == '__main__':
