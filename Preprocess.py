@@ -147,8 +147,8 @@ def main():
 
     # Samples to run in python console or testing
 
-    text = open("Data/OpinionArticles-text.txt", encoding="utf8").read()
-    #text = open("Data/Sample-text.txt", encoding="utf8").read()
+    #text = open("Data/OpinionArticles-text.txt", encoding="utf8").read()
+    text = open("Data/NACC27k-text.txt", encoding="utf8").read()
 
     # clean text
     clean_text = cleanText(text)
@@ -166,7 +166,8 @@ def main():
     filter_noninterested_text(text_df)
 
     # write df to csv
-    text_df.to_csv(r'Data/OpinionArticles-TASI.csv', index=None, header=True)
+    #text_df.to_csv(r'Data/OpinionArticles-TASI.csv', index=None, header=True)
+    text_df.to_csv(r'Data/NACCf27k-TASI.csv', index=None, header=True)
 
     #open annotated file
     #subprocess.call(['open',r'Data/OpinionArticles-TASI.csv'])
