@@ -1,7 +1,7 @@
 import pandas as pd
 
 
-def join_punctuation(seq, characters=r'.,:;?!)/'):
+def join_punctuation(seq, characters=r'.,:;\?¡¿-!)/""'):
     characters = set(characters)
     seq = iter(seq)
     current = next(seq)
@@ -23,7 +23,7 @@ def main():
     for i in range(len(OA)):
 
         try:
-            context = " ".join(join_punctuation(OA.iloc[i-5:i+5, 1]))
+            context = " ".join(join_punctuation(OA.iloc[i-6:i+6, 1]))
         except IndexError:
             context = OA.iloc[i, 1]
         OA.loc[i, 'Context'] = context
